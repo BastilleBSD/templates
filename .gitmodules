@@ -1,0 +1,144 @@
+[submodule "www/gitea"]
+	path = www/gitea
+	url = https://gitlab.com/bastillebsd-templates/gitea.git
+[submodule "sysutils/syslog-ng"]
+	path = sysutils/syslog-ng
+	url = https://gitlab.com/bastillebsd-templates/syslog-ng.git
+[submodule "www/wordpress"]
+	path = www/wordpress
+	url = https://gitlab.com/bastillebsd-templates/wordpress.git
+[submodule "www/nginx"]
+	path = www/nginx
+	url = https://gitlab.com/bastillebsd-templates/nginx.git
+[submodule "databases/mariadb-server"]
+	path = databases/mariadb-server
+	url = https://gitlab.com/bastillebsd-templates/mariadb-server.git
+[submodule "net-mgmt/zabbix-agent"]
+	path = net-mgmt/zabbix-agent
+	url = https://gitlab.com/bastillebsd-templates/zabbix-agent.git
+[submodule "sysutils/tarsnap"]
+	path = sysutils/tarsnap
+	url = https://gitlab.com/bastillebsd-templates/tarsnap.git
+[submodule "security/vault"]
+	path = security/vault
+	url = https://gitlab.com/bastillebsd-templates/vault.git
+[submodule "www/grafana"]
+	path = www/grafana
+	url = https://gitlab.com/bastillebsd-templates/grafana.git
+[submodule "net-mgmt/zabbix-server"]
+	path = net-mgmt/zabbix-server
+	url = https://gitlab.com/bastillebsd-templates/zabbix-server.git
+[submodule "databases/mysql-server"]
+	path = databases/mysql-server
+	url = https://gitlab.com/bastillebsd-templates/mysql-server.git
+[submodule "databases/percona"]
+	path = databases/percona
+	url = https://gitlab.com/bastillebsd-templates/percona.git
+[submodule "net/asterisk"]
+	path = net/asterisk
+	url = https://gitlab.com/bastillebsd-templates/asterisk.git
+[submodule "dns/unbound"]
+	path = dns/unbound
+	url = https://gitlab.com/bastillebsd-templates/unbound.git
+[submodule "sysutils/salt-minion"]
+	path = sysutils/salt-minion
+	url = https://gitlab.com/bastillebsd-templates/salt-minion.git
+[submodule "dns/dnsmasq"]
+	path = dns/dnsmasq
+	url = https://gitlab.com/bastillebsd-templates/dnsmasq.git
+[submodule "sysutils/salt-master"]
+	path = sysutils/salt-master
+	url = https://gitlab.com/bastillebsd-templates/salt-master.git
+[submodule "lang/luajit"]
+	path = lang/luajit
+	url = https://gitlab.com/bastillebsd-templates/luajit.git
+[submodule "databases/tile38-server"]
+	path = databases/tile38-server
+	url = https://gitlab.com/bastillebsd-templates/tile38-server.git
+[submodule "www/firefox"]
+	path = www/firefox
+	url = https://gitlab.com/bastillebsd-templates/firefox.git
+[submodule "lang/rust"]
+	path = lang/rust
+	url = https://gitlab.com/bastillebsd-templates/rust.git
+[submodule "net-mgmt/telegraf"]
+	path = net-mgmt/telegraf
+	url = https://gitlab.com/bastillebsd-templates/telegraf.git
+[submodule "databases/influxdb"]
+	path = databases/influxdb
+	url = https://gitlab.com/bastillebsd-templates/influxdb.git
+[submodule "java/openjdk"]
+	path = java/openjdk
+	url = https://gitlab.com/bastillebsd-templates/openjdk.git
+[submodule "lang/python"]
+	path = lang/python
+	url = https://gitlab.com/bastillebsd-templates/python.git
+[submodule "www/yarn"]
+	path = www/yarn
+	url = https://gitlab.com/bastillebsd-templates/yarn.git
+[submodule "devel/jenkins"]
+	path = devel/jenkins
+	url = https://gitlab.com/bastillebsd-templates/jenkins.git
+[submodule "www/npm"]
+	path = www/npm
+	url = https://gitlab.com/bastillebsd-templates/npm.git
+[submodule "textproc/elasticsearch"]
+	path = textproc/elasticsearch
+	url = https://gitlab.com/bastillebsd-templates/elasticsearch.git
+[submodule "www/gitlab-ce"]
+	path = www/gitlab-ce
+	url = https://gitlab.com/bastillebsd-templates/gitlab-ce.git
+[submodule "databases/memcached"]
+	path = databases/memcached
+	url = https://gitlab.com/bastillebsd-templates/memcached.git
+[submodule "www/varnish"]
+	path = www/varnish
+	url = https://gitlab.com/bastillebsd-templates/varnish.git
+[submodule "lang/php"]
+	path = lang/php
+	url = https://gitlab.com/bastillebsd-templates/php.git
+[submodule "net-mgmt/prometheus"]
+	path = net-mgmt/prometheus
+	url = https://gitlab.com/bastillebsd-templates/prometheus.git
+[submodule "security/openssh-server"]
+	path = security/openssh-server
+	url = https://gitlab.com/bastillebsd-templates/openssh-server.git
+[submodule "net/traefik"]
+	path = net/traefik
+	url = https://gitlab.com/bastillebsd-templates/traefik.git
+[submodule "databases/redis"]
+	path = databases/redis
+	url = https://gitlab.com/bastillebsd-templates/redis.git
+[submodule "lang/ruby"]
+	path = lang/ruby
+	url = https://gitlab.com/bastillebsd-templates/ruby.git
+[submodule "net/haproxy"]
+	path = net/haproxy
+	url = https://gitlab.com/bastillebsd-templates/haproxy.git
+[submodule "lang/golang"]
+	path = lang/golang
+	url = https://gitlab.com/bastillebsd-templates/golang.git
+[submodule "sysutils/consul"]
+	path = sysutils/consul
+	url = https://gitlab.com/bastillebsd-templates/consul.git
+[submodule "www/apache"]
+	path = www/apache
+	url = https://gitlab.com/bastillebsd-templates/apache.git
+[submodule "mail/postfix"]
+	path = mail/postfix
+	url = https://gitlab.com/bastillebsd-templates/postfix.git
+[submodule "lang/perl"]
+	path = lang/perl
+	url = https://gitlab.com/bastillebsd-templates/perl.git
+[submodule "www/node"]
+	path = www/node
+	url = https://gitlab.com/bastillebsd-templates/node.git
+[submodule "textproc/kibana"]
+	path = textproc/kibana
+	url = https://gitlab.com/bastillebsd-templates/kibana.git
+[submodule "multimedia/plexmediaserver"]
+	path = multimedia/plexmediaserver
+	url = https://gitlab.com/bastillebsd-templates/plexmediaserver.git
+[submodule "multimedia/plexmediaserver-plexpass"]
+	path = multimedia/plexmediaserver-plexpass
+	url = https://gitlab.com/bastillebsd-templates/plexmediaserver-plexpass.git
