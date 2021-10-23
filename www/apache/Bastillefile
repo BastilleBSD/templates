@@ -1,0 +1,5 @@
+PKG apache24
+SYSRC apache24_enable=YES
+SYSRC apache24_flags=""
+CMD httpd -t
+SERVICE apache24 start

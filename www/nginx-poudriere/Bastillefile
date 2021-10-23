@@ -1,0 +1,7 @@
+CMD mkdir -p /usr/local/share/poudriere
+CMD mkdir -p /usr/local/poudriere/data
+MOUNT /usr/local/share/poudriere usr/local/share/poudriere nullfs ro 0 0
+MOUNT /usr/local/poudriere/data  usr/local/poudriere/data  nullfs ro 0 0
+INCLUDE https://gitlab.com/bastillebsd-templates/nginx
+CP usr /
+SERVICE nginx restart

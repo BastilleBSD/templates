@@ -1,0 +1,3 @@
+PKG caddy
+SYSRC caddy_enable=YES
+SERVICE caddy start

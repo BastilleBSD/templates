@@ -1,0 +1,10 @@
+PKG unbound ca_root_nss
+CP usr /
+SYSRC unbound_enable=YES
+CMD chown unbound:wheel /usr/local/etc/unbound
+CMD /usr/local/sbin/unbound-control-setup
+CMD /usr/local/sbin/unbound-checkconf
+SERVICE unbound restart
+CMD sh /usr/local/etc/periodic/daily/999.adblock
+CP etc /
+CMD host omtrdc.net

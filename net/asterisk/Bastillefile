@@ -1,0 +1,3 @@
+PKG asterisk18
+SYSRC asterisk_enable=YES
+SERVICE asterisk start

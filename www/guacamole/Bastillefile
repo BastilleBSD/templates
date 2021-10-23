@@ -1,0 +1,22 @@
+PKG guacamole-server guacamole-client mysql80-server mysql-connector-java
+SYSRC guacd_enable=YES
+SYSRC tomcat9_enable=YES
+SYSRC mysql_enable=YES
+CMD mkdir /usr/local/etc/guacamole-client/lib
+CMD mkdir /usr/local/etc/guacamole-client/extensions
+CMD cp /usr/local/share/java/classes/mysql-connector-java.jar /usr/local/etc/guacamole-client/lib
+CMD tar xvfz /usr/local/share/guacamole-client/guacamole-auth-jdbc.tar.gz -C /tmp/
+CMD cp /tmp/guacamole-auth-jdbc-*/mysql/*.jar /usr/local/etc/guacamole-client/extensions
+CMD cp /usr/local/etc/guacamole-server/guacd.conf.sample /usr/local/etc/guacamole-server/guacd.conf
+CMD cp /usr/local/etc/guacamole-client/logback.xml.sample /usr/local/etc/guacamole-client/logback.xml
+CMD cp /usr/local/etc/guacamole-client/guacamole.properties.sample /usr/local/etc/guacamole-client/guacamole.properties
+CMD echo "mysql-port:     3306" >> /usr/local/etc/guacamole-client/guacamole.properties
+CMD echo "mysql-database: guacamole_db" >> /usr/local/etc/guacamole-client/guacamole.properties
+CMD echo "mysql-username: guacamole_user" >> /usr/local/etc/guacamole-client/guacamole.properties
+CMD echo "mysql-password: Gu@c2Mo1e" >> /usr/local/etc/guacamole-client/guacamole.properties
+SERVICE mysql-server start
+CMD mysql -u root -e "ALTER USER 'root'@'localhost' IDENTIFIED BY 'Gu@c2Mo1e';CREATE DATABASE guacamole_db;CREATE USER 'guacamole_user'@'' IDENTIFIED BY 'Gu@c2Mo1e';GRANT SELECT,INSERT,UPDATE,DELETE ON guacamole_db.* TO 'guacamole_user'@'';FLUSH PRIVILEGES;";
+CMD cat /tmp/guacamole-auth-jdbc-*/mysql/schema/*.sql | mysql -u root -pGu@c2Mo1e guacamole_db
+SERVICE mysql-server restart
+SERVICE guacd restart
+SERVICE tomcat9 restart

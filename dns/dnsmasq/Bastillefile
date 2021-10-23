@@ -1,0 +1,4 @@
+CMD mkdir -p /usr/local/netboot/tftpboot
+PKG dnsmasq
+SYSRC dnsmasq_enable=YES
+SERVICE dnsmasq restart

@@ -1,0 +1,3 @@
+PKG consul
+SYSRC consul_enable=YES
+SERVICE consul start

@@ -1,0 +1,5 @@
+server.port: 5602
+server.host: "127.0.0.1"
+elasticsearch.url: "http://127.0.0.1:9100"
+logging.quiet: true
+

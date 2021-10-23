@@ -1,0 +1,3 @@
+PKG mariadb105-server
+SYSRC mysql_enable=YES
+SERVICE mysql-server restart

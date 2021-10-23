@@ -1,0 +1,3 @@
+PKG grafana8
+SYSRC grafana_enable=YES
+SERVICE grafana start

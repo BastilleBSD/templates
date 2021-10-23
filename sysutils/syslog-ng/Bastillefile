@@ -1,0 +1,6 @@
+PKG syslog-ng
+CP usr /
+SYSRC syslogd_enable=NO
+SYSRC syslog_ng_enable=YES
+SERVICE syslogd onestop
+SERVICE syslog-ng restart

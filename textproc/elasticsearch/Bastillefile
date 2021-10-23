@@ -1,0 +1,3 @@
+PKG elasticsearch7
+SYSRC elasticsearch_enable="YES"
+SERVICE elasticsearch start

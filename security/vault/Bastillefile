@@ -1,0 +1,5 @@
+PKG vault
+CP usr /
+CMD mkdir -p /var/db/vault
+SYSRC vault_enable=YES
+SERVICE vault start

@@ -1,0 +1,4 @@
+INCLUDE bastillebsd-templates/mariadb-server
+INCLUDE bastillebsd-templates/apache
+
+PKG nextcloud-php74

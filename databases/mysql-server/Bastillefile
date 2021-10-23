@@ -1,0 +1,3 @@
+PKG mysql57-server
+SYSRC mysql_enable=YES
+SERVICE mysql-server restart

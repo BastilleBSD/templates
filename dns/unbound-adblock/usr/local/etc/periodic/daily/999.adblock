@@ -1,0 +1,36 @@
+#!/bin/sh
+
+BlocklistURL=${1:-"https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"}
+AdBlockPath=${2:-"/usr/local/etc/unbound/adblock.conf"}
+LogFile=${3:-"/var/log/adblock-update.log"}
+ExporterPath=${4-"/var/tmp/node_exporter"}
+
+## add timestamp to LogFile
+if [ ! -f ${LogFile} ]; then
+    touch ${LogFile}
+fi
+echo $(date +%F) >> ${LogFile}
+
+## add linecount of adblock file to LogFile
+if [ ! -f ${AdBlockPath} ]; then
+    touch ${AdBlockPath}
+fi
+wc -l ${AdBlockPath} >> ${LogFile}
+
+## fetch blocklist url & generate adblock.conf
+fetch ${BlocklistURL} -o - | awk '/^0.0.0.0/ {print "local-zone: \""$2"\" redirect\nlocal-data: \""$2" A '0.0.0.0'\""}' > ${AdBlockPath}
+
+## log new line count of adblock.conf
+wc -l ${AdBlockPath} >> ${LogFile}
+
+## end of log entry
+echo "-----" >> ${LogFile}
+
+## reload service
+service unbound reload
+
+if [ -d ${ExporterPath} ]; then
+    echo "# HELP node_unbound_adblock_count This is the count of adblock domains found in unbound" | tee "${ExporterPath}/node_unbound_adblock_count.prom"
+    echo "# TYPE node_unbound_adblock_count gauge" | tee -a "${ExporterPath}/node_unbound_adblock_count.prom"
+    echo "node_unbound_adblock_count $(wc -l ${AdBlockPath} | awk '{ print $1 }')" | tee -a "${ExporterPath}/node_unbound_adblock_count.prom"
+fi

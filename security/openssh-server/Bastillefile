@@ -1,0 +1,3 @@
+SYSRC sshd_enable=YES
+SYSRC sshd_flags=""
+SERVICE sshd start

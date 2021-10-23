@@ -1,0 +1,3 @@
+PKG ca_root_nss adguardhome
+SYSRC adguardhome_enable=YES
+SERVICE adguardhome start
