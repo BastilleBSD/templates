@@ -1,15 +1,12 @@
 # Memcached
 Bastille template to bootstrap Memcached
 
-## Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/memcached/badges/master/pipeline.svg)](https://gitlab.com/bastillebsd-templates/memcached/commits/master)
-
 ## Bootstrap
 ```shell
-bastille bootstrap https://gitlab.com/bastillebsd-templates/memcached
+bastille bootstrap https://github.com/bastillebsd/templates
 ```
 
 ## Usage
 ```shell
-bastille template TARGET bastillebsd-templates/memcached
+bastille template TARGET databases/memcached
 ```

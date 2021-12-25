@@ -1,15 +1,12 @@
 # Yarn
 Bastille template to bootstrap Yarn
 
-## Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/yarn/badges/master/pipeline.svg)](https://gitlab.com/bastillebsd-templates/yarn/commits/master)
-
 ## Bootstrap
 ```shell
-bastille bootstrap https://gitlab.com/bastillebsd-templates/yarn
+bastille bootstrap https://github.com/bastillebsd/templates
 ```
 
 ## Usage
 ```shell
-bastille template TARGET bastillebsd-templates/yarn
+bastille template TARGET www/yarn
 ```

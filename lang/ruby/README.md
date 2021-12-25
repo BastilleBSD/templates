@@ -1,15 +1,12 @@
-## Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/ruby/badges/master/pipeline.svg)](https://gitlab.com/bastillebsd-templates/ruby/commits/master)
-
 ## ruby
 Bastille template to bootstrap ruby
 
 ## Bootstrap
 ```shell
-bastille bootstrap https://gitlab.com/bastillebsd-templates/ruby
+bastille bootstrap https://github.com/bastillebsd/templates
 ```
 
 ## Usage
 ```shell
-bastille template TARGET bastillebsd-templates/ruby
+bastille template TARGET lang/ruby
 ```

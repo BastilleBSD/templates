@@ -1,14 +1,12 @@
-## Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/tarsnap/badges/master/pipeline.svg)](https://gitlab.com/bastillebsd-templates/tarsnap/commits/master)
+# Tarsnap
+Bastille template for Tarsnap
 
 ## Bootstrap
-
 ```shell
 bastille bootstrap https://github.com/bastillebsd-templates/tarsnap
 ```
 
 ## Usage
-
 ```shell
 bastille template TARGET bastillebsd-templates/tarsnap
 ```

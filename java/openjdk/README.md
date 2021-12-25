@@ -1,15 +1,12 @@
 # OpenJDK
 Bastille template to bootstrap OpenJDK
 
-## Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/openjdk/badges/master/pipeline.svg)](https://gitlab.com/bastillebsd-templates/openjdk/commits/master)
-
 ## Bootstrap
 ```shell
-bastille bootstrap https://gitlab.com/bastillebsd-templates/openjdk
+bastille bootstrap https://github.com/bastillebsd/templates
 ```
 
 ## Usage
 ```shell
-bastille template TARGET bastillebsd-templates/openjdk
+bastille template TARGET java/openjdk
 ```

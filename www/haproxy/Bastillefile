@@ -1,0 +1,4 @@
+PKG haproxy
+SYSRC haproxy_enable=YES
+SERVICE haproxy start
+CMD haproxy -t

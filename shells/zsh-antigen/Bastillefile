@@ -1,0 +1,5 @@
+PKG zsh ca_root_nss git-lite
+CP root /
+CP usr /
+CMD /usr/bin/fetch -m https://git.io/antigen -o /usr/local/share/zsh/antigen.zsh
+CMD /usr/bin/chsh -s /usr/local/bin/zsh

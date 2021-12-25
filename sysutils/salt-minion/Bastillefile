@@ -1,0 +1,3 @@
+PKG py37-salt
+SYSRC salt_minion_enable=YES
+SERVICE salt_minion start

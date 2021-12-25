@@ -1,15 +1,12 @@
-## Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/percona/badges/master/pipeline.svg)](https://gitlab.com/bastillebsd-templates/percona/commits/master)
-
 ## percona
 Bastille Template: percona
 
-Fetch and apply this template with:
-
+## Bootstrap
 ```shell
-bastille bootstrap https://gitlab.com/bastillebsd-templates/percona
-bastille template TARGET bastillebsd-templates/percona
+bastille bootstrap https://github.com/bastillebsd/templates
 ```
 
-## Description
-This template installs a percona server and client.
+## Usage
+```shell
+bastille template TARGET databases/percona
+```

@@ -1,15 +1,12 @@
-## Deployment Test Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/wordpress/badges/master/pipeline.svg)](https://gitlab.com/bastillebsd-templates/wordpress/commits/master)
-
 # wordpress
 Bastille template to bootstrap Wordpress
 
 ## Bootstrap
 ```shell
-bastille bootstrap https://gitlab.com/bastillebsd-templates/wordpress
+bastille bootstrap https://github.com/bastillebsd/templates
 ```
 
 ## Usage
 ```shell
-bastille template TARGET bastillebsd-templates/wordpress
+bastille template TARGET www/wordpress
 ```

@@ -1,0 +1,3 @@
+PKG plexmediaserver-plexpass
+SYSRC plexmediaserver_plexpass_enable=YES
+SERVICE plexmediaserver_plexpass start

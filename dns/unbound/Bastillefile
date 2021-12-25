@@ -1,0 +1,8 @@
+CP usr /
+PKG ca_root_nss unbound
+SYSRC unbound_enable=YES
+CMD chown unbound:wheel /usr/local/etc/unbound
+CMD /usr/local/sbin/unbound-control-setup
+CMD /usr/local/sbin/unbound-checkconf && echo "nameserver 127.0.0.1" > /etc/resolv.conf
+SERVICE unbound restart
+CMD host bastillebsd.org

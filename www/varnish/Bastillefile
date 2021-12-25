@@ -1,0 +1,3 @@
+PKG varnish6
+SYSRC varnishd_enable=YES
+SERVICE varnishd start
