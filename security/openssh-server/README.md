@@ -1,17 +1,12 @@
-## Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/openssh-server/badges/master/pipeline.svg)](https://gitlab.com/bastillebsd-templates/openssh-server/commits/master)
-
 # openssh-server
 Bastille template to bootstrap openssh-server
 
 ## Bootstrap
-
 ```shell
-bastille bootstrap https://gitlab.com/bastillebsd-templates/openssh-server
+bastille bootstrap https://github.com/bastillebsd/templates
 ```
 
 ## Usage
-
 ```shell
 bastille template TARGET bastillebsd-templates/openssh-server
 ```

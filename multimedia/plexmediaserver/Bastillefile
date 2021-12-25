@@ -1,0 +1,3 @@
+PKG plexmediaserver
+SYSRC plexmediaserver_enable=YES
+SERVICE plexmediaserver start

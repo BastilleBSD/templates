@@ -1,13 +1,9 @@
-## Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/gitea/badges/devel/pipeline.svg)](https://gitlab.com/bastillebsd-templates/gitea/commits/devel)
-
 ## gitea
 Bastille template to bootstrap gitea
 
 ## Bootstrap
-
 ```shell
-bastille bootstrap https://gitlab.com/bastillebsd-templates/gitea
+bastille bootstrap https://github.com/bastillebsd/templates
 ```
 
 ## Usage

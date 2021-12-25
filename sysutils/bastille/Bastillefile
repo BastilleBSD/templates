@@ -1,0 +1,3 @@
+PKG bastille
+SYSRC bastille_enable=YES
+SYSRC cloned_interfaces+=lo1

@@ -1,15 +1,12 @@
-## Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/redis/badges/master/pipeline.svg)](https://gitlab.com/bastillebsd-templates/redis/commits/master)
-
 ## redis
 Bastille template to bootstrap Redis
 
 ## Bootstrap
 ```shell
-bastille bootstrap https://gitlab.com/bastillebsd-templates/redis
+bastille bootstrap https://github.com/bastillebsd/templates
 ```
 
 ## Usage
 ```shell
-bastille template TARGET bastillebsd-templates/redis
+bastille template TARGET databases/redis
 ```

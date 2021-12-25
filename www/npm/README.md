@@ -1,15 +1,12 @@
 # NPM
 Bastille template to bootstrap NPM
 
-## Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/npm/badges/master/pipeline.svg)](https://gitlab.com/bastillebsd-templates/npm/commits/master)
-
 ## Bootstrap
 ```shell
-bastille bootstrap https://gitlab.com/bastillebsd-templates/npm
+bastille bootstrap https://github.com/bastillebsd/templates
 ```
 
 ## Usage
 ```shell
-bastille template TARGET bastillebsd-templates/npm
+bastille template TARGET www/npm
 ```

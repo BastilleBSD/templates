@@ -1,18 +1,12 @@
 # Firefox
 Bastille template to bootstrap Firefox
 
-## Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/firefox/badges/master/pipeline.svg)](https://gitlab.com/bastillebsd-templates/firefox/commits/master)
-
 ## Bootstrap
 ```shell
-bastille bootstrap https://gitlab.com/bastillebsd-templates/firefox
+bastille bootstrap https://github.com/bastillebsd/templates
 ```
 
 ## Usage
 ```shell
-bastille template TARGET bastillebsd-templates/firefox
+bastille template TARGET www/firefox
 ```
-
-Connect to this container using `ssh -X container 'firefox'` to launch the
-browser.

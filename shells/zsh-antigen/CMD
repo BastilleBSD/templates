@@ -1,2 +1,0 @@
-/usr/bin/fetch -m https://git.io/antigen -o /usr/local/share/zsh/antigen.zsh
-/usr/bin/chsh -s /usr/local/bin/zsh

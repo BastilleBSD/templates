@@ -1,15 +1,12 @@
 # Python
 Bastille template to bootstrap Python
 
-## Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/python/badges/master/pipeline.svg)](https://gitlab.com/bastillebsd-templates/python/commits/master)
-
 ## Bootstrap
 ```shell
-bastille bootstrap https://gitlab.com/bastillebsd-templates/python
+bastille bootstrap https://github.com/bastillebsd/templates
 ```
 
 ## Usage
 ```shell
-bastille template TARGET bastillebsd-templates/python
+bastille template TARGET lang/python
 ```

@@ -1,0 +1,3 @@
+PKG jenkins
+SYSRC jenkins_enable=YES
+SERVICE jenkins start

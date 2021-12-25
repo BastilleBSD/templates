@@ -1,14 +1,12 @@
-## Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/vault/badges/master/pipeline.svg)](https://gitlab.com/bastillebsd-templates/vault/commits/master)
+# Vault
+Bastille template for Hashicorp Vault
 
 ## Bootstrap
-
 ```shell
-bastille bootstrap https://github.com/bastillebsd-templates/vault
+bastille bootstrap https://github.com/bastillebsd/templates
 ```
 
 ## Usage
-
 ```shell
 bastille template TARGET bastillebsd-templates/vault
 ```

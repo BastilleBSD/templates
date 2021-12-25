@@ -1,0 +1,3 @@
+PKG influxdb
+SYSRC influxd_enable=YES
+SERVICE influxd restart

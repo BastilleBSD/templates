@@ -1,15 +1,12 @@
 # Jenkins
 Bastille template to bootstrap Jenkins
 
-## Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/jenkins/badges/master/pipeline.svg)](https://gitlab.com/bastillebsd-templates/jenkins/commits/master)
-
 ## Bootstrap
 ```shell
-bastille bootstrap https://gitlab.com/bastillebsd-templates/jenkins
+bastille bootstrap https://github.com/bastillebsd/templates
 ```
 
 ## Usage
 ```shell
-bastille template TARGET bastillebsd-templates/jenkins
+bastille template TARGET devel/jenkins
 ```

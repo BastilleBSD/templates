@@ -1,0 +1,3 @@
+PKG traefik
+SYSRC traefik_enable=YES
+SERVICE traefik start

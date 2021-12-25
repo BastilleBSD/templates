@@ -1,18 +1,13 @@
-## Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/luajit/badges/master/pipeline.svg)](https://gitlab.com/bastillebsd-templates/luajit/commits/master)
-
 ## luajit
 Bastille template to bootstrap LuaJIT
 
 ## Bootstrap
-
 ```shell
-bastille bootstrap https://gitlab.com/bastillebsd-templates/luajit
+bastille bootstrap https://github.com/bastillebsd/templates
 ```
 
 ## Usage
-
 ```shell
-bastille template TARGET bastillebsd-templates/luajit
+bastille template TARGET lang/luajit
 
 ```

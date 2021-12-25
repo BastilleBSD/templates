@@ -1,0 +1,3 @@
+PKG redis
+SYSRC redis_enable=YES
+SERVICE redis start

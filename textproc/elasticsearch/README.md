@@ -1,12 +1,9 @@
-## Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/elasticsearch/badges/master/pipeline.svg)](https://gitlab.com/bastillebsd-templates/elasticsearch/commits/master)
-
 # elasticsearch
 Bastille template to bootstrap Elasticserch
 
 ## Bootstrap
 ```shell
-bastille bootstrap https://gitlab.com/bastillebsd-templates/elasticsearch
+bastille bootstrap https://github.com/bastillebsd/templates
 ```
 
 ## Usage

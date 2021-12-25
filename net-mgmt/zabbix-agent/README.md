@@ -1,14 +1,9 @@
-## Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/zabbix-agent/badges/master/pipeline.svg)](https://gitlab.com/bastillebsd-templates/zabbix-agent/commits/master)
-
 ## Bootstrap
-
 ```shell
-bastille bootstrap https://github.com/bastillebsd-templates/zabbix-agent
+bastille bootstrap https://github.com/bastillebsd/templates
 ```
 
 ## Usage
-
 ```shell
 bastille template TARGET bastillebsd-templates/zabbix-agent
 ```

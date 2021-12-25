@@ -1,17 +1,12 @@
-## Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/mariadb/badges/master/pipeline.svg)](https://gitlab.com/bastillebsd-templates/mariadb/commits/master)
-
 ## mariadb
 Bastille template to bootstrap MariaDB Server
 
 ## Bootstrap
-
 ```shell
-bastille bootstrap https://gitlab.com/bastillebsd-templates/mariadb
+bastille bootstrap https://github.com/bastillebsd/templates
 ```
 
 ## Usage
-
 ```shell
-bastille template TARGET bastillebsd-templates/mariadb
+bastille template TARGET databases/mariadb
 ```

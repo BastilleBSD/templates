@@ -1,0 +1,4 @@
+PKG prometheus
+CP usr /
+SYSRC prometheus_enable=YES
+SERVICE prometheus start
