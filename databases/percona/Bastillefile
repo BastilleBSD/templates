@@ -1,3 +1,0 @@
-PKG percona57-server percona57-client
-SYSRC mysql_enable=YES
-SERVICE mysql-server start

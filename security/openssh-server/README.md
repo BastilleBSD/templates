@@ -8,7 +8,7 @@ bastille bootstrap https://github.com/bastillebsd/templates
 
 ## Usage
 ```shell
-bastille template TARGET bastillebsd-templates/openssh-server
+bastille template TARGET security/openssh-server
 ```
 
 ## Optional:
