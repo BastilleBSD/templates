@@ -1,2 +1,2 @@
-PKG python3 python
+PKG python
 CMD python -VV

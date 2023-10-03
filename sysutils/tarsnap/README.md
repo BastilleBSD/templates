@@ -8,7 +8,7 @@ bastille bootstrap https://github.com/bastillebsd-templates/tarsnap
 
 ## Usage
 ```shell
-bastille template TARGET bastillebsd-templates/tarsnap
+bastille template TARGET sysutils/tarsnap
 ```
 
 ## Post Install

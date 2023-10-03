@@ -1,5 +1,5 @@
 # elasticsearch
-Bastille template to bootstrap Elasticserch
+Bastille template to bootstrap Elasticserch 7
 
 ## Bootstrap
 ```shell
@@ -8,5 +8,5 @@ bastille bootstrap https://github.com/bastillebsd/templates
 
 ## Usage
 ```shell
-bastille template TARGET bastillebsd-templates/elasticsearch
+bastille template TARGET textproc/elasticsearch7
 ```

@@ -1,5 +1,5 @@
-## perl
-Bastille Template to bootstrap perl5-devel
+## golang
+Bastille template to bootstrap Go
 
 ## Bootstrap
 ```shell
@@ -8,5 +8,5 @@ bastille bootstrap https://github.com/bastillebsd/templates
 
 ## Usage
 ```shell
-bastille template TARGET lang/perl
+bastille template TARGET lang/go
 ```

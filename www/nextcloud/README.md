@@ -8,5 +8,5 @@ bastille bootstrap https://github.com/bastillebsd/templates
 
 ## Usage
 ```shell
-bastille template TARGET bastillebsd-templates/nextcloud
+bastille template TARGET www/nextcloud
 ```

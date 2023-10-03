@@ -1,3 +1,0 @@
-PKG php74
-SYSRC php_fpm_enable=YES
-SERVICE php-fpm start

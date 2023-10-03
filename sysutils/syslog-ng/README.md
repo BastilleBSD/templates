@@ -9,5 +9,5 @@ bastille bootstrap https://github.com/bastillebsd/templates
 
 ## Usage
 ```shell
-bastille template TARGET bastillebsd-templates/syslog-ng
+bastille template TARGET sysutils/syslog-ng
 ```
