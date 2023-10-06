@@ -1,0 +1,3 @@
+PKG gitlab-ce
+SYSRC gitlab_enable=YES
+SERVICE gitlab start
