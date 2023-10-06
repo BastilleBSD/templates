@@ -1,0 +1,4 @@
+ARG version=7
+PKG unifi"${version}"
+SYSRC unifi_enable="YES"
+SERVICE unifi start

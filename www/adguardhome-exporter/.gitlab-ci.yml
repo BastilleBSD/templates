@@ -1,0 +1,18 @@
+bastille_template_test:
+  tags:
+    - bastille-template
+    - bastillebsd-template
+  script:
+    - doas bastille version
+    - doas bastille bootstrap "${CI_PROJECT_URL}"
+    - doas bastille create 122-jail 12.2-RELEASE 10.17.89.122
+    - doas bastille create 130-jail 13.0-RELEASE 10.17.89.130
+    - doas bastille template ALL "${CI_PROJECT_NAMESPACE}/${CI_PROJECT_NAME}"
+    - doas bastille cmd ALL freebsd-version
+    - doas bastille sysrc ALL -ae
+    - doas bastille cmd ALL ps -auxw
+    - doas bastille cmd ALL sockstat -4
+    - doas bastille pkg ALL audit -F
+    - doas bastille stop ALL
+    - doas bastille destroy 122-jail
+    - doas bastille destroy 130-jail

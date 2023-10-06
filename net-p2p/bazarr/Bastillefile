@@ -1,0 +1,29 @@
+## Change ARG values for customizing
+ARG user=bazarr
+ARG group=bazarr
+ARG data_dir=/usr/local/bazarr
+ARG out_port=6767
+
+## allow_raw_sockets is helpful for troubleshooting (e.g. ping, traceroute) but is not a requirement.
+#CONFIG set allow.raw_sockets;
+
+#################################################################
+######################  DO NOT EDIT #############################
+CONFIG set allow.mlock=1;
+CONFIG set enforce_statfs=1
+RESTART
+PKG bazarr
+SYSRC bazarr_enable=YES
+SYSRC bazarr_user="${user}"
+SYSRC bazarr_group="${group}"
+SYSRC bazarr_data_dir="${data_dir}"
+SERVICE bazarr start
+RDR tcp ${out_port} 6767
+#################################################################
+#################################################################
+
+## The updater is disabled by default. The pkg-message gives instructions on how to enable the updater but keep in mind: this can break things like pkg check -s and pkg remove for bazarr when the built-in updater replaces files. If you like to use the updater in bazarr UI, remove (#)
+#CMD rm /usr/local/share/bazarr/package_info
+#CMD chown -R ${user}:${group} /usr/local/share/bazarr/bin
+
+SERVICE bazarr restart

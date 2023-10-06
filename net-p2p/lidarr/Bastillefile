@@ -1,0 +1,29 @@
+## Change ARG values for customizing
+ARG user=lidarr
+ARG group=lidarr
+ARG data_dir=/usr/local/lidarr
+ARG out_port=8686
+
+## allow_raw_sockets is helpful for troubleshooting (e.g. ping, traceroute) but is not a requirement.
+#CONFIG set allow.raw_sockets;
+
+#################################################################
+######################  DO NOT EDIT #############################
+CONFIG set allow.mlock=1;
+CONFIG set enforce_statfs=1;
+RESTART
+PKG lidarr
+SYSRC lidarr_enable=YES
+SYSRC lidarr_user="${user}"
+SYSRC lidarr_group="${group}"
+SYSRC lidarr_data_dir="${data_dir}"
+SERVICE lidarr start
+RDR tcp ${out_port} 8686
+#################################################################
+#################################################################
+
+## The updater is disabled by default. The pkg-message gives instructions on how to enable the updater but keep in mind: this can break things like pkg check -s and pkg remove for lidarr when the built-in updater replaces files. If you like to use the updater in lidarr UI, remove (#)
+#CMD rm /usr/local/share/lidarr/package_info
+#CMD chown -R ${user}:${group} /usr/local/share/lidarr/bin
+
+SERVICE lidarr restart

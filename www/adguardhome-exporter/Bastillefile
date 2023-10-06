@@ -1,0 +1,8 @@
+PKG adguard-exporter
+SYSRC adguard_exporter_enable=YES
+SYSRC adguard_exporter_username=adguard
+SYSRC adguard_exporter_password=BastilleBSD!
+SYSRC adguard_exporter_hostname=${JAIL_IP}
+SYSRC adguard_exporter_port=80
+SYSRC adguard_exporter_protocol=http
+SERVICE adguard_exporter restart
