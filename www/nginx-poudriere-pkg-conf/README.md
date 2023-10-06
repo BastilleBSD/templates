@@ -1,11 +1,6 @@
 ## nginx-poudriere-pkg-conf
 Bastille Template: nginx-poudriere-pkg-conf
 
-## Bootstrap
-```shell
-bastille bootstrap https://github.com/bastillebsd/templates
-```
-
 ## Usage
 ```shell
 bastille template TARGET www/nginx-poudriere-pkg-conf

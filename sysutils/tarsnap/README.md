@@ -1,11 +1,6 @@
 # Tarsnap
 Bastille template for Tarsnap
 
-## Bootstrap
-```shell
-bastille bootstrap https://github.com/bastillebsd-templates/tarsnap
-```
-
 ## Usage
 ```shell
 bastille template TARGET sysutils/tarsnap
