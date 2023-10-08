@@ -1,0 +1,29 @@
+## Change ARG values for customizing
+ARG user=prowlarr
+ARG group=prowlarr
+ARG data_dir=/usr/local/prowlarr
+ARG out_port=9696
+
+## allow_raw_sockets is helpful for troubleshooting (e.g. ping, traceroute) but is not a requirement.
+#CONFIG set allow.raw_sockets;
+
+#################################################################
+######################  DO NOT EDIT #############################
+CONFIG set allow.mlock=1;                                       #
+CONFIG set ip6=inherit;                                         #
+RESTART                                                         #
+PKG prowlarr                                                     #
+SYSRC prowlarr_enable=YES                                       #
+SYSRC prowlarr_user="${user}"                                   #
+SYSRC prowlarr_group="${group}"                                 #
+SYSRC prowlarr_data_dir="${data_dir}"                           #
+SERVICE prowlarr start                                          #
+RDR tcp ${out_port} 9696                                        #
+#################################################################
+#################################################################
+
+## The updater is disabled by default. The pkg-message gives instructions on how to enable the updater but keep in mind: this can break things like pkg check -s and pkg remove for prowlarr when the built-in updater replaces files. If you like to use the updater in Prowlarr UI, remove (#)
+#CMD rm /usr/local/share/prowlarr/package_info
+#CMD chown -R ${user}:${group} /usr/local/share/prowlarr/bin
+
+SERVICE prowlarr restart

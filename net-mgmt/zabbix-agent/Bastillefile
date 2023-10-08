@@ -1,0 +1,4 @@
+PKG zabbix54-agent 
+CMD cp /usr/local/etc/zabbix54/zabbix_agentd.conf.sample /usr/local/etc/zabbix54/zabbix_agentd.conf 
+SYSRC zabbix_agentd_enable=YES
+SERVICE zabbix_agentd start

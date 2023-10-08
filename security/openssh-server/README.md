@@ -1,11 +1,6 @@
 # openssh-server
 Bastille template to bootstrap openssh-server
 
-## Bootstrap
-```shell
-bastille bootstrap https://github.com/bastillebsd/templates
-```
-
 ## Usage
 ```shell
 bastille template TARGET security/openssh-server

@@ -1,0 +1,7 @@
+PKG npm
+CMD mkdir /usr/local/etc/rc.d/
+CMD npm install pm2@latest -g
+CMD npm install n8n@latest -g
+CMD pm2 start n8n
+CMD pm2 startup
+CMD pm2 save

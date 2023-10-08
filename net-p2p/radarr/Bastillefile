@@ -1,0 +1,6 @@
+CONFIG set allow.mlock=1;
+CONFIG set ip6=inherit;
+RESTART
+PKG radarr
+SYSRC radarr_enable="YES"
+SERVICE radarr start
