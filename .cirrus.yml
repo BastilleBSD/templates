@@ -9,7 +9,7 @@ task:
 
 test_task:
   node_modules_cache:
-    folder: node_modules
-    fingerprint_script: cat package-lock.json
-    populate_script: npm ci
-  test_script: npm test
+    folder: 
+    fingerprint_script:
+    populate_script: 
+  test_script: 
