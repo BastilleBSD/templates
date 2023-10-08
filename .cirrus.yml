@@ -1,0 +1,15 @@
+
+freebsd_instance:
+  image_family: freebsd-13-2
+
+task:
+  install_script: pkg install -y bastille
+  script: 
+
+
+test_task:
+  node_modules_cache:
+    folder: node_modules
+    fingerprint_script: cat package-lock.json
+    populate_script: npm ci
+  test_script: npm test
