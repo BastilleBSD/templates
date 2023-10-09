@@ -12,7 +12,7 @@ compute_engine_instance:
 
 
 
-tasks:
+task:
   webserver_tests:
     description: Test the web server
     freebsd:
