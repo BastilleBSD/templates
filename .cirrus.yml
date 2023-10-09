@@ -1,4 +1,7 @@
 # .cirrus.yml:
+workflow:
+  only_branches:
+    - main
 env:
   CIRRUS_CLONE_DEPTH: 1
   ARCH: amd64
