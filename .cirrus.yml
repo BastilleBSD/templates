@@ -1,7 +1,4 @@
 # .cirrus.yml:
-connected_check_task:
-  name: check branch status
-  only_if: $CIRRUS_BRANCH == "main" || CIRRUS_PR != ""    
 env:
   CIRRUS_CLONE_DEPTH: 1
   ARCH: amd64
