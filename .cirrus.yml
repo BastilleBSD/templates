@@ -10,8 +10,8 @@ compute_engine_instance:
   disk: 10
 
 
-tasks:
-  download_and_run_script.:
+task:
+  download_and_run_script:
     description: Build and test
     freebsd: 
       - pkg install -y git bastille  
@@ -28,7 +28,7 @@ tasks:
       - cat diff.txt
 
       - # Use sed to remove characters before the match pattern
-      - match_pattern=' '
+      - match_pattern=" /"
       - sed "s/.*$match_pattern/$match_pattern/" "diff.txt" > changed.txt
       - echo "*** changed.txt ***"
       - cat changed.txt
