@@ -1,15 +1,10 @@
-
+.cirrus.yml:
 freebsd_instance:
   image_family: freebsd-13-2
 
-task:
-  install_script: pkg install -y bastille
-  script: 
-
-
-test_task:
-  node_modules_cache:
-    folder: 
-    fingerprint_script:
-    populate_script: 
-  test_script: 
+tasks:
+  build:
+    description: Build and test
+    script:
+      - echo "Build and test steps go here"
+        test.sh
