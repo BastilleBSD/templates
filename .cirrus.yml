@@ -1,4 +1,4 @@
-.cirrus.yml:
+# .cirrus.yml:
 freebsd_instance:
   image_family: freebsd-13-2
 
