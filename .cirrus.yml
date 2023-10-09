@@ -2,38 +2,38 @@
 connected_check_task:
   name: check branch status
   only_if: $CIRRUS_BRANCH == "main" || CIRRUS_PR != ""    
-  env:
-    CIRRUS_CLONE_DEPTH: 1
-    ARCH: amd64
-  task:
-    freebsd_instance:
-      image: freebsd-13-2-release-amd64
-    script:
-      - pkg install -y git bastille
-      - bastille bootstrap 13.2-RELEASE
-      - cd /usr/local/etc/bastille
-      - cp bastille.conf.sample bastille.conf
-      - bastille setup
-      - bastille create testrun 13.2-RELEASE 10.0.0.1
-      - git clone https://github.com/BastilleBSD/templates.git
-      - cd templates
-      - git rev-parse --abbrev-ref HEAD > branch.txt
-      - read -r BRANCH <"branch.txt"
-      - echo $BRANCH
-      - rm branch.txt
-      - git diff --dirstat main $BRANCH ./* > diff.txt
-      - echo "*** diff.txt ***"
-      - cat diff.txt
-      - # Use sed to remove characters before the match pattern
-      - match_pattern=" "
-      - sed "s/*$match_pattern/$match_pattern/" "diff.txt" > changed.txt
-      - echo "*** changed.txt ***"
-      - cat changed.txt
-      - read -r CHDIR <"changed.txt"
-      - echo $CHDIR
-      - bastille template testrun $CHDIR
-      - cd $CHDIR
-      - pwd
-      - chmod +x ./test.sh
-      - ./test.sh
+env:
+  CIRRUS_CLONE_DEPTH: 1
+  ARCH: amd64
+task:
+  freebsd_instance:
+    image: freebsd-13-2-release-amd64
+  script:
+    - pkg install -y git bastille
+    - bastille bootstrap 13.2-RELEASE
+    - cd /usr/local/etc/bastille
+    - cp bastille.conf.sample bastille.conf
+    - bastille setup
+    - bastille create testrun 13.2-RELEASE 10.0.0.1
+    - git clone https://github.com/BastilleBSD/templates.git
+    - cd templates
+    - git rev-parse --abbrev-ref HEAD > branch.txt
+    - read -r BRANCH <"branch.txt"
+    - echo $BRANCH
+    - rm branch.txt
+    - git diff --dirstat main $BRANCH ./* > diff.txt
+    - echo "*** diff.txt ***"
+    - cat diff.txt
+    - # Use sed to remove characters before the match pattern
+    - match_pattern=" "
+    - sed "s/*$match_pattern/$match_pattern/" "diff.txt" > changed.txt
+    - echo "*** changed.txt ***"
+    - cat changed.txt
+    - read -r CHDIR <"changed.txt"
+    - echo $CHDIR
+    - bastille template testrun $CHDIR
+    - cd $CHDIR
+    - pwd
+    - chmod +x ./test.sh
+    - ./test.sh
 
