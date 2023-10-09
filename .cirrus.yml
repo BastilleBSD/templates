@@ -5,7 +5,10 @@ freebsd_instance:
 tasks:
   build:
     description: Build and test
-    script: bash test.sh
+    script: 
       - echo "Build and test steps go here"
+      - chmod +x test.sh
+      - ./test.sh
+
 
 
