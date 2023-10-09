@@ -17,7 +17,7 @@ task:
     - echo "*** diff.txt ***"
     - cat diff.txt
     - # Use sed to remove characters before the match pattern
-    - match_pattern=" /"
+    - match_pattern=" "
     - sed "s/.*$match_pattern/$match_pattern/" "diff.txt" > changed.txt
     - echo "*** changed.txt ***"
     - cat changed.txt
