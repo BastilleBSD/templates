@@ -1,9 +1,10 @@
 # .cirrus.yml:
-freebsd_instance:
-  image-family: freebsd-13-2
+env:
+  CIRRUS_CLONE_DEPTH: 1
+  ARCH: amd64
 task:
-  download_and_run_script:
-  description: Build and test  
+  freebsd_instance:
+    image: freebsd-13-2-release-amd64
   script:
     - pkg install -y git bastille
     - git clone https://github.com/BastilleBSD/templates.git
