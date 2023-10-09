@@ -1,7 +1,5 @@
 # .cirrus.yml:
-workflow:
-  only_branches:
-    - main
+only_if: $CIRRUS_BRANCH == "main" || CIRRUS_PR != ""    
 env:
   CIRRUS_CLONE_DEPTH: 1
   ARCH: amd64
