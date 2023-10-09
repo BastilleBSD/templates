@@ -1,15 +1,6 @@
 # .cirrus.yml:
-compute_engine_instance:
-  # Image list available via
-  # gcloud compute images list --project freebsd-org-cloud-dev --no-standard-images
-  platform: freebsd
-  image_project: freebsd-org-cloud-dev
-  image: freebsd-13-2-release-amd64
-  cpu: 1
-  memory: 2G
-  disk: 40
-
-
+freebsd_instance:
+  image-family: freebsd-12-3
 task:
   download_and_run_script:
   description: Build and test  
