@@ -2,9 +2,10 @@
 freebsd_instance:
   image_family: freebsd-13-2
 
-tasks:
+task:
   build:
     description: Build and test
+    install_script: pkg install bastille 
     script: 
       - echo "Build and test steps go here"
       - git rev-parse --abbrev-ref HEAD > branch.txt
@@ -28,6 +29,5 @@ tasks:
       - cd $CHDIR
       - pwd
       - ./test.sh
-
 
 
