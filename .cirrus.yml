@@ -16,6 +16,8 @@ task:
     install_script: pkg install bastille 
     script: 
       - echo "Build and test steps go here"
+      - git clonehttps://github.com/BastilleBSD/templates.git
+      - cd templates
       - git rev-parse --abbrev-ref HEAD > branch.txt
       - read -r BRANCH <"branch.txt"
       - echo $BRANCH
@@ -36,6 +38,7 @@ task:
 
       - cd $CHDIR
       - pwd
+      - chmod +x ./test.sh
       - ./test.sh
 
 
