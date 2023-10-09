@@ -1,6 +1,6 @@
 # .cirrus.yml:
 freebsd_instance:
-  image-family: freebsd-12-3
+  image-family: freebsd-13-2
 task:
   download_and_run_script:
   description: Build and test  
