@@ -7,6 +7,8 @@ task:
     image: freebsd-13-2-release-amd64
   script:
     - pkg install -y git bastille
+    - bastille bootstrap 13.2-RELEASE
+    - bastille create testrun 13.2-RELEASE 10.0.0.1
     - git clone https://github.com/BastilleBSD/templates.git
     - cd templates
     - git rev-parse --abbrev-ref HEAD > branch.txt
@@ -17,13 +19,12 @@ task:
     - echo "*** diff.txt ***"
     - cat diff.txt
     - # Use sed to remove characters before the match pattern
-    - match_pattern="/ "
-    - sed "s/.*$match_pattern/$match_pattern/" "diff.txt" > changed.txt
+    - match_pattern=" "
+    - sed "s/*$match_pattern/$match_pattern/" "diff.txt" > changed.txt
     - echo "*** changed.txt ***"
     - cat changed.txt
     - read -r CHDIR <"changed.txt"
     - echo $CHDIR
-    - bastille create testrun 10.0.0.1
     - bastille template testrun $CHDIR
     - cd $CHDIR
     - pwd
