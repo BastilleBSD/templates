@@ -8,6 +8,9 @@ task:
   script:
     - pkg install -y git bastille
     - bastille bootstrap 13.2-RELEASE
+    - cd /usr/local/etc/bastille
+    - cp bastille.conf.sample bastille.conf
+    - bastille setup
     - bastille create testrun 13.2-RELEASE 10.0.0.1
     - git clone https://github.com/BastilleBSD/templates.git
     - cd templates
