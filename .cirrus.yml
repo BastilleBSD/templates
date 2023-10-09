@@ -7,7 +7,7 @@ compute_engine_instance:
   image: freebsd-13-2-release-amd64
   cpu: 1
   memory: 2G
-  disk: 10
+  disk: 40
 
 
 task:
