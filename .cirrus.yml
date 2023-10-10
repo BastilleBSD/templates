@@ -2,12 +2,7 @@
 env:
   CIRRUS_CLONE_DEPTH: 1
   ARCH: amd64
-task:
-  set_custom_variable:
-    description: set GITHUB_REF to a variable
-    script:
-      - export BRANCH="{GITHUB_REF}"
-      - echo "variable BRANCH is now set to: ${BRANCH}"
+  BRANCH: $GITHUB_REF
   freebsd_instance:
     image: freebsd-13-2-release-amd64
   script:
