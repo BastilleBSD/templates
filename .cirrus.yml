@@ -1,39 +1,38 @@
 # .cirrus.yml:
 env:
+  BRANCH: $GITHUB_REF
   CIRRUS_CLONE_DEPTH: 1
   ARCH: amd64
-  BRANCH: $GITHUB_REF
   freebsd_instance:
     image: freebsd-13-2-release-amd64
-script:
-  - BRANCH="${GITHUB_REF}"
-  - echo "branch is $BRANCH"
-  - pkg install -y git 
-  - git clone https://github.com/BastilleBSD/bastille.git
-  - cd bastille
-  - make install
-  - cd /usr/local/etc/bastille
-  - cp bastille.conf.sample bastille.conf
-  - bastille setup
-  - bastille bootstrap 13.2-RELEASE
-  - bastille create testrun 13.2-RELEASE 10.0.0.1
-  - bastille list
-  - git clone https://github.com/BastilleBSD/templates.git
-  - cd templates
-  - echo " branch is $branch "
-  - git diff --dirstat main $branch ./* > diff.txt
-  - echo "*** diff.txt ***"
-  - cat diff.txt
-  - # Use sed to remove characters before the match pattern
-  - match_pattern=" "
-  - sed "s/*$match_pattern/$match_pattern/" "diff.txt" > changed.txt
-  - echo "*** changed.txt ***"
-  - cat changed.txt
-  - read -r CHDIR <"changed.txt"
-  - echo $CHDIR
-  - bastille template testrun $CHDIR
-  - cd $CHDIR
-  - pwd
-  - chmod +x ./test.sh
-  - ./test.sh
+  script:
+    - echo "branch is $BRANCH"
+    - pkg install -y git 
+    - git clone https://github.com/BastilleBSD/bastille.git
+    - cd bastille
+    - make install
+    - cd /usr/local/etc/bastille
+    - cp bastille.conf.sample bastille.conf
+    - bastille setup
+    - bastille bootstrap 13.2-RELEASE
+    - bastille create testrun 13.2-RELEASE 10.0.0.1
+    - bastille list
+    - git clone https://github.com/BastilleBSD/templates.git
+    - cd templates
+    - echo " branch is $branch "
+    - git diff --dirstat main $branch ./* > diff.txt
+    - echo "*** diff.txt ***"
+    - cat diff.txt
+    - # Use sed to remove characters before the match pattern
+    - match_pattern=" "
+    - sed "s/*$match_pattern/$match_pattern/" "diff.txt" > changed.txt
+    - echo "*** changed.txt ***"
+    - cat changed.txt
+    - read -r CHDIR <"changed.txt"
+    - echo $CHDIR
+    - bastille template testrun $CHDIR
+    - cd $CHDIR
+    - pwd
+    - chmod +x ./test.sh
+    - ./test.sh
 
