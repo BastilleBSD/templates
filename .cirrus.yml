@@ -5,7 +5,8 @@ env:
   ARCH: amd64
   freebsd_instance:
     image: freebsd-13-2-release-amd64
-task:
+
+tasks:
   script:
     - echo "branch is $BRANCH"
     - pkg install -y git 
