@@ -6,7 +6,7 @@ task:
   freebsd_instance:
     image: freebsd-13-2-release-amd64
   script:
-    - export BRANCH="${GITHUB_REF}"
+    - BRANCH="${GITHUB_REF}"
     - echo "branch is $BRANCH"
     - pkg install -y git 
     - git clone https://github.com/BastilleBSD/bastille.git
