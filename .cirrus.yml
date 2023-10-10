@@ -21,10 +21,8 @@ task:
     - bastille create testrun 13.2-RELEASE 10.0.0.1
     - git clone https://github.com/BastilleBSD/templates.git
     - cd templates
-    - git rev-parse --abbrev-ref HEAD > branch.txt
-    - read -r BRANCH <"branch.txt"
+    - BRANCH= {{ github.ref }}
     - echo $BRANCH
-    - rm branch.txt
     - git diff --dirstat main {{ github.ref }} ./* > diff.txt
     - echo "*** diff.txt ***"
     - cat diff.txt
