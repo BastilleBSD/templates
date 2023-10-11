@@ -24,8 +24,8 @@ task:
     - cd templates
     - echo " branch is $BRANCH "
     - git checkout $BRANCH
-    - git diff --dirstat origin/cicd..cicd ./* 
-    - git diff --dirstat main..$BRANCH ./* >> diff.txt
+    - git diff --dirstat origin/$BRANCH..$BRANCH ./* 
+    - git diff --dirstat origin/$BRANCH..$BRANCH ./* >> diff.txt
     - echo "*** diff.txt ***"
     - cat diff.txt
     - # Use sed to remove characters before the match pattern
