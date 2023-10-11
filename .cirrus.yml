@@ -13,9 +13,7 @@ task:
   show_build_trigger: echo $BRANCH
   script:
     - echo "branch is $BRANCH"
-    - echo "origin is $ORIGIN"
-    - echo "ghsha is $GHSHA"
-    - echo "ghbase is $GHBASE"
+    - echo "origin is $GITHUB_HEAD_REF"
     - pkg install -y git 
     - git clone https://github.com/BastilleBSD/bastille.git
     - cd bastille
@@ -31,7 +29,7 @@ task:
     - echo " branch is $BRANCH "
     - git checkout $BRANCH
     - git branch
-    - git diff --dirstat $ORIGIN..$BRANCH ./* 
+    - git diff --dirstat $GITHUB_HEAD_REF..$BRANCH ./* 
     - git diff --dirstat $ORIGIN..$BRANCH ./* > diff.txt
     - echo "*** diff.txt ***"
     - cat diff.txt
