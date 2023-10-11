@@ -12,15 +12,15 @@ task:
     - echo "branch is $BRANCH"
     - pkg install -y git curl 
     - echo 'pf_enable="YES"' >> /etc/rc.conf
-    - service pf start
-    - service pf status
-    - git clone https://github.com/BastilleBSD/templates.git
     - git clone https://github.com/BastilleBSD/bastille.git
     - cd bastille
     - make install
     - cd /usr/local/etc/bastille
     - cp bastille.conf.sample bastille.conf
     - bastille setup
+    - service pf start
+    - service pf status
+    - git clone https://github.com/BastilleBSD/templates.git
     - bastille bootstrap 13.2-RELEASE
     - bastille create testrun 13.2-RELEASE 10.0.0.100
     - bastille list
