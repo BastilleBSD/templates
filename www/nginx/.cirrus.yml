@@ -1,0 +1,22 @@
+# .cirrus.yml:
+compute_engine_instance:
+  # Image list available via
+  # gcloud compute images list --project freebsd-org-cloud-dev --no-standard-images
+  platform: freebsd
+  image_project: freebsd-org-cloud-dev
+  image: freebsd-13-2-release-amd64
+  cpu: 1
+  memory: 2G
+  disk: 10
+
+
+
+
+task:
+  webserver_tests:
+    description: Test the web server
+    freebsd:
+      - pkg install -y curl wget  # Install required tools (for FreeBSD)
+    script:
+      - curl -Is http://localhost:8080/ | grep "HTTP/1.1 200 OK"  # Example test with curl
+      - wget --spider http://localhost:8080/  # Example test with wget
