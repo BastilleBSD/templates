@@ -27,8 +27,8 @@ task:
     - git checkout $BRANCH
     - git branch
     - echo "GHSHA is $GHSHA"
-    - git diff --dirstat $(GITHUB_HEAD_REF)..$BRANCH ./* 
-    - git diff --dirstat $(GITHUB_HEAD_REF..$BRANCH ./* > diff.txt
+    - git diff --dirstat $BRANCH..main ./* 
+    - git diff --dirstat $BRANCH..main ./* > diff.txt
     - echo "*** diff.txt ***"
     - cat diff.txt
     - # Use sed to remove characters before the match pattern
