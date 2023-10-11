@@ -1,9 +1,9 @@
 echo "starting test script"
 cd ../../
 pwd
-cat /etc/resolv.conf
 bastille template testrun www/nginx
 echo "template applied"
+bastille rdr testrun tcp 80 80
 response=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:80)
 echo "tested response"
 echo "response is:" $response
