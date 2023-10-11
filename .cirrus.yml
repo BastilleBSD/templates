@@ -5,8 +5,9 @@ env:
 task:
   freebsd_instance:
     image: freebsd-13-2-release-amd64
-  build_trigger: echo "TRIGGER=$(GITHUB_SHA)" >> $CIRRUS_ENV
-  build_trigger: echo "BRANCH=$(GITHUB_REF)" >> $CIRRUS_ENV
+  build_trigger: 
+    - echo "TRIGGER=$(GITHUB_SHA)" >> $CIRRUS_ENV
+    - echo "BRANCH=$(GITHUB_REF)" >> $CIRRUS_ENV
   show_build_trigger: echo $BRANCH
   script:
     - echo "branch is $BRANCH"
