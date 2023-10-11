@@ -8,10 +8,14 @@ task:
   build_trigger: 
     - echo "BRANCH=$(GITHUB_REF)" >> $CIRRUS_ENV
     - echo "ORIGIN=$(GITHUB_HEAD_REF)" >> $CIRRUS_ENV
+    - echo "GHSHA=$(GITHUB_SHA)" >> $CIRRUS_ENV
+    - echo "GHBASE=$(GITHUB_BASE_REF)" >> $CIRRUS_ENV
   show_build_trigger: echo $BRANCH
   script:
     - echo "branch is $BRANCH"
     - echo "origin is $ORIGIN"
+    - echo "ghsha is $GHSHA"
+    - echo "ghbase is $GHBASE"
     - pkg install -y git 
     - git clone https://github.com/BastilleBSD/bastille.git
     - cd bastille
@@ -27,8 +31,8 @@ task:
     - echo " branch is $BRANCH "
     - git checkout $BRANCH
     - git branch
-    - git diff --dirstat origin/$BRANCH..$BRANCH ./* 
-    - git diff --dirstat origin/$BRANCH..$BRANCH ./* > diff.txt
+    - git diff --dirstat $ORIGIN..$BRANCH ./* 
+    - git diff --dirstat $ORIGIN..$BRANCH ./* > diff.txt
     - echo "*** diff.txt ***"
     - cat diff.txt
     - # Use sed to remove characters before the match pattern
