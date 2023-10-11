@@ -21,8 +21,8 @@ task:
     - bastille list
     - git clone https://github.com/BastilleBSD/templates.git
     - cd templates
-    - echo " branch is $branch "
-    - git diff --dirstat main $branch ./* > diff.txt
+    - echo " branch is $BRANCH "
+    - git diff --dirstat main $BRANCH ./* > diff.txt
     - echo "*** diff.txt ***"
     - cat diff.txt
     - # Use sed to remove characters before the match pattern
