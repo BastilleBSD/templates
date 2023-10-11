@@ -24,6 +24,7 @@ task:
     - git clone https://github.com/BastilleBSD/templates.git
     - cd templates
     - echo " branch is $BRANCH "
+    - git checkout $BRANCH
     - git diff --dirstat origin/cicd..cicd ./* 
     - git diff --dirstat main..$BRANCH ./* >> diff.txt
     - echo "*** diff.txt ***"
