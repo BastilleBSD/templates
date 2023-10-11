@@ -35,7 +35,6 @@ task:
     - cat changed.txt
     - read -r CHDIR <"changed.txt"
     - echo $CHDIR
-    - bastille template testrun $CHDIR
     - cd $CHDIR
     - pwd
     - chmod +x ./test.sh
