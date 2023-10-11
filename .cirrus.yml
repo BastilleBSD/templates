@@ -10,7 +10,7 @@ task:
   show_build_trigger: echo $BRANCH
   script:
     - echo "branch is $BRANCH"
-    - pkg install -y git 
+    - pkg install -y git curl 
     - git clone https://github.com/BastilleBSD/bastille.git
     - cd bastille
     - make install

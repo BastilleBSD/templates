@@ -1,8 +1,6 @@
 echo "starting test script"
 bastille template testrun ../../www/nginx
 echo "template applied"
-pkg install curl
-echo "curl installed"
 response=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:80)
 echo "tested response"
 # Check if the response code is 200 (OK)
