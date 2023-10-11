@@ -24,6 +24,7 @@ task:
     - cd templates
     - echo " branch is $BRANCH "
     - git checkout $BRANCH
+    - git branch
     - git diff --dirstat origin/$BRANCH..$BRANCH ./* 
     - git diff --dirstat origin/$BRANCH..$BRANCH ./* > diff.txt
     - echo "*** diff.txt ***"
