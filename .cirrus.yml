@@ -5,7 +5,8 @@ env:
 task:
   freebsd_instance:
     image: freebsd-13-2-release-amd64
-  build_trigger: echo "BRANCH=$(GITHUB_SHA)" >> $CIRRUS_ENV
+  build_trigger: echo "TRIGGER=$(GITHUB_SHA)" >> $CIRRUS_ENV
+  build_trigger: echo "BRANCH=$(GITHUB_REF)" >> $CIRRUS_ENV
   show_build_trigger: echo $BRANCH
   script:
     - echo "branch is $BRANCH"
@@ -22,8 +23,8 @@ task:
     - git clone https://github.com/BastilleBSD/templates.git
     - cd templates
     - echo " branch is $BRANCH "
-    - git diff --dirstat main cicd ./* 
-    - git diff --dirstat main cicd ./* >> diff.txt
+    - git diff --dirstat $BRANCH $TRIGGER ./* 
+    - git diff --dirstat $BRANCH $TRIGGER ./* >> diff.txt
     - echo "*** diff.txt ***"
     - cat diff.txt
     - # Use sed to remove characters before the match pattern
