@@ -1,5 +1,6 @@
 echo "starting test script"
 cd ../../
+pwd
 bastille template testrun www/nginx
 echo "template applied"
 response=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:80)
