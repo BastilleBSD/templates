@@ -23,8 +23,8 @@ task:
     - git clone https://github.com/BastilleBSD/templates.git
     - cd templates
     - echo " branch is $BRANCH "
-    - git diff --dirstat $BRANCH $TRIGGER ./* 
-    - git diff --dirstat $BRANCH $TRIGGER ./* >> diff.txt
+    - git diff --dirstat $BRANCH..$TRIGGER ./* 
+    - git diff --dirstat $BRANCH..$TRIGGER ./* >> diff.txt
     - echo "*** diff.txt ***"
     - cat diff.txt
     - # Use sed to remove characters before the match pattern
