@@ -7,9 +7,6 @@ task:
     image: freebsd-13-2-release-amd64
   build_trigger: 
     - echo "BRANCH=$(GITHUB_REF)" >> $CIRRUS_ENV
-    - echo "GHHEADREF=$(GITHUB_HEAD_REF)" >> $CIRRUS_ENV
-    - echo "GHSHA=$(GITHUB_SHA)" >> $CIRRUS_ENV
-    - echo "GHBASE=$(GITHUB_BASE_REF)" >> $CIRRUS_ENV
   show_build_trigger: echo $BRANCH
   script:
     - echo "branch is $BRANCH"
@@ -31,7 +28,7 @@ task:
     - git branch
     - echo "GHSHA is $GHSHA"
     - git diff --dirstat $(GITHUB_HEAD_REF)..$BRANCH ./* 
-    - git diff --dirstat $(GITHUB_HEAD_REF)..$BRANCH ./* > diff.txt
+    - git diff --dirstat $(GITHUB_HEAD_REF..$BRANCH ./* > diff.txt
     - echo "*** diff.txt ***"
     - cat diff.txt
     - # Use sed to remove characters before the match pattern
