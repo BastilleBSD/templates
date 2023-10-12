@@ -3,6 +3,7 @@ cd ../../
 pwd
 bastille template testrun www/nginx
 echo "template applied"
+bastille cmd testrun service status nginx
 bastille rdr testrun tcp 80 80
 bastille rdr testrun list
 ifconfig
