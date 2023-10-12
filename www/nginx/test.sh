@@ -4,6 +4,7 @@ pwd
 bastille template testrun www/nginx
 echo "template applied"
 bastille rdr testrun tcp 80 80
+bastille rdr testrun list
 response=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:80)
 echo "tested response"
 echo "response is:" $response
