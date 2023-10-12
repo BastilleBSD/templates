@@ -22,7 +22,7 @@ task:
     - service pf status
     - git clone https://github.com/BastilleBSD/templates.git
     - bastille bootstrap 13.2-RELEASE
-    - bastille create testrun 13.2-RELEASE 10.0.0.100
+    - bastille create testrun 13.2-RELEASE 10.17.89.66
     - bastille list
     - cd templates
     - echo " branch is $BRANCH "
