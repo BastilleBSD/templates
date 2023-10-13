@@ -11,13 +11,17 @@ response=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:80)
 echo "tested response"
 echo "response is:" $response
 
-
-# Define the name of the service you want to check
 service_name="nginx"
+jail_name="testrun"
 
-# Use the `service` command to check if the service is running
-if service $service_name status | grep -q "is running"; then
-  echo "$service_name is running."
+service_status=$(jexec testrun service $service_name status)
+
+# Check the service status and provide appropriate output
+if echo "$service_status" | grep -q "is running"; then
+  echo "$service_name is running in jail $jail_name."
 else
-  echo "$service_name is not running."
+  echo "$service_name is not running in jail $jail_name."
 fi
+
+
+
