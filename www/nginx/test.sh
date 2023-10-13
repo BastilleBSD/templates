@@ -21,6 +21,7 @@ if echo "$service_status" | grep -q "is running"; then
   echo "$service_name is running in jail $jail_name."
 else
   echo "$service_name is not running in jail $jail_name."
+  exit 1
 fi
 
 
