@@ -11,7 +11,7 @@ response=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:80)
 echo "tested response"
 echo "response is:" $response
 
-service_name="nginx"
+service_name="xnginx"
 jail_name="testrun"
 
 service_status=$(jexec testrun service $service_name status)
