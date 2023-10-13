@@ -10,32 +10,35 @@ task:
   show_build_trigger: echo $BRANCH
   script:
     - echo "branch is $BRANCH"
-    - pkg install -y git 
+    - pkg install -y git curl 
+    - echo 'pf_enable="YES"' >> /etc/rc.conf
     - git clone https://github.com/BastilleBSD/bastille.git
     - cd bastille
     - make install
     - cd /usr/local/etc/bastille
     - cp bastille.conf.sample bastille.conf
     - bastille setup
-    - bastille bootstrap 13.2-RELEASE
-    - bastille create testrun 13.2-RELEASE 10.0.0.1
-    - bastille list
+    - service pf start
+    - service pf status
     - git clone https://github.com/BastilleBSD/templates.git
+    - bastille bootstrap 13.2-RELEASE
+    - bastille create testrun 13.2-RELEASE 10.17.89.66
+    - bastille list
     - cd templates
     - echo " branch is $BRANCH "
     - git checkout $BRANCH
-    - git diff --dirstat origin/cicd..cicd ./* 
-    - git diff --dirstat main..$BRANCH ./* >> diff.txt
+    - git branch
+    - echo "GHSHA is $GHSHA"
+    - git diff --dirstat $BRANCH..main ./* 
+    - git diff --dirstat $BRANCH..main ./* > diff.txt
     - echo "*** diff.txt ***"
     - cat diff.txt
     - # Use sed to remove characters before the match pattern
-    - match_pattern=" "
-    - sed "s/*$match_pattern/$match_pattern/" "diff.txt" >> changed.txt
+    - sed 's/.* //' diff.txt > changed.txt
     - echo "*** changed.txt ***"
     - cat changed.txt
     - read -r CHDIR <"changed.txt"
     - echo $CHDIR
-    - bastille template testrun $CHDIR
     - cd $CHDIR
     - pwd
     - chmod +x ./test.sh
