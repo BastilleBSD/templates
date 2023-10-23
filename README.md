@@ -12,6 +12,11 @@ taking advantage of the new combined collection.
 
 This status will be removed once this new support has been added and merged.
 
+To use templates you must have git installed on your system.
+```shell
+pkg install git
+```
+
 ## Bootstrap
 ```shell
 bastille bootstrap https://github.com/bastillebsd/templates
