@@ -1,0 +1,4 @@
+# Bastillefile for net-p2p/hostd
+PKG hostd
+SYSRC hostd_enable=YES
+SERVICE hostd start

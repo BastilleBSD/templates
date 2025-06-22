@@ -1,7 +1,13 @@
-# Vault
-Bastille template for Hashicorp Vault
+# security/vault
+Tool for securely accessing secrets
+https://vaultproject.io/
 
-## Usage
+# Bastille Usage
 ```shell
 bastille template TARGET security/vault
+```
+
+# Rocinante Usage
+```shell
+rocinante template security/vault
 ```

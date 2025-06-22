@@ -1,0 +1,4 @@
+# Bastillefile for mail/archiveopteryx-devel
+PKG archiveopteryx-devel
+SYSRC archiveopteryx_enable=YES
+SERVICE archiveopteryx start

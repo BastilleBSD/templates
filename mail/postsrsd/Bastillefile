@@ -1,0 +1,4 @@
+# Bastillefile for mail/postsrsd
+PKG postsrsd
+SYSRC postsrsd_enable=YES
+SERVICE postsrsd start

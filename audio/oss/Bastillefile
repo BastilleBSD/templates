@@ -1,0 +1,4 @@
+# Bastillefile for audio/oss
+PKG oss
+SYSRC oss_enable=YES
+SERVICE oss start

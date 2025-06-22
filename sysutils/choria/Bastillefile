@@ -1,0 +1,6 @@
+# Bastillefile for sysutils/choria
+PKG choria
+SYSRC choria_broker_enable=YES
+SYSRC choria_server_enable=YES
+SERVICE choria_broker start
+SERVICE choria_server start

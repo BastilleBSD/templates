@@ -1,0 +1,4 @@
+# Bastillefile for databases/tarantool
+PKG tarantool
+SYSRC tarantool_enable=YES
+SERVICE tarantool start

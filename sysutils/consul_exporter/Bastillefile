@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/consul_exporter
+PKG consul_exporter
+SYSRC consul_exporter_enable=YES
+SERVICE consul_exporter start

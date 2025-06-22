@@ -1,0 +1,4 @@
+# Bastillefile for net/rabbitmq
+PKG rabbitmq
+SYSRC rabbitmq_enable=YES
+SERVICE rabbitmq start

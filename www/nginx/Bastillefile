@@ -1,5 +1,8 @@
+# Bastillefile for www/nginx
 PKG nginx
-CP usr /
+SYSRC nginx_http_accept_enable=YES
 SYSRC nginx_enable=YES
-CMD nginx -t
-SERVICE nginx restart
+SYSRC nginxlimits_enable=YES
+SERVICE nginx start
+SERVICE nginx_http_accept start
+SERVICE nginxlimits start

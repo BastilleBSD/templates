@@ -1,0 +1,4 @@
+# Bastillefile for net/u6rd
+PKG u6rd
+SYSRC u6rd_enable=YES
+SERVICE u6rd start

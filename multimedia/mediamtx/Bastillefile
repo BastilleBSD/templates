@@ -1,0 +1,4 @@
+# Bastillefile for multimedia/mediamtx
+PKG mediamtx
+SYSRC mediamtx_enable=YES
+SERVICE mediamtx start

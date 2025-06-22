@@ -1,0 +1,4 @@
+# Bastillefile for www/hs-gitit
+PKG hs-gitit
+SYSRC gitit_enable=YES
+SERVICE gitit start

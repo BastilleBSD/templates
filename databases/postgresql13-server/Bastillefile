@@ -1,0 +1,4 @@
+# Bastillefile for databases/postgresql13-server
+PKG postgresql13-server
+SYSRC postgresql_enable=YES
+SERVICE postgresql start

@@ -1,0 +1,4 @@
+# Bastillefile for www/redmine51
+PKG redmine51
+SYSRC redmine_enable=YES
+SERVICE redmine start

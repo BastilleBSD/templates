@@ -1,0 +1,4 @@
+# Bastillefile for dns/dnsdist
+PKG dnsdist
+SYSRC dnsdist_enable=YES
+SERVICE dnsdist start

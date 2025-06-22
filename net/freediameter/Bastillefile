@@ -1,0 +1,4 @@
+# Bastillefile for net/freediameter
+PKG freediameter
+SYSRC freediameterd_enable=YES
+SERVICE freediameterd start

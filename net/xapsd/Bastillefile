@@ -1,0 +1,4 @@
+# Bastillefile for net/xapsd
+PKG xapsd
+SYSRC xapsd_enable=YES
+SERVICE xapsd start

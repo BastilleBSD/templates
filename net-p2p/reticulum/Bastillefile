@@ -1,0 +1,4 @@
+# Bastillefile for net-p2p/reticulum
+PKG reticulum
+SYSRC reticulum_enable=YES
+SERVICE reticulum start

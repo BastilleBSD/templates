@@ -1,0 +1,6 @@
+# Bastillefile for net/microsocks
+PKG microsocks
+SYSRC microsocks_syslog_enable=YES
+SYSRC microsocks_enable=YES
+SERVICE microsocks start
+SERVICE microsocks_syslog start

@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/nsca27
+PKG nsca27
+SYSRC nsca_enable=YES
+SERVICE nsca start

@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/filewatcherd
+PKG filewatcherd
+SYSRC filewatcherd_enable=YES
+SERVICE filewatcherd start

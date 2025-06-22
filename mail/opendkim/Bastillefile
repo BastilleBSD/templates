@@ -1,0 +1,4 @@
+# Bastillefile for mail/opendkim
+PKG opendkim
+SYSRC milteropendkim_enable=YES
+SERVICE milteropendkim start

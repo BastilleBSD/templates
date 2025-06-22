@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/oak
+PKG oak
+SYSRC oak_enable=YES
+SERVICE oak start

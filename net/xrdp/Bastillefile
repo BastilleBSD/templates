@@ -1,0 +1,6 @@
+# Bastillefile for net/xrdp
+PKG xrdp
+SYSRC xrdp_sesman_enable=YES
+SYSRC xrdp_enable=YES
+SERVICE xrdp start
+SERVICE xrdp_sesman start

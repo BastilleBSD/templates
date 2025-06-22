@@ -1,0 +1,4 @@
+# Bastillefile for net/routinator
+PKG routinator
+SYSRC routinator_enable=YES
+SERVICE routinator start

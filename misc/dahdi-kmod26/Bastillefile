@@ -1,0 +1,4 @@
+# Bastillefile for misc/dahdi-kmod26
+PKG dahdi-kmod26
+SYSRC dahdi_enable=YES
+SERVICE dahdi start

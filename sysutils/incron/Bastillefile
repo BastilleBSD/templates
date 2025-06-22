@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/incron
+PKG incron
+SYSRC incrond_enable=YES
+SERVICE incrond start

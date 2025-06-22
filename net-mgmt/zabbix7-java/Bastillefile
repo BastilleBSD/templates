@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/zabbix7-java
+PKG zabbix7-java
+SYSRC zabbix_agentd_enable=YES
+SERVICE zabbix_agentd start

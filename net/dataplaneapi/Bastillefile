@@ -1,0 +1,4 @@
+# Bastillefile for net/dataplaneapi
+PKG dataplaneapi
+SYSRC dataplaneapi_enable=YES
+SERVICE dataplaneapi start

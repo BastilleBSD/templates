@@ -1,0 +1,4 @@
+# Bastillefile for mail/mailgraph
+PKG mailgraph
+SYSRC mailgraph_enable=YES
+SERVICE mailgraph start

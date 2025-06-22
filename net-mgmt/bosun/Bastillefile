@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/bosun
+PKG bosun
+SYSRC bosun_enable=YES
+SERVICE bosun start

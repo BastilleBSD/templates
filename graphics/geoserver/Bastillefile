@@ -1,0 +1,4 @@
+# Bastillefile for graphics/geoserver
+PKG geoserver
+SYSRC geoserver_enable=YES
+SERVICE geoserver start

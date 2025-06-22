@@ -1,0 +1,4 @@
+# Bastillefile for mail/policyd2
+PKG policyd2
+SYSRC policyd2_enable=YES
+SERVICE policyd2 start

@@ -1,0 +1,4 @@
+# Bastillefile for www/perlbal
+PKG perlbal
+SYSRC perlbal_enable=YES
+SERVICE perlbal start

@@ -1,0 +1,4 @@
+# Bastillefile for www/rubygem-passenger
+PKG rubygem-passenger
+SYSRC passenger_enable=YES
+SERVICE passenger start

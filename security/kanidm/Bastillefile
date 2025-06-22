@@ -1,0 +1,6 @@
+# Bastillefile for security/kanidm
+PKG kanidm
+SYSRC kanidm_unixd_enable=YES
+SYSRC kanidm_unixd_tasks_enable=YES
+SERVICE kanidm_unixd start
+SERVICE kanidm_unixd_tasks start

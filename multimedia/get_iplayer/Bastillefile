@@ -1,0 +1,4 @@
+# Bastillefile for multimedia/get_iplayer
+PKG get_iplayer
+SYSRC get_iplayer_enable=YES
+SERVICE get_iplayer start

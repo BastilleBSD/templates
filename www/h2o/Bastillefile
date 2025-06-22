@@ -1,0 +1,4 @@
+# Bastillefile for www/h2o
+PKG h2o
+SYSRC h2o_enable=YES
+SERVICE h2o start

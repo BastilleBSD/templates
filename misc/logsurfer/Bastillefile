@@ -1,0 +1,4 @@
+# Bastillefile for misc/logsurfer
+PKG logsurfer
+SYSRC logsurfer_enable=YES
+SERVICE logsurfer start

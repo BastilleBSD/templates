@@ -1,0 +1,4 @@
+# Bastillefile for irc/irc
+PKG irc
+SYSRC ircd_enable=YES
+SERVICE ircd start

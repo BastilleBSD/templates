@@ -1,0 +1,4 @@
+# Bastillefile for mail/couriergraph
+PKG couriergraph
+SYSRC couriergraph_enable=YES
+SERVICE couriergraph start

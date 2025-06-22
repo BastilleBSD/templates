@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/iocage
+PKG iocage
+SYSRC iocage_enable=YES
+SERVICE iocage start

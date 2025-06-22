@@ -1,0 +1,4 @@
+# Bastillefile for multimedia/motion
+PKG motion
+SYSRC motion_enable=YES
+SERVICE motion start

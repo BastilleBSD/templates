@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/nagios4
+PKG nagios4
+SYSRC nagios_enable=YES
+SERVICE nagios start

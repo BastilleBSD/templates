@@ -1,0 +1,4 @@
+# Bastillefile for security/barnyard2-sguil
+PKG barnyard2-sguil
+SYSRC barnyard2_enable=YES
+SERVICE barnyard2 start

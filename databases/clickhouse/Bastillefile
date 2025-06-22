@@ -1,0 +1,4 @@
+# Bastillefile for databases/clickhouse
+PKG clickhouse
+SYSRC clickhouse_enable=YES
+SERVICE clickhouse start

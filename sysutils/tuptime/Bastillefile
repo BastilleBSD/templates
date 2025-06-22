@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/tuptime
+PKG tuptime
+SYSRC tuptime_enable=YES
+SERVICE tuptime start

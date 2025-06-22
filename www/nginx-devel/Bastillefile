@@ -1,0 +1,4 @@
+# Bastillefile for www/nginx-devel
+PKG nginx-devel
+SYSRC nginx_enable=YES
+SERVICE nginx start

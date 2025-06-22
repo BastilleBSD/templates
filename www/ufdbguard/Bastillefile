@@ -1,0 +1,4 @@
+# Bastillefile for www/ufdbguard
+PKG ufdbguard
+SYSRC ufdbguardd_enable=YES
+SERVICE ufdbguardd start

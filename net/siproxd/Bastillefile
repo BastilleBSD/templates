@@ -1,0 +1,4 @@
+# Bastillefile for net/siproxd
+PKG siproxd
+SYSRC siproxd_enable=YES
+SERVICE siproxd start

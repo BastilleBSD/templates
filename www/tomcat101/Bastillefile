@@ -1,0 +1,4 @@
+# Bastillefile for www/tomcat101
+PKG tomcat101
+SYSRC tomcat101_enable=YES
+SERVICE tomcat101 start

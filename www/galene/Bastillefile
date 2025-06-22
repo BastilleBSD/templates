@@ -1,0 +1,4 @@
+# Bastillefile for www/galene
+PKG galene
+SYSRC galene_enable=YES
+SERVICE galene start

@@ -1,0 +1,4 @@
+# Bastillefile for textproc/kibana8
+PKG kibana8
+SYSRC kibana_enable=YES
+SERVICE kibana start

@@ -1,0 +1,4 @@
+# Bastillefile for emulators/qemu
+PKG qemu
+SYSRC qemu_guest_agent_enable=YES
+SERVICE qemu_guest_agent start

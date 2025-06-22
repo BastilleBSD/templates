@@ -1,0 +1,6 @@
+# Bastillefile for net/miredo
+PKG miredo
+SYSRC miredo_enable=YES
+SYSRC miredo_server_enable=YES
+SERVICE miredo start
+SERVICE miredo_server start

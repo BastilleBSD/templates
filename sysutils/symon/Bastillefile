@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/symon
+PKG symon
+SYSRC symon_enable=YES
+SERVICE symon start

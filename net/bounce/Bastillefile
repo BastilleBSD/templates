@@ -1,0 +1,4 @@
+# Bastillefile for net/bounce
+PKG bounce
+SYSRC bounce_enable=YES
+SERVICE bounce start

@@ -1,0 +1,6 @@
+# Bastillefile for devel/zookeeper
+PKG zookeeper
+SYSRC zookeeper_enable=YES
+SYSRC zookeeper_syslog_output_enable=YES
+SERVICE zookeeper start
+SERVICE zookeeper_syslog_output start

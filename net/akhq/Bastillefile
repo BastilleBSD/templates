@@ -1,0 +1,4 @@
+# Bastillefile for net/akhq
+PKG akhq
+SYSRC akhq_enable=YES
+SERVICE akhq start

@@ -1,0 +1,4 @@
+# Bastillefile for net/ntopng
+PKG ntopng
+SYSRC ntopng_enable=YES
+SERVICE ntopng start

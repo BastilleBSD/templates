@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/pies
+PKG pies
+SYSRC pies_enable=YES
+SERVICE pies start

@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/seafile-server
+PKG seafile-server
+SYSRC seafile_enable=YES
+SERVICE seafile start

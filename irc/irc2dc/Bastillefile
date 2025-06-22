@@ -1,0 +1,4 @@
+# Bastillefile for irc/irc2dc
+PKG irc2dc
+SYSRC irc2dc_enable=YES
+SERVICE irc2dc start

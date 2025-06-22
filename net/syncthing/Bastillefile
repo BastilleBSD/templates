@@ -1,0 +1,10 @@
+# Bastillefile for net/syncthing
+PKG syncthing
+SYSRC syncthingrelaysrv_enable=YES
+SYSRC syncthing_enable=YES
+SYSRC syncthingrelaypoolsrv_enable=YES
+SYSRC syncthingdiscosrv_enable=YES
+SERVICE syncthing start
+SERVICE syncthingdiscosrv start
+SERVICE syncthingrelaypoolsrv start
+SERVICE syncthingrelaysrv start

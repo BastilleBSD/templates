@@ -1,0 +1,4 @@
+# Bastillefile for net-im/teleirc
+PKG teleirc
+SYSRC teleirc_enable=YES
+SERVICE teleirc start

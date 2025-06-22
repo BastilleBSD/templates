@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/icinga2
+PKG icinga2
+SYSRC icinga2_enable=YES
+SERVICE icinga2 start

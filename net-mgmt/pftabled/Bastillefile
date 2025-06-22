@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/pftabled
+PKG pftabled
+SYSRC pftabled_enable=YES
+SERVICE pftabled start

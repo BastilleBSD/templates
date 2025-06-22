@@ -1,0 +1,4 @@
+# Bastillefile for www/uwsgi
+PKG uwsgi
+SYSRC uwsgi_enable=YES
+SERVICE uwsgi start

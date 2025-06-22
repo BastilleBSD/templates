@@ -1,0 +1,4 @@
+# Bastillefile for net/nylon
+PKG nylon
+SYSRC nylon_enable=YES
+SERVICE nylon start

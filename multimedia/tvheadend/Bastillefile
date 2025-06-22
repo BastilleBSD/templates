@@ -1,0 +1,4 @@
+# Bastillefile for multimedia/tvheadend
+PKG tvheadend
+SYSRC tvheadend_enable=YES
+SERVICE tvheadend start

@@ -1,0 +1,4 @@
+# Bastillefile for www/forgejo7
+PKG forgejo7
+SYSRC forgejo_enable=YES
+SERVICE forgejo start

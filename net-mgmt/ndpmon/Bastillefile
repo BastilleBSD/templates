@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/ndpmon
+PKG ndpmon
+SYSRC ndpmonitor_enable=YES
+SERVICE ndpmonitor start

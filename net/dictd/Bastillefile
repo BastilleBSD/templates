@@ -1,0 +1,4 @@
+# Bastillefile for net/dictd
+PKG dictd
+SYSRC dictd_enable=YES
+SERVICE dictd start

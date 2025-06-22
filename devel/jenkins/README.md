@@ -1,7 +1,13 @@
-# Jenkins
-Bastille template to bootstrap Jenkins
+# devel/jenkins
+Open-source continuous integration server
+https://jenkins.io/
 
-## Usage
+# Bastille Usage
 ```shell
 bastille template TARGET devel/jenkins
+```
+
+# Rocinante Usage
+```shell
+rocinante template devel/jenkins
 ```

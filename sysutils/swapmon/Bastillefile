@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/swapmon
+PKG swapmon
+SYSRC swapmon_enable=YES
+SERVICE swapmon start

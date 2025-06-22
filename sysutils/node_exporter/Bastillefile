@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/node_exporter
+PKG node_exporter
+SYSRC node_exporter_enable=YES
+SERVICE node_exporter start

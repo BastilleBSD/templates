@@ -1,0 +1,4 @@
+# Bastillefile for net/istgt
+PKG istgt
+SYSRC istgt_enable=YES
+SERVICE istgt start

@@ -1,0 +1,4 @@
+# Bastillefile for databases/pgagroal
+PKG pgagroal
+SYSRC pgagroal_enable=YES
+SERVICE pgagroal start

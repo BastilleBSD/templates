@@ -1,0 +1,8 @@
+# Bastillefile for www/kannel
+PKG kannel
+SYSRC kannel_smsbox_enable=YES
+SYSRC kannel_wapbox_enable=YES
+SYSRC kannel_bearerbox_enable=YES
+SERVICE kannel_bearerbox start
+SERVICE kannel_smsbox start
+SERVICE kannel_wapbox start

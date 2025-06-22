@@ -1,0 +1,4 @@
+# Bastillefile for net/samplicator
+PKG samplicator
+SYSRC samplicator_enable=YES
+SERVICE samplicator start

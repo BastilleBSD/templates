@@ -1,0 +1,4 @@
+# Bastillefile for mail/davmail
+PKG davmail
+SYSRC davmail_enable=YES
+SERVICE davmail start

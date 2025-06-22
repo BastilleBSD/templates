@@ -1,0 +1,4 @@
+# Bastillefile for security/openca-ocspd
+PKG openca-ocspd
+SYSRC ocspd_enable=YES
+SERVICE ocspd start

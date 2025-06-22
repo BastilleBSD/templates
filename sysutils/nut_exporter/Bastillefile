@@ -1,0 +1,6 @@
+# Bastillefile for sysutils/nut_exporter
+PKG nut_exporter
+SYSRC nut_exporter_enable=YES
+SYSRC nut_exporter_nut_vars_enable=YES
+SERVICE nut_exporter start
+SERVICE nut_exporter_nut_vars start

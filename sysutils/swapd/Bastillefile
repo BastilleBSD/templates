@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/swapd
+PKG swapd
+SYSRC swapd_enable=YES
+SERVICE swapd start

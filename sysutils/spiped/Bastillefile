@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/spiped
+PKG spiped
+SYSRC spiped_enable=YES
+SERVICE spiped start

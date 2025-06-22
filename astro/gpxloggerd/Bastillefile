@@ -1,0 +1,4 @@
+# Bastillefile for astro/gpxloggerd
+PKG gpxloggerd
+SYSRC gpxloggerd_enable=YES
+SERVICE gpxloggerd start

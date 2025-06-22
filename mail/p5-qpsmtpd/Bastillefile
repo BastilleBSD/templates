@@ -1,0 +1,4 @@
+# Bastillefile for mail/p5-qpsmtpd
+PKG p5-qpsmtpd
+SYSRC qpsmtpd_enable=YES
+SERVICE qpsmtpd start

@@ -1,0 +1,4 @@
+# Bastillefile for filesystems/cfs
+PKG cfs
+SYSRC cfsd_enable=YES
+SERVICE cfsd start

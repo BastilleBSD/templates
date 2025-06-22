@@ -1,0 +1,4 @@
+# Bastillefile for shells/scponly
+PKG scponly
+SYSRC scponlyc_enable=YES
+SERVICE scponlyc start

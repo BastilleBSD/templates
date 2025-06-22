@@ -1,3 +1,4 @@
+# Bastillefile for net-mgmt/telegraf
 PKG telegraf
 SYSRC telegraf_enable=YES
-SERVICE telegraf restart
+SERVICE telegraf start

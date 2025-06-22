@@ -1,0 +1,6 @@
+# Bastillefile for security/headscale
+PKG headscale
+SYSRC headscale_enable=YES
+SYSRC headscale_syslog_output_enable=YES
+SERVICE headscale start
+SERVICE headscale_syslog_output start

@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/ipv6mon
+PKG ipv6mon
+SYSRC ipv6mon_enable=YES
+SERVICE ipv6mon start

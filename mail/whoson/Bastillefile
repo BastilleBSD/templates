@@ -1,0 +1,4 @@
+# Bastillefile for mail/whoson
+PKG whoson
+SYSRC whosond_enable=YES
+SERVICE whosond start

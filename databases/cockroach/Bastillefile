@@ -1,0 +1,4 @@
+# Bastillefile for databases/cockroach
+PKG cockroach
+SYSRC cockroach_enable=YES
+SERVICE cockroach start

@@ -1,0 +1,4 @@
+# Bastillefile for mail/proxsmtp
+PKG proxsmtp
+SYSRC proxsmtpd_enable=YES
+SERVICE proxsmtpd start

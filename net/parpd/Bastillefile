@@ -1,0 +1,6 @@
+# Bastillefile for net/parpd
+PKG parpd
+SYSRC parpd_enable=YES
+SYSRC parpdXX_enable=YES
+SERVICE parpd start
+SERVICE parpdXX start

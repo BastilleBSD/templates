@@ -1,0 +1,4 @@
+# Bastillefile for net/radvd
+PKG radvd
+SYSRC radvd_enable=YES
+SERVICE radvd start

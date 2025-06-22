@@ -1,0 +1,4 @@
+# Bastillefile for net-p2p/ogmios
+PKG ogmios
+SYSRC ogmios_enable=YES
+SERVICE ogmios start

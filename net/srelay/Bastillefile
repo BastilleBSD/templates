@@ -1,0 +1,4 @@
+# Bastillefile for net/srelay
+PKG srelay
+SYSRC srelay_enable=YES
+SERVICE srelay start

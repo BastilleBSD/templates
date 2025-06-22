@@ -1,0 +1,4 @@
+# Bastillefile for www/slowcgi
+PKG slowcgi
+SYSRC slowcgi_enable=YES
+SERVICE slowcgi start

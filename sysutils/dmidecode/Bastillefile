@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/dmidecode
+PKG dmidecode
+SYSRC daily_status_dmidecode_enable=YES
+SERVICE daily_status_dmidecode start

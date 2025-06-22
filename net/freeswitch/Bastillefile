@@ -1,0 +1,4 @@
+# Bastillefile for net/freeswitch
+PKG freeswitch
+SYSRC freeswitch_enable=YES
+SERVICE freeswitch start

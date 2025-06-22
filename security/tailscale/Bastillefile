@@ -1,0 +1,10 @@
+# Bastillefile for security/tailscale
+PKG tailscale
+SYSRC tailscaled_enable=YES
+SYSRC tailscaled_syslog_output_enable=YES
+SYSRC tailscaled_exitnode_enable=YES
+SYSRC tailscaled_telemetry_enable=YES
+SERVICE tailscaled start
+SERVICE tailscaled_exitnode start
+SERVICE tailscaled_syslog_output start
+SERVICE tailscaled_telemetry start

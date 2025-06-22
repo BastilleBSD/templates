@@ -1,0 +1,4 @@
+# Bastillefile for news/sabnzbd
+PKG sabnzbd
+SYSRC sabnzbd_enable=YES
+SERVICE sabnzbd start

@@ -1,0 +1,4 @@
+# Bastillefile for dns/nsnotifyd
+PKG nsnotifyd
+SYSRC nsnotifyd_enable=YES
+SERVICE nsnotifyd start

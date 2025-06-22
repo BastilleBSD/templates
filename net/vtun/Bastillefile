@@ -1,0 +1,6 @@
+# Bastillefile for net/vtun
+PKG vtun
+SYSRC vtund_enable=YES
+SYSRC vtunclient_enable=YES
+SERVICE vtunclient start
+SERVICE vtund start

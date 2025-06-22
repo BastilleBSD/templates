@@ -1,0 +1,4 @@
+# Bastillefile for net/mrouted
+PKG mrouted
+SYSRC mrouted_enable=YES
+SERVICE mrouted start

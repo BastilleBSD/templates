@@ -1,0 +1,4 @@
+# Bastillefile for ftp/proftpd
+PKG proftpd
+SYSRC proftpd_enable=YES
+SERVICE proftpd start

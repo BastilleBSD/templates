@@ -1,0 +1,8 @@
+# Bastillefile for net/seaweedfs
+PKG seaweedfs
+SYSRC seaweedfs_syslog_enable=YES
+SYSRC seaweedfs_syslog_output_enable=YES
+SYSRC seaweedfs_enable=YES
+SERVICE seaweedfs start
+SERVICE seaweedfs_syslog start
+SERVICE seaweedfs_syslog_output start

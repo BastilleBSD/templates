@@ -1,0 +1,6 @@
+# Bastillefile for mail/dkfilter
+PKG dkfilter
+SYSRC dkfilter_out_enable=YES
+SYSRC dkfilter_in_enable=YES
+SERVICE dkfilter_in start
+SERVICE dkfilter_out start

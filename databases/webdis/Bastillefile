@@ -1,0 +1,4 @@
+# Bastillefile for databases/webdis
+PKG webdis
+SYSRC webdis_enable=YES
+SERVICE webdis start

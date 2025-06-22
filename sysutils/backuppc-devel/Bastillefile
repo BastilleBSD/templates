@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/backuppc-devel
+PKG backuppc-devel
+SYSRC backuppc_enable=YES
+SERVICE backuppc start

@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/bhyve-rc
+PKG bhyve-rc
+SYSRC bhyve_enable=YES
+SERVICE bhyve start

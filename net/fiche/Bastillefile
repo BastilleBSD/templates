@@ -1,0 +1,4 @@
+# Bastillefile for net/fiche
+PKG fiche
+SYSRC fiche_enable=YES
+SERVICE fiche start

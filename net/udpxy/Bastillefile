@@ -1,0 +1,4 @@
+# Bastillefile for net/udpxy
+PKG udpxy
+SYSRC udpxy_enable=YES
+SERVICE udpxy start

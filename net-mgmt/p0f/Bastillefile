@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/p0f
+PKG p0f
+SYSRC p0f_enable=YES
+SERVICE p0f start

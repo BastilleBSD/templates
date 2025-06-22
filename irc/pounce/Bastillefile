@@ -1,0 +1,4 @@
+# Bastillefile for irc/pounce
+PKG pounce
+SYSRC pounce_enable=YES
+SERVICE pounce start

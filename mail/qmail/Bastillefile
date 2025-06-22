@@ -1,0 +1,6 @@
+# Bastillefile for mail/qmail
+PKG qmail
+SYSRC qmailsend_enable=YES
+SYSRC qmailsmtpd_enable=YES
+SERVICE qmailsend start
+SERVICE qmailsmtpd start

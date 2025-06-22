@@ -1,0 +1,4 @@
+# Bastillefile for audio/musicpd
+PKG musicpd
+SYSRC musicpd_enable=YES
+SERVICE musicpd start

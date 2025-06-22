@@ -1,0 +1,4 @@
+# Bastillefile for dns/godns
+PKG godns
+SYSRC godns_enable=YES
+SERVICE godns start

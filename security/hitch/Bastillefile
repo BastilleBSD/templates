@@ -1,0 +1,4 @@
+# Bastillefile for security/hitch
+PKG hitch
+SYSRC hitch_enable=YES
+SERVICE hitch start

@@ -1,0 +1,4 @@
+# Bastillefile for net-p2p/rtorrent
+PKG rtorrent
+SYSRC rtorrent_enable=YES
+SERVICE rtorrent start

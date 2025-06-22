@@ -1,0 +1,4 @@
+# Bastillefile for audio/hpsjam
+PKG hpsjam
+SYSRC hpsjam_server_enable=YES
+SERVICE hpsjam_server start

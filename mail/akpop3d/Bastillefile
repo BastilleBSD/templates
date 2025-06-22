@@ -1,0 +1,4 @@
+# Bastillefile for mail/akpop3d
+PKG akpop3d
+SYSRC akpop3d_enable=YES
+SERVICE akpop3d start

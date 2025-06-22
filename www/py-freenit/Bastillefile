@@ -1,0 +1,4 @@
+# Bastillefile for www/py-freenit
+PKG py311-freenit
+SYSRC freenit_enable=YES
+SERVICE freenit start

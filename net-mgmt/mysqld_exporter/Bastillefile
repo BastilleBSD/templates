@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/mysqld_exporter
+PKG mysqld_exporter
+SYSRC mysqld_exporter_enable=YES
+SERVICE mysqld_exporter start

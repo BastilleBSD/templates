@@ -1,0 +1,6 @@
+# Bastillefile for sysutils/fcron
+PKG fcron
+SYSRC cron_enable=YES
+SYSRC fcron_enable=YES
+SERVICE cron start
+SERVICE fcron start

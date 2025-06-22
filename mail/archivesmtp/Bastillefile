@@ -1,0 +1,4 @@
+# Bastillefile for mail/archivesmtp
+PKG archivesmtp
+SYSRC archivesmtp_enable=YES
+SERVICE archivesmtp start

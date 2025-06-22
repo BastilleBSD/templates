@@ -1,0 +1,6 @@
+# Bastillefile for www/opengist
+PKG opengist
+SYSRC opengist_enable=YES
+SYSRC opengist_syslog_output_enable=YES
+SERVICE opengist start
+SERVICE opengist_syslog_output start

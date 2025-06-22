@@ -1,0 +1,4 @@
+# Bastillefile for net/proftpd-mod_ldap
+PKG proftpd-mod_ldap
+SYSRC proftpd_enable=YES
+SERVICE proftpd start

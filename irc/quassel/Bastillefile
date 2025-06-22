@@ -1,0 +1,4 @@
+# Bastillefile for irc/quassel
+PKG quassel
+SYSRC quasselcore_enable=YES
+SERVICE quasselcore start

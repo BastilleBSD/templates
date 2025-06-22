@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/mongodb_exporter
+PKG mongodb_exporter
+SYSRC mongodb_exporter_enable=YES
+SERVICE mongodb_exporter start

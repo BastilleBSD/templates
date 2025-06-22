@@ -1,0 +1,4 @@
+# Bastillefile for x11/slim
+PKG slim
+SYSRC slim_enable=YES
+SERVICE slim start

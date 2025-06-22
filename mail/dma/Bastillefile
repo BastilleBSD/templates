@@ -1,0 +1,12 @@
+# Bastillefile for mail/dma
+PKG dma
+SYSRC sendmail_submit_enable=YES
+SYSRC sendmail_outbound_enable=YES
+SYSRC sendmail_msp_queue_enable=YES
+SYSRC dma_flushq_enable=YES
+SYSRC sendmail_enable=YES
+SERVICE dma_flushq start
+SERVICE sendmail start
+SERVICE sendmail_msp_queue start
+SERVICE sendmail_outbound start
+SERVICE sendmail_submit start

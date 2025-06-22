@@ -1,0 +1,4 @@
+# Bastillefile for net-im/biboumi
+PKG biboumi
+SYSRC biboumi_enable=YES
+SERVICE biboumi start

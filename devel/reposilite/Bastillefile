@@ -1,0 +1,4 @@
+# Bastillefile for devel/reposilite
+PKG reposilite
+SYSRC reposilite_enable=YES
+SERVICE reposilite start

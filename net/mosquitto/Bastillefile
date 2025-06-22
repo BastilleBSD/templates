@@ -1,0 +1,4 @@
+# Bastillefile for net/mosquitto
+PKG mosquitto
+SYSRC mosquitto_enable=YES
+SERVICE mosquitto start

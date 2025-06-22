@@ -1,0 +1,4 @@
+# Bastillefile for net/widentd
+PKG widentd
+SYSRC widentd_enable=YES
+SERVICE widentd start

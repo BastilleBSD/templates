@@ -1,0 +1,4 @@
+# Bastillefile for net/redir
+PKG redir
+SYSRC redir_enable=YES
+SERVICE redir start

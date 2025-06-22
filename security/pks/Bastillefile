@@ -1,0 +1,6 @@
+# Bastillefile for security/pks
+PKG pks
+SYSRC pksd_enable=YES
+SYSRC pksd_mailq_enable=YES
+SERVICE pksd start
+SERVICE pksd_mailq start

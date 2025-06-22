@@ -1,0 +1,4 @@
+# Bastillefile for www/writefreely
+PKG writefreely
+SYSRC writefreely_enable=YES
+SERVICE writefreely start

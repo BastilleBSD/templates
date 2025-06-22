@@ -1,0 +1,4 @@
+# Bastillefile for net/igmpproxy
+PKG igmpproxy
+SYSRC igmpproxy_enable=YES
+SERVICE igmpproxy start

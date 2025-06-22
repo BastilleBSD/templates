@@ -1,0 +1,4 @@
+# Bastillefile for deskutils/taskd
+PKG taskd
+SYSRC taskd_enable=YES
+SERVICE taskd start

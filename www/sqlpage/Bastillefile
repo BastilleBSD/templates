@@ -1,0 +1,4 @@
+# Bastillefile for www/sqlpage
+PKG sqlpage
+SYSRC sqlpage_enable=YES
+SERVICE sqlpage start

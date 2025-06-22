@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/asusoled
+PKG asusoled
+SYSRC asusoled_enable=YES
+SERVICE asusoled start

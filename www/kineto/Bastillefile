@@ -1,0 +1,4 @@
+# Bastillefile for www/kineto
+PKG kineto
+SYSRC kineto_enable=YES
+SERVICE kineto start

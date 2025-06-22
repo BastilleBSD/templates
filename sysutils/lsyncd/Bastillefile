@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/lsyncd
+PKG lsyncd
+SYSRC lsyncd_enable=YES
+SERVICE lsyncd start

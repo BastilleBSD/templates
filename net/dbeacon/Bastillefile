@@ -1,0 +1,4 @@
+# Bastillefile for net/dbeacon
+PKG dbeacon
+SYSRC dbeacon_enable=YES
+SERVICE dbeacon start

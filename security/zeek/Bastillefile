@@ -1,0 +1,4 @@
+# Bastillefile for security/zeek
+PKG zeek
+SYSRC zeek_enable=YES
+SERVICE zeek start

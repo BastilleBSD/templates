@@ -1,0 +1,4 @@
+# Bastillefile for net/rtg
+PKG rtg
+SYSRC rtgpoll_enable=YES
+SERVICE rtgpoll start

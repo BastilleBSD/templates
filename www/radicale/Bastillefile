@@ -1,0 +1,4 @@
+# Bastillefile for www/radicale
+PKG radicale
+SYSRC radicale_enable=YES
+SERVICE radicale start

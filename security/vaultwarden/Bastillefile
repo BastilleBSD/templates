@@ -1,0 +1,4 @@
+# Bastillefile for security/vaultwarden
+PKG vaultwarden
+SYSRC vaultwarden_enable=YES
+SERVICE vaultwarden start

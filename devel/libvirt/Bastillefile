@@ -1,0 +1,4 @@
+# Bastillefile for devel/libvirt
+PKG libvirt
+SYSRC libvirtd_enable=YES
+SERVICE libvirtd start

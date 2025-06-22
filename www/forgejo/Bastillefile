@@ -1,3 +1,4 @@
+# Bastillefile for www/forgejo
 ARG SECRET_KEY
 ARG JWT_SECRET
 ARG INTERNAL_TOKEN

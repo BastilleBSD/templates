@@ -1,0 +1,4 @@
+# Bastillefile for devel/distcc
+PKG distcc
+SYSRC distccd_enable=YES
+SERVICE distccd start

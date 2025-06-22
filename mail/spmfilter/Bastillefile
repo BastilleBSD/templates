@@ -1,0 +1,4 @@
+# Bastillefile for mail/spmfilter
+PKG spmfilter
+SYSRC spmfilter_enable=YES
+SERVICE spmfilter start

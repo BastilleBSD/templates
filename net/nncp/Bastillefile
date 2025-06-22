@@ -1,0 +1,8 @@
+# Bastillefile for net/nncp
+PKG nncp
+SYSRC nncp_caller_enable=YES
+SYSRC nncp_daemon_enable=YES
+SYSRC nncp_toss_enable=YES
+SERVICE nncp_caller start
+SERVICE nncp_daemon start
+SERVICE nncp_toss start

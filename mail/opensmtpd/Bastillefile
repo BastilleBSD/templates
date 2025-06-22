@@ -1,0 +1,4 @@
+# Bastillefile for mail/opensmtpd
+PKG opensmtpd
+SYSRC smtpd_enable=YES
+SERVICE smtpd start

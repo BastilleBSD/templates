@@ -1,0 +1,4 @@
+# Bastillefile for dns/noip
+PKG noip
+SYSRC noip_enable=YES
+SERVICE noip start

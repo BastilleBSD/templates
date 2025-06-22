@@ -1,0 +1,4 @@
+# Bastillefile for www/yarr
+PKG yarr
+SYSRC yarr_enable=YES
+SERVICE yarr start

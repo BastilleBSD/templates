@@ -1,0 +1,4 @@
+# Bastillefile for dns/utdns
+PKG utdns
+SYSRC utdns_enable=YES
+SERVICE utdns start

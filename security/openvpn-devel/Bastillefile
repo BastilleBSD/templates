@@ -1,0 +1,4 @@
+# Bastillefile for security/openvpn-devel
+PKG openvpn-devel
+SYSRC openvpn_enable=YES
+SERVICE openvpn start

@@ -1,0 +1,4 @@
+# Bastillefile for net/mpd-l2tp-ipv6pd-client
+PKG mpd-l2tp-ipv6pd-client
+SYSRC mpd_enable=YES
+SERVICE mpd start

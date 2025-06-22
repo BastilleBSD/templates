@@ -1,0 +1,4 @@
+# Bastillefile for www/rubygem-gollum
+PKG rubygem-gollum
+SYSRC gollum_enable=YES
+SERVICE gollum start

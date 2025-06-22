@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/phpfpm_exporter
+PKG phpfpm_exporter
+SYSRC phpfpm_exporter_enable=YES
+SERVICE phpfpm_exporter start

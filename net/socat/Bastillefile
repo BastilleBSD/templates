@@ -1,0 +1,4 @@
+# Bastillefile for net/socat
+PKG socat
+SYSRC socat_enable=YES
+SERVICE socat start

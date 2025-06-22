@@ -1,0 +1,4 @@
+# Bastillefile for dns/dnsproxy
+PKG dnsproxy
+SYSRC dnsproxy_enable=YES
+SERVICE dnsproxy start

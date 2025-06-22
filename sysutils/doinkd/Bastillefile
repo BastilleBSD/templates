@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/doinkd
+PKG doinkd
+SYSRC doinkd_enable=YES
+SERVICE doinkd start

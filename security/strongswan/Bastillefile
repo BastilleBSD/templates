@@ -1,0 +1,4 @@
+# Bastillefile for security/strongswan
+PKG strongswan
+SYSRC strongswan_enable=YES
+SERVICE strongswan start

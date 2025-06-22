@@ -1,0 +1,6 @@
+# Bastillefile for www/minio
+PKG minio
+SYSRC minio_enable=YES
+SYSRC minio_syslog_enable=YES
+SERVICE minio start
+SERVICE minio_syslog start

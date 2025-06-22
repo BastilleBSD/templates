@@ -1,0 +1,8 @@
+# Bastillefile for www/apache24
+PKG apache24
+SYSRC apache24limits_enable=YES
+SYSRC apache24_enable=YES
+SYSRC apache24_http_accept_enable=YES
+SERVICE apache24 start
+SERVICE apache24_http_accept start
+SERVICE apache24limits start

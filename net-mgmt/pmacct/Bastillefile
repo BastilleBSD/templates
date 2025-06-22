@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/pmacct
+PKG pmacct
+SYSRC pmacctd_enable=YES
+SERVICE pmacctd start

@@ -1,0 +1,4 @@
+# Bastillefile for security/cyrus-sasl2-saslauthd
+PKG cyrus-sasl2-saslauthd
+SYSRC saslauthd_enable=YES
+SERVICE saslauthd start

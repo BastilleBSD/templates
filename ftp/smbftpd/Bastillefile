@@ -1,0 +1,4 @@
+# Bastillefile for ftp/smbftpd
+PKG smbftpd
+SYSRC smbftpd_enable=YES
+SERVICE smbftpd start

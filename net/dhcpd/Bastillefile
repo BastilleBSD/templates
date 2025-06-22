@@ -1,0 +1,4 @@
+# Bastillefile for net/dhcpd
+PKG dhcpd
+SYSRC dhcpd_enable=YES
+SERVICE dhcpd start

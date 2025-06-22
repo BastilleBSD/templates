@@ -1,0 +1,6 @@
+# Bastillefile for net/narrowlink
+PKG narrowlink
+SYSRC narrowlink_agent_enable=YES
+SYSRC narrowlink_gateway_enable=YES
+SERVICE narrowlink_agent start
+SERVICE narrowlink_gateway start

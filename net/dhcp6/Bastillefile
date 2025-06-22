@@ -1,0 +1,8 @@
+# Bastillefile for net/dhcp6
+PKG dhcp6
+SYSRC dhcp6relay_enable=YES
+SYSRC dhcp6c_enable=YES
+SYSRC dhcp6s_enable=YES
+SERVICE dhcp6c start
+SERVICE dhcp6relay start
+SERVICE dhcp6s start

@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/kapacitor
+PKG kapacitor
+SYSRC kapacitord_enable=YES
+SERVICE kapacitord start

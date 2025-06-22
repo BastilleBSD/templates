@@ -1,0 +1,4 @@
+# Bastillefile for security/stunnel
+PKG stunnel
+SYSRC stunnel_enable=YES
+SERVICE stunnel start

@@ -1,0 +1,4 @@
+# Bastillefile for mail/anubis
+PKG anubis
+SYSRC anubis_enable=YES
+SERVICE anubis start

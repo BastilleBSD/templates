@@ -1,0 +1,4 @@
+# Bastillefile for net-p2p/oura
+PKG oura
+SYSRC oura_enable=YES
+SERVICE oura start

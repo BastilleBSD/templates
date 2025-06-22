@@ -1,0 +1,4 @@
+# Bastillefile for databases/postgresql14-server
+PKG postgresql14-server
+SYSRC postgresql_enable=YES
+SERVICE postgresql start

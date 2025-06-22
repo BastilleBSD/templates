@@ -1,0 +1,4 @@
+# Bastillefile for www/domoticz-devel
+PKG domoticz-devel
+SYSRC domoticz_enable=YES
+SERVICE domoticz start

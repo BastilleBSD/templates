@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/netdata
+PKG netdata
+SYSRC netdata_enable=YES
+SERVICE netdata start

@@ -1,0 +1,6 @@
+# Bastillefile for security/vuls
+PKG vuls
+SYSRC daily_vuls_enable=YES
+SYSRC vuls_enable=YES
+SERVICE daily_vuls start
+SERVICE vuls start

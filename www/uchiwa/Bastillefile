@@ -1,0 +1,4 @@
+# Bastillefile for www/uchiwa
+PKG uchiwa
+SYSRC uchiwa_enable=YES
+SERVICE uchiwa start

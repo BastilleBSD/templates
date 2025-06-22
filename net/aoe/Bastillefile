@@ -1,0 +1,4 @@
+# Bastillefile for net/aoe
+PKG aoe
+SYSRC aoe_enable=YES
+SERVICE aoe start

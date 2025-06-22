@@ -1,0 +1,4 @@
+# Bastillefile for astro/gpsd
+PKG gpsd
+SYSRC gpsd_enable=YES
+SERVICE gpsd start

@@ -1,0 +1,4 @@
+# Bastillefile for net-p2p/qbittorrent
+PKG qbittorrent
+SYSRC qbittorrent_enable=YES
+SERVICE qbittorrent start

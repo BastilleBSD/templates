@@ -1,0 +1,4 @@
+# Bastillefile for comms/svxlink
+PKG svxlink
+SYSRC svxlink_enable=YES
+SERVICE svxlink start

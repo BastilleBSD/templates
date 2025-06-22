@@ -1,0 +1,4 @@
+# Bastillefile for dns/blocky
+PKG blocky
+SYSRC blocky_enable=YES
+SERVICE blocky start

@@ -1,0 +1,4 @@
+# Bastillefile for net/ntpa
+PKG ntpa
+SYSRC ntpa_enable=YES
+SERVICE ntpa start

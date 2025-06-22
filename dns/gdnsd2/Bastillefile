@@ -1,0 +1,4 @@
+# Bastillefile for dns/gdnsd2
+PKG gdnsd2
+SYSRC gdnsd_enable=YES
+SERVICE gdnsd start

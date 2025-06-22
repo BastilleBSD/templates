@@ -1,7 +1,13 @@
-## adguardhome
-Bastille template for Adguard Home
+# www/adguardhome
+Network-wide ads & trackers blocking DNS server
+https://adguard.com/en/adguard-home/overview.html
 
-## Usage
+# Bastille Usage
 ```shell
-bastille template TARGET dns/adguardhome
+bastille template TARGET www/adguardhome
+```
+
+# Rocinante Usage
+```shell
+rocinante template www/adguardhome
 ```

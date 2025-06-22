@@ -1,0 +1,4 @@
+# Bastillefile for deskutils/calibre
+PKG calibre
+SYSRC calibre_enable=YES
+SERVICE calibre start

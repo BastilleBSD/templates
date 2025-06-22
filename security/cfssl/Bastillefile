@@ -1,0 +1,4 @@
+# Bastillefile for security/cfssl
+PKG cfssl
+SYSRC cfssl_enable=YES
+SERVICE cfssl start

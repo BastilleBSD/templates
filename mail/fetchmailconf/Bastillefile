@@ -1,0 +1,4 @@
+# Bastillefile for mail/fetchmailconf
+PKG fetchmailconf
+SYSRC fetchmail_enable=YES
+SERVICE fetchmail start

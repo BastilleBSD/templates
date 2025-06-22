@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/ipacctd
+PKG ipacctd
+SYSRC ipacctd_enable=YES
+SERVICE ipacctd start

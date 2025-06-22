@@ -1,0 +1,4 @@
+# Bastillefile for security/shibboleth-idp
+PKG shibboleth-idp
+SYSRC idp_enable=YES
+SERVICE idp start

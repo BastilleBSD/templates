@@ -1,0 +1,4 @@
+# Bastillefile for x11/lightdm
+PKG lightdm
+SYSRC lightdm_enable=YES
+SERVICE lightdm start

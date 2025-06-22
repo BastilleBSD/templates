@@ -1,0 +1,6 @@
+# Bastillefile for dns/ddclient
+PKG ddclient
+SYSRC daily_ddclient_force_enable=YES
+SYSRC ddclient_enable=YES
+SERVICE daily_ddclient_force start
+SERVICE ddclient start

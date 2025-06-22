@@ -1,0 +1,4 @@
+# Bastillefile for net/dtcpclient
+PKG dtcpclient
+SYSRC dtcpclient_enable=YES
+SERVICE dtcpclient start

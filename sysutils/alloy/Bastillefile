@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/alloy
+PKG alloy
+SYSRC alloy_enable=YES
+SERVICE alloy start

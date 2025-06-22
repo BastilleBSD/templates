@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/librenms
+PKG librenms
+SYSRC librenms_enable=YES
+SERVICE librenms start

@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/ttyd
+PKG ttyd
+SYSRC ttyd_enable=YES
+SERVICE ttyd start

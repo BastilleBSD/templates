@@ -1,0 +1,4 @@
+# Bastillefile for www/py-searxng-devel
+PKG py311-searxng-devel
+SYSRC searxng_enable=YES
+SERVICE searxng start

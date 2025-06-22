@@ -1,0 +1,4 @@
+# Bastillefile for www/caddy-custom
+PKG caddy-custom
+SYSRC caddy_enable=YES
+SERVICE caddy start

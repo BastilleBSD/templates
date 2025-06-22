@@ -1,0 +1,6 @@
+# Bastillefile for net/pwhois
+PKG pwhois
+SYSRC pwhoisd_enable=YES
+SYSRC daily_pwhois_updatedb_enable=YES
+SERVICE daily_pwhois_updatedb start
+SERVICE pwhoisd start

@@ -1,7 +1,13 @@
-## dnsmasq
-Bastille template to bootstrap dnsmasq
+# dns/dnsmasq
+Lightweight DNS forwarder, DHCP, and TFTP server
+https://www.thekelleys.org.uk/dnsmasq/doc.html
 
-## Usage
+# Bastille Usage
 ```shell
 bastille template TARGET dns/dnsmasq
+```
+
+# Rocinante Usage
+```shell
+rocinante template dns/dnsmasq
 ```

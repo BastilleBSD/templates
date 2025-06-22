@@ -1,0 +1,4 @@
+# Bastillefile for dns/opendnssec2
+PKG opendnssec2
+SYSRC opendnssec_enable=YES
+SERVICE opendnssec start

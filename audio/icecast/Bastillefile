@@ -1,0 +1,4 @@
+# Bastillefile for audio/icecast
+PKG icecast
+SYSRC icecast_enable=YES
+SERVICE icecast start

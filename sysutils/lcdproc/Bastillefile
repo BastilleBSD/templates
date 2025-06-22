@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/lcdproc
+PKG lcdproc
+SYSRC lcdproc_enable=YES
+SERVICE lcdproc start

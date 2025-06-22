@@ -1,0 +1,4 @@
+# Bastillefile for net/sems
+PKG sems
+SYSRC sems_enable=YES
+SERVICE sems start

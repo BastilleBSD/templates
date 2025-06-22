@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/dsbdriverd
+PKG dsbdriverd
+SYSRC dsbdriverd_enable=YES
+SERVICE dsbdriverd start

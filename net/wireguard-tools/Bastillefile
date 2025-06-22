@@ -1,0 +1,4 @@
+# Bastillefile for net/wireguard-tools
+PKG wireguard-tools
+SYSRC wireguard_enable=YES
+SERVICE wireguard start

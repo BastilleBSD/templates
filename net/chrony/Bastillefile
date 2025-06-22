@@ -1,0 +1,4 @@
+# Bastillefile for net/chrony
+PKG chrony
+SYSRC chronyd_enable=YES
+SERVICE chronyd start

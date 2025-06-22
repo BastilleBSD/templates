@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/bandwidthd
+PKG bandwidthd
+SYSRC bandwidthd_enable=YES
+SERVICE bandwidthd start

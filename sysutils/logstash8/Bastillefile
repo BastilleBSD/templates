@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/logstash8
+PKG logstash8
+SYSRC logstash_enable=YES
+SERVICE logstash start

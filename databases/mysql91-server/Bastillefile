@@ -1,0 +1,4 @@
+# Bastillefile for databases/mysql91-server
+PKG mysql91-server
+SYSRC mysql_enable=YES
+SERVICE mysql start

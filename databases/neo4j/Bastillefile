@@ -1,0 +1,4 @@
+# Bastillefile for databases/neo4j
+PKG neo4j
+SYSRC neo4j_enable=YES
+SERVICE neo4j start

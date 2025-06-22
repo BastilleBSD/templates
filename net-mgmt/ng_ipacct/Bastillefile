@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/ng_ipacct
+PKG ng_ipacct
+SYSRC ng_ipacct_enable=YES
+SERVICE ng_ipacct start

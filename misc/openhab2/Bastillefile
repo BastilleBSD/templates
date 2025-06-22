@@ -1,0 +1,4 @@
+# Bastillefile for misc/openhab2
+PKG openhab2
+SYSRC openhab2_enable=YES
+SERVICE openhab2 start

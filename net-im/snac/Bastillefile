@@ -1,0 +1,4 @@
+# Bastillefile for net-im/snac
+PKG snac
+SYSRC snac_enable=YES
+SERVICE snac start

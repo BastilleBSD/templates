@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/downtimed
+PKG downtimed
+SYSRC downtimed_enable=YES
+SERVICE downtimed start

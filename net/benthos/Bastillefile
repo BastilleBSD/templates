@@ -1,0 +1,4 @@
+# Bastillefile for net/benthos
+PKG benthos
+SYSRC benthos_enable=YES
+SERVICE benthos start

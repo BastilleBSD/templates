@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/scterc
+PKG scterc
+SYSRC scterc_enable=YES
+SERVICE scterc start

@@ -1,0 +1,4 @@
+# Bastillefile for games/ldmud
+PKG ldmud
+SYSRC ldmud_enable=YES
+SERVICE ldmud start

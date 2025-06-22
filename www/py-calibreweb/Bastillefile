@@ -1,0 +1,4 @@
+# Bastillefile for www/py-calibreweb
+PKG py311-calibreweb
+SYSRC calibreweb_enable=YES
+SERVICE calibreweb start

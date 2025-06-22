@@ -1,0 +1,4 @@
+# Bastillefile for multimedia/lms
+PKG lms
+SYSRC lms_enable=YES
+SERVICE lms start

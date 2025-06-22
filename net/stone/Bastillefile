@@ -1,0 +1,4 @@
+# Bastillefile for net/stone
+PKG stone
+SYSRC stone_enable=YES
+SERVICE stone start

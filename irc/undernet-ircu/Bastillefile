@@ -1,0 +1,4 @@
+# Bastillefile for irc/undernet-ircu
+PKG undernet-ircu
+SYSRC undernet_enable=YES
+SERVICE undernet start

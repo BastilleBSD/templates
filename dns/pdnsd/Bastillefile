@@ -1,0 +1,4 @@
+# Bastillefile for dns/pdnsd
+PKG pdnsd
+SYSRC pdnsd_enable=YES
+SERVICE pdnsd start

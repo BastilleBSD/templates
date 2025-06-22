@@ -1,0 +1,4 @@
+# Bastillefile for net/ladvd
+PKG ladvd
+SYSRC ladvd_enable=YES
+SERVICE ladvd start

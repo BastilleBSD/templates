@@ -1,0 +1,4 @@
+# Bastillefile for databases/puppetdb8
+PKG puppetdb8
+SYSRC puppetdb_enable=YES
+SERVICE puppetdb start

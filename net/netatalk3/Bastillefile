@@ -1,0 +1,4 @@
+# Bastillefile for net/netatalk3
+PKG netatalk3
+SYSRC netatalk_enable=YES
+SERVICE netatalk start

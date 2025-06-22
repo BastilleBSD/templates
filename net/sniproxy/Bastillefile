@@ -1,0 +1,4 @@
+# Bastillefile for net/sniproxy
+PKG sniproxy
+SYSRC sniproxy_enable=YES
+SERVICE sniproxy start

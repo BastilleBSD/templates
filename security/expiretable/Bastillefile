@@ -1,0 +1,4 @@
+# Bastillefile for security/expiretable
+PKG expiretable
+SYSRC expiretable_enable=YES
+SERVICE expiretable start

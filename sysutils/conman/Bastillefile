@@ -1,0 +1,6 @@
+# Bastillefile for sysutils/conman
+PKG conman
+SYSRC conman_enable=YES
+SYSRC conmand_enable=YES
+SERVICE conman start
+SERVICE conmand start

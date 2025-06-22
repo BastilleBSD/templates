@@ -1,0 +1,4 @@
+# Bastillefile for net/vncreflector
+PKG vncreflector
+SYSRC vncreflector_enable=YES
+SERVICE vncreflector start

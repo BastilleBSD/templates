@@ -1,0 +1,8 @@
+# Bastillefile for net-im/mastodon
+PKG mastodon
+SYSRC mastodon_streaming_enable=YES
+SYSRC mastodon_web_enable=YES
+SYSRC mastodon_sidekiq_enable=YES
+SERVICE mastodon_sidekiq start
+SERVICE mastodon_streaming start
+SERVICE mastodon_web start

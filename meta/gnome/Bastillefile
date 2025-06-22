@@ -1,0 +1,6 @@
+PKG gnome
+SYSRC dbus_enable="YES"
+SYSRC gdm_enable="YES"
+CMD echo "proc                    /proc           procfs  rw              0       0" >> /etc/fstab
+SERVICE dbus start
+SERVICE gdm start

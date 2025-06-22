@@ -1,0 +1,4 @@
+# Bastillefile for print/cups
+PKG cups
+SYSRC cupsd_enable=YES
+SERVICE cupsd start

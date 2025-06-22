@@ -1,0 +1,4 @@
+# Bastillefile for irc/ngircd
+PKG ngircd
+SYSRC ngircd_enable=YES
+SERVICE ngircd start

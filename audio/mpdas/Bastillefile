@@ -1,0 +1,4 @@
+# Bastillefile for audio/mpdas
+PKG mpdas
+SYSRC mpdas_enable=YES
+SERVICE mpdas start

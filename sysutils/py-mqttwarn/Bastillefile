@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/py-mqttwarn
+PKG py311-mqttwarn
+SYSRC mqttwarn_enable=YES
+SERVICE mqttwarn start

@@ -1,0 +1,4 @@
+# Bastillefile for net-im/matterbridge
+PKG matterbridge
+SYSRC matterbridge_enable=YES
+SERVICE matterbridge start

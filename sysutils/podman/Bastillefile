@@ -1,0 +1,6 @@
+# Bastillefile for sysutils/podman
+PKG podman
+SYSRC podman_enable=YES
+SYSRC podman_service_enable=YES
+SERVICE podman start
+SERVICE podman_service start

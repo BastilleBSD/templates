@@ -1,0 +1,4 @@
+# Bastillefile for net/croc
+PKG croc
+SYSRC croc_enable=YES
+SERVICE croc start

@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/midpoint
+PKG midpoint
+SYSRC midpoint_enable=YES
+SERVICE midpoint start

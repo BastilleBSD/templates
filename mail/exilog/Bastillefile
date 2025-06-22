@@ -1,0 +1,4 @@
+# Bastillefile for mail/exilog
+PKG exilog
+SYSRC exilog_enable=YES
+SERVICE exilog start

@@ -1,0 +1,4 @@
+# Bastillefile for net/httpry
+PKG httpry
+SYSRC httpry_enable=YES
+SERVICE httpry start

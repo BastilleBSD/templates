@@ -1,0 +1,8 @@
+# Bastillefile for net-p2p/bitmark
+PKG bitmark
+SYSRC bitmarkd_syslog_enable=YES
+SYSRC bitmarkd_enable=YES
+SYSRC bitmarkdlimits_enable=YES
+SERVICE bitmarkd start
+SERVICE bitmarkd_syslog start
+SERVICE bitmarkdlimits start

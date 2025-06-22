@@ -1,0 +1,4 @@
+# Bastillefile for net/onioncat
+PKG onioncat
+SYSRC onioncat_enable=YES
+SERVICE onioncat start

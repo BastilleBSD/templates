@@ -1,0 +1,4 @@
+# Bastillefile for www/pydio-cells
+PKG pydio-cells
+SYSRC cells_enable=YES
+SERVICE cells start

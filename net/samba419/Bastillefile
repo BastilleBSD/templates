@@ -1,0 +1,4 @@
+# Bastillefile for net/samba419
+PKG samba419
+SYSRC samba_enable=YES
+SERVICE samba start

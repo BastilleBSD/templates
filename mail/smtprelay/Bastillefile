@@ -1,0 +1,4 @@
+# Bastillefile for mail/smtprelay
+PKG smtprelay
+SYSRC smtprelay_enable=YES
+SERVICE smtprelay start

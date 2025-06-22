@@ -1,0 +1,4 @@
+# Bastillefile for security/crowdsec
+PKG crowdsec
+SYSRC crowdsec_enable=YES
+SERVICE crowdsec start

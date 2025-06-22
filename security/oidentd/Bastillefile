@@ -1,0 +1,4 @@
+# Bastillefile for security/oidentd
+PKG oidentd
+SYSRC oidentd_enable=YES
+SERVICE oidentd start

@@ -1,0 +1,4 @@
+# Bastillefile for www/filebrowser
+PKG filebrowser
+SYSRC filebrowser_enable=YES
+SERVICE filebrowser start

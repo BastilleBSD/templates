@@ -1,0 +1,6 @@
+# Bastillefile for databases/keydb
+PKG keydb
+SYSRC keydb_sentinel_enable=YES
+SYSRC keydb_enable=YES
+SERVICE keydb start
+SERVICE keydb_sentinel start

@@ -1,0 +1,4 @@
+# Bastillefile for dns/dnsflood
+PKG dnsflood
+SYSRC dnsflood_enable=YES
+SERVICE dnsflood start

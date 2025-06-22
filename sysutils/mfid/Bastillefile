@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/mfid
+PKG mfid
+SYSRC mfid_enable=YES
+SERVICE mfid start

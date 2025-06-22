@@ -1,0 +1,4 @@
+# Bastillefile for www/py-gunicorn
+PKG py311-gunicorn
+SYSRC gunicorn_enable=YES
+SERVICE gunicorn start

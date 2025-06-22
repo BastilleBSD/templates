@@ -1,0 +1,4 @@
+# Bastillefile for mail/antivirus-milter
+PKG antivirus-milter
+SYSRC antivirus_enable=YES
+SERVICE antivirus start

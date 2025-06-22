@@ -1,0 +1,4 @@
+# Bastillefile for security/teleport
+PKG teleport
+SYSRC teleport_enable=YES
+SERVICE teleport start

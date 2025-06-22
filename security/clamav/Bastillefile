@@ -1,0 +1,8 @@
+# Bastillefile for security/clamav
+PKG clamav
+SYSRC clamav_clamd_enable=YES
+SYSRC clamav_milter_enable=YES
+SYSRC clamav_freshclam_enable=YES
+SERVICE clamav_clamd start
+SERVICE clamav_freshclam start
+SERVICE clamav_milter start

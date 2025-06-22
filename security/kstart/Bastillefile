@@ -1,0 +1,4 @@
+# Bastillefile for security/kstart
+PKG kstart
+SYSRC kstart_enable=YES
+SERVICE kstart start

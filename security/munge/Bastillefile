@@ -1,0 +1,4 @@
+# Bastillefile for security/munge
+PKG munge
+SYSRC munged_enable=YES
+SERVICE munged start

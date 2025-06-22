@@ -1,0 +1,4 @@
+# Bastillefile for www/unit
+PKG unit
+SYSRC unitd_enable=YES
+SERVICE unitd start

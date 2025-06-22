@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/unbound_exporter
+PKG unbound_exporter
+SYSRC unbound_exporter_enable=YES
+SERVICE unbound_exporter start

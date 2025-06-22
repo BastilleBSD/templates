@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/fprobe
+PKG fprobe
+SYSRC fprobe_enable=YES
+SERVICE fprobe start

@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/containerd
+PKG containerd
+SYSRC containerd_enable=YES
+SERVICE containerd start

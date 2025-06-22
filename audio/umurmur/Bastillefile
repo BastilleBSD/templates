@@ -1,0 +1,4 @@
+# Bastillefile for audio/umurmur
+PKG umurmur
+SYSRC umurmur_enable=YES
+SERVICE umurmur start

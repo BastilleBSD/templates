@@ -1,0 +1,4 @@
+# Bastillefile for net-im/gotosocial
+PKG gotosocial
+SYSRC gotosocial_enable=YES
+SERVICE gotosocial start

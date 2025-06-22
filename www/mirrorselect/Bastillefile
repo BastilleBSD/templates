@@ -1,0 +1,4 @@
+# Bastillefile for www/mirrorselect
+PKG mirrorselect
+SYSRC mirrorselect_enable=YES
+SERVICE mirrorselect start

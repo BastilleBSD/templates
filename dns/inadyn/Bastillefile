@@ -1,0 +1,4 @@
+# Bastillefile for dns/inadyn
+PKG inadyn
+SYSRC inadyn_enable=YES
+SERVICE inadyn start

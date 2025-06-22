@@ -1,0 +1,4 @@
+# Bastillefile for net/cjdns
+PKG cjdns
+SYSRC cjdns_enable=YES
+SERVICE cjdns start

@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/snmp_exporter20
+PKG snmp_exporter20
+SYSRC snmp_exporter_enable=YES
+SERVICE snmp_exporter start

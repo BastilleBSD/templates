@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/smartctl_exporter
+PKG smartctl_exporter
+SYSRC smartctl_exporter_enable=YES
+SERVICE smartctl_exporter start

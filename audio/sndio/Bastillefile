@@ -1,0 +1,4 @@
+# Bastillefile for audio/sndio
+PKG sndio
+SYSRC sndiod_enable=YES
+SERVICE sndiod start

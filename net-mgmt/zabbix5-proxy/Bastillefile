@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/zabbix5-proxy
+PKG zabbix5-proxy
+SYSRC zabbix_agentd_enable=YES
+SERVICE zabbix_agentd start

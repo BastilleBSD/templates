@@ -1,0 +1,4 @@
+# Bastillefile for www/fcgiwrap
+PKG fcgiwrap
+SYSRC fcgiwrap_enable=YES
+SERVICE fcgiwrap start

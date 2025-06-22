@@ -1,0 +1,4 @@
+# Bastillefile for devel/staf
+PKG staf
+SYSRC stafproc_enable=YES
+SERVICE stafproc start

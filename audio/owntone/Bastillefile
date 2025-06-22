@@ -1,0 +1,4 @@
+# Bastillefile for audio/owntone
+PKG owntone
+SYSRC owntone_enable=YES
+SERVICE owntone start

@@ -1,0 +1,4 @@
+# Bastillefile for print/p910nd
+PKG p910nd
+SYSRC p910nd_enable=YES
+SERVICE p910nd start

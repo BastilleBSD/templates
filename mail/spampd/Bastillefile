@@ -1,0 +1,4 @@
+# Bastillefile for mail/spampd
+PKG spampd
+SYSRC spampd_enable=YES
+SERVICE spampd start

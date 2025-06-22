@@ -1,0 +1,6 @@
+PKG mate lightdm lightdm-gtk-greeter
+SYSRC dbus_enable="YES"
+SYSRC lightdm_enable="YES"
+CMD echo "proc                    /proc           procfs  rw              0       0" >> /etc/fstab
+SERVICE dbus start
+SERVICE lightdm start

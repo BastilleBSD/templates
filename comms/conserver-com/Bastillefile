@@ -1,0 +1,4 @@
+# Bastillefile for comms/conserver-com
+PKG conserver-com
+SYSRC conserver_enable=YES
+SERVICE conserver start

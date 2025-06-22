@@ -1,0 +1,4 @@
+# Bastillefile for japanese/tiarra
+PKG tiarra
+SYSRC tiarra_enable=YES
+SERVICE tiarra start

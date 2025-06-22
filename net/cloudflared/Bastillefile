@@ -1,0 +1,4 @@
+# Bastillefile for net/cloudflared
+PKG cloudflared
+SYSRC cloudflared_enable=YES
+SERVICE cloudflared start

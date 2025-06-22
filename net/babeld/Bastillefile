@@ -1,0 +1,4 @@
+# Bastillefile for net/babeld
+PKG babeld
+SYSRC babeld_enable=YES
+SERVICE babeld start

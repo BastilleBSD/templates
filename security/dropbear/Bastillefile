@@ -1,0 +1,4 @@
+# Bastillefile for security/dropbear
+PKG dropbear
+SYSRC dropbear_enable=YES
+SERVICE dropbear start

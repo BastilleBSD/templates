@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/ipfixcol2
+PKG ipfixcol2
+SYSRC ipfixcol2_enable=YES
+SERVICE ipfixcol2 start

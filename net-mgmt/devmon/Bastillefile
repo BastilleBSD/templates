@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/devmon
+PKG devmon
+SYSRC devmon_enable=YES
+SERVICE devmon start

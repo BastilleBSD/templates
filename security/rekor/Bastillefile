@@ -1,0 +1,4 @@
+# Bastillefile for security/rekor
+PKG rekor
+SYSRC rekor_enable=YES
+SERVICE rekor start

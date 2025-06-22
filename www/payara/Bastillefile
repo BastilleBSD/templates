@@ -1,0 +1,4 @@
+# Bastillefile for www/payara
+PKG payara
+SYSRC payara_enable=YES
+SERVICE payara start

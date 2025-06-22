@@ -1,0 +1,4 @@
+# Bastillefile for dns/kadnode
+PKG kadnode
+SYSRC kadnode_enable=YES
+SERVICE kadnode start

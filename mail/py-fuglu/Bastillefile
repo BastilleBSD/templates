@@ -1,0 +1,4 @@
+# Bastillefile for mail/py-fuglu
+PKG py311-fuglu
+SYSRC fuglu_enable=YES
+SERVICE fuglu start

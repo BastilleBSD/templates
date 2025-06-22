@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/mrtg
+PKG mrtg
+SYSRC mrtg_daemon_enable=YES
+SERVICE mrtg_daemon start

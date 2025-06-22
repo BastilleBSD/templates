@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/burp-devel
+PKG burp-devel
+SYSRC burp_enable=YES
+SERVICE burp start

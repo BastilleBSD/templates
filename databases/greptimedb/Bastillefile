@@ -1,0 +1,4 @@
+# Bastillefile for databases/greptimedb
+PKG greptimedb
+SYSRC greptimedb_enable=YES
+SERVICE greptimedb start

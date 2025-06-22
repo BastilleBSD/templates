@@ -1,0 +1,4 @@
+# Bastillefile for databases/tile38
+PKG tile38
+SYSRC tile38_enable=YES
+SERVICE tile38 start

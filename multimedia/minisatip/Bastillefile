@@ -1,0 +1,4 @@
+# Bastillefile for multimedia/minisatip
+PKG minisatip
+SYSRC minisatip_enable=YES
+SERVICE minisatip start

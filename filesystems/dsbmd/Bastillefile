@@ -1,0 +1,4 @@
+# Bastillefile for filesystems/dsbmd
+PKG dsbmd
+SYSRC dsbmd_enable=YES
+SERVICE dsbmd start

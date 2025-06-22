@@ -1,0 +1,6 @@
+# Bastillefile for security/openvpn
+PKG openvpn
+SYSRC openvpn_enable=YES
+SYSRC openvpn_foo_enable=YES
+SERVICE openvpn start
+SERVICE openvpn_foo start

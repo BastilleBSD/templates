@@ -1,0 +1,4 @@
+# Bastillefile for databases/foundationdb71-client
+PKG foundationdb71-client
+SYSRC foundationdb_enable=YES
+SERVICE foundationdb start

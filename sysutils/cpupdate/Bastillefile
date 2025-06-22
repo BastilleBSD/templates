@@ -1,0 +1,6 @@
+# Bastillefile for sysutils/cpupdate
+PKG cpupdate
+SYSRC cpupdate_enable=YES
+SYSRC cpupdate_ibrs_enable=YES
+SERVICE cpupdate start
+SERVICE cpupdate_ibrs start

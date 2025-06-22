@@ -1,0 +1,4 @@
+# Bastillefile for audio/ezstream
+PKG ezstream
+SYSRC ezstream_enable=YES
+SERVICE ezstream start

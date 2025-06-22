@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/monitord
+PKG monitord
+SYSRC monitord_enable=YES
+SERVICE monitord start

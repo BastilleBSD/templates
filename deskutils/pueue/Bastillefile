@@ -1,0 +1,4 @@
+# Bastillefile for deskutils/pueue
+PKG pueue
+SYSRC pueued_enable=YES
+SERVICE pueued start

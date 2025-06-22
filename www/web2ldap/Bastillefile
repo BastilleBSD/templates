@@ -1,0 +1,4 @@
+# Bastillefile for www/web2ldap
+PKG web2ldap
+SYSRC web2ldap_enable=YES
+SERVICE web2ldap start

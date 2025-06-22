@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/freebsd-snapshot
+PKG freebsd-snapshot
+SYSRC snapshot_enable=YES
+SERVICE snapshot start

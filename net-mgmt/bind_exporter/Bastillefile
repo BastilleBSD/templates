@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/bind_exporter
+PKG bind_exporter
+SYSRC bind_exporter_enable=YES
+SERVICE bind_exporter start

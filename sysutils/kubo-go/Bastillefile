@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/kubo-go
+PKG kubo-go
+SYSRC kubo_enable=YES
+SERVICE kubo start

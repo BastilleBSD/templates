@@ -1,0 +1,4 @@
+# Bastillefile for multimedia/cx88
+PKG cx88
+SYSRC cx88d_enable=YES
+SERVICE cx88d start

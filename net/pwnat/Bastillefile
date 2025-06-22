@@ -1,0 +1,4 @@
+# Bastillefile for net/pwnat
+PKG pwnat
+SYSRC pwnat_enable=YES
+SERVICE pwnat start

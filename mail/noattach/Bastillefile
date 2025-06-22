@@ -1,0 +1,4 @@
+# Bastillefile for mail/noattach
+PKG noattach
+SYSRC noattach_enable=YES
+SERVICE noattach start

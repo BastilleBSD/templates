@@ -1,0 +1,4 @@
+# Bastillefile for security/sssd2
+PKG sssd2
+SYSRC sssd_enable=YES
+SERVICE sssd start

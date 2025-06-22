@@ -1,0 +1,4 @@
+# Bastillefile for devel/dbus
+PKG dbus
+SYSRC dbus_enable=YES
+SERVICE dbus start

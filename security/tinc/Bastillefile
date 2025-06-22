@@ -1,0 +1,4 @@
+# Bastillefile for security/tinc
+PKG tinc
+SYSRC tincd_enable=YES
+SERVICE tincd start

@@ -1,0 +1,4 @@
+# Bastillefile for databases/leo_center
+PKG leo_center
+SYSRC leo_center_enable=YES
+SERVICE leo_center start

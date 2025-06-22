@@ -1,0 +1,4 @@
+# Bastillefile for mail/smfsav-devel
+PKG smfsav-devel
+SYSRC smfsav_enable=YES
+SERVICE smfsav start

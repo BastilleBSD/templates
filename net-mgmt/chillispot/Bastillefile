@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/chillispot
+PKG chillispot
+SYSRC chillispot_enable=YES
+SERVICE chillispot start

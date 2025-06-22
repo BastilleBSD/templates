@@ -1,0 +1,4 @@
+# Bastillefile for security/zeronet
+PKG zeronet
+SYSRC zeronet_enable=YES
+SERVICE zeronet start

@@ -1,0 +1,4 @@
+# Bastillefile for security/fwknop
+PKG fwknop
+SYSRC fwknopd_enable=YES
+SERVICE fwknopd start

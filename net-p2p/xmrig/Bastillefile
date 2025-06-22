@@ -1,0 +1,4 @@
+# Bastillefile for net-p2p/xmrig
+PKG xmrig
+SYSRC xmrig_enable=YES
+SERVICE xmrig start

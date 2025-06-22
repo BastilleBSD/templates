@@ -1,0 +1,4 @@
+# Bastillefile for misc/proxyper
+PKG proxyper
+SYSRC proxyper_enable=YES
+SERVICE proxyper start

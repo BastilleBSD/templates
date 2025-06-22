@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/xmbmon
+PKG xmbmon
+SYSRC mbmon_enable=YES
+SERVICE mbmon start

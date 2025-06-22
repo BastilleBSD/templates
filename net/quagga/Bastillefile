@@ -1,0 +1,6 @@
+# Bastillefile for net/quagga
+PKG quagga
+SYSRC quagga_enable=YES
+SYSRC watchquagga_enable=YES
+SERVICE quagga start
+SERVICE watchquagga start

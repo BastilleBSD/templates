@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/rubygem-fluentd
+PKG rubygem-fluentd
+SYSRC fluentd_enable=YES
+SERVICE fluentd start

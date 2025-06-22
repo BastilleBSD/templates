@@ -1,0 +1,4 @@
+# Bastillefile for security/fakeident
+PKG fakeident
+SYSRC fakeidentd_enable=YES
+SERVICE fakeidentd start

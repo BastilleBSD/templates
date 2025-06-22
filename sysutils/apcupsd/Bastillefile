@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/apcupsd
+PKG apcupsd
+SYSRC apcupsd_enable=YES
+SERVICE apcupsd start

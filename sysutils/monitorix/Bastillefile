@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/monitorix
+PKG monitorix
+SYSRC monitorix_enable=YES
+SERVICE monitorix start

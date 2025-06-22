@@ -1,0 +1,4 @@
+# Bastillefile for net/yggdrasil
+PKG yggdrasil
+SYSRC yggdrasil_enable=YES
+SERVICE yggdrasil start

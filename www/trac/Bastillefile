@@ -1,0 +1,4 @@
+# Bastillefile for www/trac
+PKG trac
+SYSRC tracd_enable=YES
+SERVICE tracd start

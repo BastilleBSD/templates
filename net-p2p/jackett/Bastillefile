@@ -1,0 +1,4 @@
+# Bastillefile for net-p2p/jackett
+PKG jackett
+SYSRC jackett_enable=YES
+SERVICE jackett start

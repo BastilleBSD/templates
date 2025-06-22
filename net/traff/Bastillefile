@@ -1,0 +1,4 @@
+# Bastillefile for net/traff
+PKG traff
+SYSRC traff_enable=YES
+SERVICE traff start

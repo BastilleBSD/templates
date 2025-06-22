@@ -1,0 +1,4 @@
+# Bastillefile for net/relayd
+PKG relayd
+SYSRC relayd_enable=YES
+SERVICE relayd start

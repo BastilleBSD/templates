@@ -1,0 +1,4 @@
+# Bastillefile for mail/enma
+PKG enma
+SYSRC milterenma_enable=YES
+SERVICE milterenma start

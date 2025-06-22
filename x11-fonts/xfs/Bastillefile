@@ -1,0 +1,4 @@
+# Bastillefile for x11-fonts/xfs
+PKG xfs
+SYSRC xfs_enable=YES
+SERVICE xfs start

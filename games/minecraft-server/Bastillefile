@@ -1,19 +1,4 @@
-ARG MINECRAFT_MEMX="1024M"
-ARG MINECRAFT_MEMS="1024M"
-ARG MINECRAFT_ARGS=""
-CONFIG set enforce_statfs=1;
-CONFIG set allow.mount.fdescfs;
-CONFIG set allow.mount.procfs;
-RESTART
-PKG dialog4ports tmux openjdk17
-MOUNT /usr/ports usr/ports nullfs ro 0 0
-CP etc /
-CP var /
-CMD make -C /usr/ports/games/minecraft-server install clean
-CP usr /
+# Bastillefile for games/minecraft-server
+PKG minecraft-server
 SYSRC minecraft_enable=YES
-SYSRC minecraft_memx=${MINECRAFT_MEMX}
-SYSRC minecraft_mems=${MINECRAFT_MEMS}
-SYSRC minecraft_args=${MINECRAFT_ARGS}
-SERVICE minecraft restart
-RDR tcp 25565 25565
+SERVICE minecraft start

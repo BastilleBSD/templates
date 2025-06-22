@@ -1,0 +1,4 @@
+# Bastillefile for mail/opendmarc
+PKG opendmarc
+SYSRC opendmarc_enable=YES
+SERVICE opendmarc start

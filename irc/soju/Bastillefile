@@ -1,0 +1,4 @@
+# Bastillefile for irc/soju
+PKG soju
+SYSRC soju_enable=YES
+SERVICE soju start

@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/upsdaemon
+PKG upsdaemon
+SYSRC upsdaemon_enable=YES
+SERVICE upsdaemon start

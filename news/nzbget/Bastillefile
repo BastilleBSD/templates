@@ -1,0 +1,4 @@
+# Bastillefile for news/nzbget
+PKG nzbget
+SYSRC nzbget_enable=YES
+SERVICE nzbget start

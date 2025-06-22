@@ -1,0 +1,4 @@
+# Bastillefile for dns/nsd
+PKG nsd
+SYSRC nsd_enable=YES
+SERVICE nsd start

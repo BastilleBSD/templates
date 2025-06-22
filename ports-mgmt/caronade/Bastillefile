@@ -1,0 +1,4 @@
+# Bastillefile for ports-mgmt/caronade
+PKG caronade
+SYSRC caronade_enable=YES
+SERVICE caronade start

@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/gitwatch
+PKG gitwatch
+SYSRC gitwatch_enable=YES
+SERVICE gitwatch start

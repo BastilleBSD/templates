@@ -1,0 +1,6 @@
+# Bastillefile for security/dehydrated
+PKG dehydrated
+SYSRC weekly_dehydrated_enable=YES
+SYSRC daily_dehydrated_enable=YES
+SERVICE daily_dehydrated start
+SERVICE weekly_dehydrated start

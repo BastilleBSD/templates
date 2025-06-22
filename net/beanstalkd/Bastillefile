@@ -1,0 +1,4 @@
+# Bastillefile for net/beanstalkd
+PKG beanstalkd
+SYSRC beanstalkd_enable=YES
+SERVICE beanstalkd start

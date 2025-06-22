@@ -1,0 +1,4 @@
+# Bastillefile for net/ss5
+PKG ss5
+SYSRC ss5_enable=YES
+SERVICE ss5 start

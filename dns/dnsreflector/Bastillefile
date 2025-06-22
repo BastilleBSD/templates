@@ -1,0 +1,4 @@
+# Bastillefile for dns/dnsreflector
+PKG dnsreflector
+SYSRC dnsreflector_enable=YES
+SERVICE dnsreflector start

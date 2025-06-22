@@ -1,0 +1,6 @@
+# Bastillefile for sysutils/reggae
+PKG reggae
+SYSRC reggae_pf_enable=YES
+SYSRC reggae_enable=YES
+SERVICE reggae start
+SERVICE reggae_pf start

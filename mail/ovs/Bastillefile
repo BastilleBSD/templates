@@ -1,0 +1,4 @@
+# Bastillefile for mail/ovs
+PKG ovs
+SYSRC ovs_enable=YES
+SERVICE ovs start

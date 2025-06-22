@@ -1,0 +1,4 @@
+# Bastillefile for security/arti
+PKG arti
+SYSRC arti_enable=YES
+SERVICE arti start

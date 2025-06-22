@@ -1,0 +1,4 @@
+# Bastillefile for www/shellinabox
+PKG shellinabox
+SYSRC shellinaboxd_enable=YES
+SERVICE shellinaboxd start

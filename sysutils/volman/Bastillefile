@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/volman
+PKG volman
+SYSRC volmand_enable=YES
+SERVICE volmand start

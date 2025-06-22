@@ -1,0 +1,4 @@
+# Bastillefile for www/tusd
+PKG tusd
+SYSRC tusd_enable=YES
+SERVICE tusd start

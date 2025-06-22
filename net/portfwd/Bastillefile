@@ -1,0 +1,4 @@
+# Bastillefile for net/portfwd
+PKG portfwd
+SYSRC portfwd_enable=YES
+SERVICE portfwd start

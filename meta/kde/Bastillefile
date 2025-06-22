@@ -1,0 +1,7 @@
+PKG kde sddm
+SYSRC dbus_enable="YES"
+SYSRC sddm_enable="YES"
+CMD sysctl net.local.stream.recvspace=65536
+CMD sysctl net.local.stream.sendspace=65536
+SERVICE dbus start
+SERVICE sddm start

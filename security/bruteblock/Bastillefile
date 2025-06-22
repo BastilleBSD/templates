@@ -1,0 +1,4 @@
+# Bastillefile for security/bruteblock
+PKG bruteblock
+SYSRC bruteblockd_enable=YES
+SERVICE bruteblockd start

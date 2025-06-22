@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/nut-devel
+PKG nut-devel
+SYSRC nut_enable=YES
+SERVICE nut start

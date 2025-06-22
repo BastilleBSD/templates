@@ -1,0 +1,4 @@
+# Bastillefile for www/carbonapi
+PKG carbonapi
+SYSRC carbonapi_enable=YES
+SERVICE carbonapi start

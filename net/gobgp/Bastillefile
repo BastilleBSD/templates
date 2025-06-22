@@ -1,0 +1,8 @@
+# Bastillefile for net/gobgp
+PKG gobgp
+SYSRC gobgpd_stdlog_enable=YES
+SYSRC gobgpd_enable=YES
+SYSRC gobgpd_foreground_enable=YES
+SERVICE gobgpd start
+SERVICE gobgpd_foreground start
+SERVICE gobgpd_stdlog start

@@ -1,0 +1,4 @@
+# Bastillefile for security/certmonger
+PKG certmonger
+SYSRC certmonger_enable=YES
+SERVICE certmonger start

@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/bsdstats
+PKG bsdstats
+SYSRC bsdstats_enable=YES
+SERVICE bsdstats start

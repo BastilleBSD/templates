@@ -1,3 +1,4 @@
+# Bastillefile for databases/influxdb
 PKG influxdb
 SYSRC influxd_enable=YES
-SERVICE influxd restart
+SERVICE influxd start

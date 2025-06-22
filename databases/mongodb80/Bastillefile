@@ -1,0 +1,4 @@
+# Bastillefile for databases/mongodb80
+PKG mongodb80
+SYSRC mongod_enable=YES
+SERVICE mongod start

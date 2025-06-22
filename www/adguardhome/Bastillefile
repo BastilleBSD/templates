@@ -1,3 +1,4 @@
-PKG ca_root_nss adguardhome
+# Bastillefile for www/adguardhome
+PKG adguardhome
 SYSRC adguardhome_enable=YES
 SERVICE adguardhome start

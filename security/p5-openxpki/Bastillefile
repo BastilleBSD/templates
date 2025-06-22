@@ -1,0 +1,4 @@
+# Bastillefile for security/p5-openxpki
+PKG p5-openxpki
+SYSRC openxpki_enable=YES
+SERVICE openxpki start

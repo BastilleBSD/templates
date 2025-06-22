@@ -1,0 +1,4 @@
+# Bastillefile for net/irrd
+PKG irrd
+SYSRC irrd4_enable=YES
+SERVICE irrd4 start

@@ -1,0 +1,4 @@
+# Bastillefile for net/activemq
+PKG activemq
+SYSRC activemq_enable=YES
+SERVICE activemq start

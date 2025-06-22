@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/cciss_vol_status
+PKG cciss_vol_status
+SYSRC daily_cciss_vol_status_enable=YES
+SERVICE daily_cciss_vol_status start

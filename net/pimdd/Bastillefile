@@ -1,0 +1,4 @@
+# Bastillefile for net/pimdd
+PKG pimdd
+SYSRC pimdd_enable=YES
+SERVICE pimdd start

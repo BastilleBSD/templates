@@ -1,0 +1,6 @@
+# Bastillefile for filesystems/zrepl
+PKG zrepl
+SYSRC zrepl_enable=YES
+SYSRC weekly_zrepl_enable=YES
+SERVICE weekly_zrepl start
+SERVICE zrepl start

@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/clsync
+PKG clsync
+SYSRC clsync_enable=YES
+SERVICE clsync start

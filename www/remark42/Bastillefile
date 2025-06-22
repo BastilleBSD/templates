@@ -1,0 +1,4 @@
+# Bastillefile for www/remark42
+PKG remark42
+SYSRC remark_enable=YES
+SERVICE remark start

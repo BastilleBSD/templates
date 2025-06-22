@@ -1,0 +1,4 @@
+# Bastillefile for www/nginx-lite
+PKG nginx-lite
+SYSRC nginx_enable=YES
+SERVICE nginx start

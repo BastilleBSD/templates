@@ -1,0 +1,4 @@
+# Bastillefile for databases/foundationdb73-server
+PKG foundationdb73-server
+SYSRC foundationdb_enable=YES
+SERVICE foundationdb start

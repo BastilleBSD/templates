@@ -1,0 +1,4 @@
+# Bastillefile for net/exabgp4
+PKG exabgp4
+SYSRC exabgp_enable=YES
+SERVICE exabgp start

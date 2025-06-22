@@ -1,0 +1,4 @@
+# Bastillefile for net/iipsrv
+PKG iipsrv
+SYSRC iipsrv_enable=YES
+SERVICE iipsrv start

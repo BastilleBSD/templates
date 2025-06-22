@@ -1,0 +1,4 @@
+# Bastillefile for net-im/jicofo
+PKG jicofo
+SYSRC jicofo_enable=YES
+SERVICE jicofo start

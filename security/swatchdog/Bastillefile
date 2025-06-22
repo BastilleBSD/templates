@@ -1,0 +1,4 @@
+# Bastillefile for security/swatchdog
+PKG swatchdog
+SYSRC swatchdog_enable=YES
+SERVICE swatchdog start

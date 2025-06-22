@@ -1,0 +1,4 @@
+# Bastillefile for mail/vbsfilter
+PKG vbsfilter
+SYSRC vbsfilter_enable=YES
+SERVICE vbsfilter start

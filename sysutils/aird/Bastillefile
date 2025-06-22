@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/aird
+PKG aird
+SYSRC aird_enable=YES
+SERVICE aird start

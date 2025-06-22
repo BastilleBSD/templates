@@ -1,0 +1,6 @@
+# Bastillefile for net-p2p/namecoin
+PKG namecoin
+SYSRC namecoind_enable=YES
+SYSRC namecoindlimits_enable=YES
+SERVICE namecoind start
+SERVICE namecoindlimits start

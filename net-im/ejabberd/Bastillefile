@@ -1,0 +1,4 @@
+# Bastillefile for net-im/ejabberd
+PKG ejabberd
+SYSRC ejabberd_enable=YES
+SERVICE ejabberd start

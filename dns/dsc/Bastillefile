@@ -1,0 +1,4 @@
+# Bastillefile for dns/dsc
+PKG dsc
+SYSRC dsc_enable=YES
+SERVICE dsc start

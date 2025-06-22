@@ -1,0 +1,4 @@
+# Bastillefile for security/proftpd-mod_clamav
+PKG proftpd-mod_clamav
+SYSRC proftpd_enable=YES
+SERVICE proftpd start

@@ -1,0 +1,4 @@
+# Bastillefile for www/go-anubis
+PKG go-anubis
+SYSRC anubis_enable=YES
+SERVICE anubis start

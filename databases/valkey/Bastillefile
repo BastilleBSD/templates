@@ -1,0 +1,6 @@
+# Bastillefile for databases/valkey
+PKG valkey
+SYSRC valkeysentinel_enable=YES
+SYSRC valkey_enable=YES
+SERVICE valkey start
+SERVICE valkeysentinel start

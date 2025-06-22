@@ -1,0 +1,4 @@
+# Bastillefile for mail/exim
+PKG exim
+SYSRC exim_enable=YES
+SERVICE exim start

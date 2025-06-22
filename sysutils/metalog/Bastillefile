@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/metalog
+PKG metalog
+SYSRC metalog_enable=YES
+SERVICE metalog start

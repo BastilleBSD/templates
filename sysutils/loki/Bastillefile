@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/loki
+PKG loki
+SYSRC loki_enable=YES
+SERVICE loki start

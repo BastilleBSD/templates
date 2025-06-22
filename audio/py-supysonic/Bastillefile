@@ -1,0 +1,4 @@
+# Bastillefile for audio/py-supysonic
+PKG py311-supysonic
+SYSRC supysonic_enable=YES
+SERVICE supysonic start

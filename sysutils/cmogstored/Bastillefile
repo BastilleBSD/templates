@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/cmogstored
+PKG cmogstored
+SYSRC cmogstored_enable=YES
+SERVICE cmogstored start

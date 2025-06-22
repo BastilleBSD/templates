@@ -1,0 +1,4 @@
+# Bastillefile for games/quaqut
+PKG quaqut
+SYSRC quaqut_enable=YES
+SERVICE quaqut start

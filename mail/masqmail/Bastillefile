@@ -1,0 +1,4 @@
+# Bastillefile for mail/masqmail
+PKG masqmail
+SYSRC masqmail_enable=YES
+SERVICE masqmail start

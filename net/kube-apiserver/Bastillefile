@@ -1,0 +1,4 @@
+# Bastillefile for net/kube-apiserver
+PKG kube-apiserver
+SYSRC apiserver_enable=YES
+SERVICE apiserver start

@@ -1,0 +1,4 @@
+# Bastillefile for multimedia/ptx-kmod
+PKG ptx-kmod
+SYSRC ptx_enable=YES
+SERVICE ptx start

@@ -1,0 +1,4 @@
+# Bastillefile for japanese/skkserv
+PKG skkserv
+SYSRC skkserv_enable=YES
+SERVICE skkserv start

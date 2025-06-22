@@ -1,0 +1,4 @@
+# Bastillefile for audio/gonic
+PKG gonic
+SYSRC gonic_enable=YES
+SERVICE gonic start

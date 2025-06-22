@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/zabbix72-server
+PKG zabbix72-server
+SYSRC zabbix_agentd_enable=YES
+SERVICE zabbix_agentd start

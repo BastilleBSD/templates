@@ -1,0 +1,4 @@
+# Bastillefile for net/throttled
+PKG throttled
+SYSRC throttled_enable=YES
+SERVICE throttled start

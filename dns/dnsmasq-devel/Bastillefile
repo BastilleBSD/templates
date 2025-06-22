@@ -1,0 +1,4 @@
+# Bastillefile for dns/dnsmasq-devel
+PKG dnsmasq-devel
+SYSRC dnsmasq_enable=YES
+SERVICE dnsmasq start

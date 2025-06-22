@@ -1,0 +1,4 @@
+# Bastillefile for devel/jenkins-lts
+PKG jenkins-lts
+SYSRC jenkins_enable=YES
+SERVICE jenkins start

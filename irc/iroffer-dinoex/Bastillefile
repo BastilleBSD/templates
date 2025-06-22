@@ -1,0 +1,4 @@
+# Bastillefile for irc/iroffer-dinoex
+PKG iroffer-dinoex
+SYSRC iroffer_enable=YES
+SERVICE iroffer start

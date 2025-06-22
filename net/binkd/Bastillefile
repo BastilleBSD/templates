@@ -1,0 +1,4 @@
+# Bastillefile for net/binkd
+PKG binkd
+SYSRC binkd_enable=YES
+SERVICE binkd start

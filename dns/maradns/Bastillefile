@@ -1,0 +1,4 @@
+# Bastillefile for dns/maradns
+PKG maradns
+SYSRC maradns_enable=YES
+SERVICE maradns start

@@ -1,0 +1,4 @@
+# Bastillefile for www/butterfly
+PKG butterfly
+SYSRC butterfly_enable=YES
+SERVICE butterfly start

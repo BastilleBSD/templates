@@ -1,5 +1,6 @@
+# Bastillefile for security/vault
 PKG vault
-CP usr /
-CMD mkdir -p /var/db/vault
 SYSRC vault_enable=YES
+SYSRC vault_syslog_output_enable=YES
 SERVICE vault start
+SERVICE vault_syslog_output start

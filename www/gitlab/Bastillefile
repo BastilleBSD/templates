@@ -1,0 +1,8 @@
+# Bastillefile for www/gitlab
+PKG gitlab
+SYSRC gitlab_pages_enable=YES
+SYSRC gitlab_mail_room_enable=YES
+SYSRC gitlab_enable=YES
+SERVICE gitlab start
+SERVICE gitlab_mail_room start
+SERVICE gitlab_pages start

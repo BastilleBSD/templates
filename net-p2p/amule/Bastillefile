@@ -1,0 +1,4 @@
+# Bastillefile for net-p2p/amule
+PKG amule
+SYSRC amuled_enable=YES
+SERVICE amuled start

@@ -1,0 +1,4 @@
+# Bastillefile for ftp/ftpsesame
+PKG ftpsesame
+SYSRC ftpsesame_enable=YES
+SERVICE ftpsesame start

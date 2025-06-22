@@ -1,0 +1,6 @@
+# Bastillefile for net/openntpd
+PKG openntpd
+SYSRC daily_status_openntpd_enable=YES
+SYSRC openntpd_enable=YES
+SERVICE daily_status_openntpd start
+SERVICE openntpd start

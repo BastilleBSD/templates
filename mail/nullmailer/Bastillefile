@@ -1,0 +1,4 @@
+# Bastillefile for mail/nullmailer
+PKG nullmailer
+SYSRC nullmailer_enable=YES
+SERVICE nullmailer start

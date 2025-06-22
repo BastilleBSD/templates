@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/carbonzipper
+PKG carbonzipper
+SYSRC carbonzipper_enable=YES
+SERVICE carbonzipper start

@@ -1,0 +1,4 @@
+# Bastillefile for mail/popa3d
+PKG popa3d
+SYSRC popa3d_enable=YES
+SERVICE popa3d start

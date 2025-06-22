@@ -1,0 +1,6 @@
+# Bastillefile for security/trillian
+PKG trillian
+SYSRC trillian_log_signer_enable=YES
+SYSRC trillian_log_server_enable=YES
+SERVICE trillian_log_server start
+SERVICE trillian_log_signer start

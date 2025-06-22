@@ -1,0 +1,4 @@
+# Bastillefile for devel/gitea-act_runner
+PKG gitea-act_runner
+SYSRC act_runner_enable=YES
+SERVICE act_runner start

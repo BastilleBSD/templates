@@ -1,0 +1,4 @@
+# Bastillefile for security/ipguard
+PKG ipguard
+SYSRC ipguard_enable=YES
+SERVICE ipguard start

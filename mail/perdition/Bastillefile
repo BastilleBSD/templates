@@ -1,0 +1,8 @@
+# Bastillefile for mail/perdition
+PKG perdition
+SYSRC perdition_enable=YES
+SYSRC perdition_imaps_enable=YES
+SYSRC perdition_managesieve_enable=YES
+SERVICE perdition start
+SERVICE perdition_imaps start
+SERVICE perdition_managesieve start

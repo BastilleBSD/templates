@@ -1,0 +1,4 @@
+# Bastillefile for databases/proxysql
+PKG proxysql
+SYSRC proxysql_enable=YES
+SERVICE proxysql start

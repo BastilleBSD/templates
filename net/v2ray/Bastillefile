@@ -1,0 +1,4 @@
+# Bastillefile for net/v2ray
+PKG v2ray
+SYSRC v2ray_enable=YES
+SERVICE v2ray start

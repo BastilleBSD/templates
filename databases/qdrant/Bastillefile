@@ -1,0 +1,4 @@
+# Bastillefile for databases/qdrant
+PKG qdrant
+SYSRC qdrant_enable=YES
+SERVICE qdrant start

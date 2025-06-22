@@ -1,0 +1,6 @@
+# Bastillefile for net-mgmt/ping_exporter
+PKG ping_exporter
+SYSRC ping_exporter_enable=YES
+SYSRC ping_exporter_syslog_output_enable=YES
+SERVICE ping_exporter start
+SERVICE ping_exporter_syslog_output start

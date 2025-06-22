@@ -1,0 +1,4 @@
+# Bastillefile for www/hs-postgrest
+PKG hs-postgrest
+SYSRC postgrest_enable=YES
+SERVICE postgrest start

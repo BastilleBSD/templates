@@ -1,0 +1,4 @@
+# Bastillefile for games/wolfpack
+PKG wolfpack
+SYSRC wolfpack_enable=YES
+SERVICE wolfpack start

@@ -1,0 +1,4 @@
+# Bastillefile for net/quoted
+PKG quoted
+SYSRC quoted_enable=YES
+SERVICE quoted start

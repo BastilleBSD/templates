@@ -1,0 +1,4 @@
+# Bastillefile for net/ntimed
+PKG ntimed
+SYSRC ntimed_enable=YES
+SERVICE ntimed start

@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/jail_exporter
+PKG jail_exporter
+SYSRC jail_exporter_enable=YES
+SERVICE jail_exporter start

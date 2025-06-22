@@ -1,0 +1,4 @@
+# Bastillefile for mail/mailpit
+PKG mailpit
+SYSRC mailpit_enable=YES
+SERVICE mailpit start

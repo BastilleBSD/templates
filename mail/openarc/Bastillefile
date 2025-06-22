@@ -1,0 +1,4 @@
+# Bastillefile for mail/openarc
+PKG openarc
+SYSRC milteropenarc_enable=YES
+SERVICE milteropenarc start

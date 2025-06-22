@@ -1,0 +1,4 @@
+# Bastillefile for mail/assp
+PKG assp
+SYSRC assp_enable=YES
+SERVICE assp start

@@ -1,0 +1,4 @@
+# Bastillefile for science/orthanc
+PKG orthanc
+SYSRC orthanc_enable=YES
+SERVICE orthanc start

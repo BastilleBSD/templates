@@ -1,0 +1,4 @@
+# Bastillefile for www/wwwoffle
+PKG wwwoffle
+SYSRC wwwoffled_enable=YES
+SERVICE wwwoffled start

@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/duply
+PKG duply
+SYSRC backup_duply_enable=YES
+SERVICE backup_duply start

@@ -1,0 +1,4 @@
+# Bastillefile for security/clamsmtp
+PKG clamsmtp
+SYSRC clamsmtpd_enable=YES
+SERVICE clamsmtpd start

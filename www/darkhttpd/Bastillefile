@@ -1,0 +1,4 @@
+# Bastillefile for www/darkhttpd
+PKG darkhttpd
+SYSRC darkhttpd_enable=YES
+SERVICE darkhttpd start

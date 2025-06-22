@@ -1,11 +1,13 @@
-## Bazarr
-Bazarr is a companion application to Sonarr and Radarr that manages and
-downloads subtitles based on your requirements.
+# net-p2p/bazarr
+Automatic subtitle downloader for Radarr and Sonarr
+https://www.bazarr.media
 
-## Usage
-
+# Bastille Usage
 ```shell
 bastille template TARGET net-p2p/bazarr
 ```
 
-For more options edit `/usr/local/bastille/templates/net-p2p/bazarr/Bastillefile`
+# Rocinante Usage
+```shell
+rocinante template net-p2p/bazarr
+```

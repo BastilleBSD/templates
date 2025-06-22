@@ -1,0 +1,6 @@
+# Bastillefile for security/rkhunter
+PKG rkhunter
+SYSRC security_rkhunter_update_enable=YES
+SYSRC security_rkhunter_check_enable=YES
+SERVICE security_rkhunter_check start
+SERVICE security_rkhunter_update start

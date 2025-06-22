@@ -1,0 +1,6 @@
+# Bastillefile for net-p2p/litecoin
+PKG litecoin
+SYSRC litecoindlimits_enable=YES
+SYSRC litecoind_enable=YES
+SERVICE litecoind start
+SERVICE litecoindlimits start

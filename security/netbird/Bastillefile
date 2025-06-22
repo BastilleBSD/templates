@@ -1,0 +1,4 @@
+# Bastillefile for security/netbird
+PKG netbird
+SYSRC netbird_enable=YES
+SERVICE netbird start

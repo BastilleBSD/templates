@@ -1,0 +1,4 @@
+# Bastillefile for security/vpnc
+PKG vpnc
+SYSRC vpnc_enable=YES
+SERVICE vpnc start

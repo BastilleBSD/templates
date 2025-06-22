@@ -1,0 +1,4 @@
+# Bastillefile for net/knxd
+PKG knxd
+SYSRC knxd_enable=YES
+SERVICE knxd start

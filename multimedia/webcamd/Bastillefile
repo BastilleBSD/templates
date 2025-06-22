@@ -1,0 +1,4 @@
+# Bastillefile for multimedia/webcamd
+PKG webcamd
+SYSRC webcamd_enable=YES
+SERVICE webcamd start

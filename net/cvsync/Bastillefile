@@ -1,0 +1,4 @@
+# Bastillefile for net/cvsync
+PKG cvsync
+SYSRC cvsyncd_enable=YES
+SERVICE cvsyncd start

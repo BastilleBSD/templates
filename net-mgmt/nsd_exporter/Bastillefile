@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/nsd_exporter
+PKG nsd_exporter
+SYSRC nsd_exporter_enable=YES
+SERVICE nsd_exporter start

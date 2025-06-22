@@ -1,0 +1,4 @@
+# Bastillefile for mail/mailfromd
+PKG mailfromd
+SYSRC mailfromd_enable=YES
+SERVICE mailfromd start

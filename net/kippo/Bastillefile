@@ -1,0 +1,4 @@
+# Bastillefile for net/kippo
+PKG kippo
+SYSRC kippo_enable=YES
+SERVICE kippo start

@@ -1,0 +1,4 @@
+# Bastillefile for security/scanlogd
+PKG scanlogd
+SYSRC scanlogd_enable=YES
+SERVICE scanlogd start

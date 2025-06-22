@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/rundeck
+PKG rundeck
+SYSRC rundeck_enable=YES
+SERVICE rundeck start

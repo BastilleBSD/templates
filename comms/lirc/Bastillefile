@@ -1,0 +1,4 @@
+# Bastillefile for comms/lirc
+PKG lirc
+SYSRC lircd_enable=YES
+SERVICE lircd start

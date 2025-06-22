@@ -1,0 +1,4 @@
+# Bastillefile for devel/laminar
+PKG laminar
+SYSRC laminard_enable=YES
+SERVICE laminard start

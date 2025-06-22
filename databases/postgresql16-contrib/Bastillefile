@@ -1,0 +1,4 @@
+# Bastillefile for databases/postgresql16-contrib
+PKG postgresql16-contrib
+SYSRC postgresql_enable=YES
+SERVICE postgresql start

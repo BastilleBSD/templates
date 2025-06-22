@@ -1,0 +1,4 @@
+# Bastillefile for security/snort
+PKG snort
+SYSRC snort_enable=YES
+SERVICE snort start

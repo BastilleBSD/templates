@@ -1,0 +1,4 @@
+# Bastillefile for www/varnish_exporter
+PKG varnish_exporter
+SYSRC varnish_exporter_enable=YES
+SERVICE varnish_exporter start

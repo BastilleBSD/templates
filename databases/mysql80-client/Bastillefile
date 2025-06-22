@@ -1,0 +1,4 @@
+# Bastillefile for databases/mysql80-client
+PKG mysql80-client
+SYSRC mysql_enable=YES
+SERVICE mysql start

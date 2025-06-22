@@ -1,0 +1,4 @@
+# Bastillefile for devel/athens
+PKG athens
+SYSRC athens_enable=YES
+SERVICE athens start

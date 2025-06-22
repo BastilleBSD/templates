@@ -1,0 +1,4 @@
+# Bastillefile for net-p2p/uhub
+PKG uhub
+SYSRC uhub_enable=YES
+SERVICE uhub start

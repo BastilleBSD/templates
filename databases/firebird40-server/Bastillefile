@@ -1,0 +1,4 @@
+# Bastillefile for databases/firebird40-server
+PKG firebird40-server
+SYSRC firebird_enable=YES
+SERVICE firebird start

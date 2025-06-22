@@ -1,0 +1,4 @@
+# Bastillefile for www/garage
+PKG garage
+SYSRC garage_enable=YES
+SERVICE garage start

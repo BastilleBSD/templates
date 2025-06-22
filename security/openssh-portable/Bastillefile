@@ -1,0 +1,4 @@
+# Bastillefile for security/openssh-portable
+PKG openssh-portable
+SYSRC openssh_enable=YES
+SERVICE openssh start

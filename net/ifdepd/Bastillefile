@@ -1,0 +1,4 @@
+# Bastillefile for net/ifdepd
+PKG ifdepd
+SYSRC ifdepd_enable=YES
+SERVICE ifdepd start

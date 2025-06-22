@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/dhcp_probe
+PKG dhcp_probe
+SYSRC dhcp_probe_enable=YES
+SERVICE dhcp_probe start

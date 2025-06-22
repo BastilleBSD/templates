@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/radmind
+PKG radmind
+SYSRC radmind_enable=YES
+SERVICE radmind start

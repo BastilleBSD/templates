@@ -1,0 +1,4 @@
+# Bastillefile for databases/cassandra3
+PKG cassandra3
+SYSRC cassandra_enable=YES
+SERVICE cassandra start

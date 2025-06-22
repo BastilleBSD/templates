@@ -1,0 +1,4 @@
+# Bastillefile for www/tomcat9
+PKG tomcat9
+SYSRC tomcat9_enable=YES
+SERVICE tomcat9 start

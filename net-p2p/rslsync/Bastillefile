@@ -1,0 +1,4 @@
+# Bastillefile for net-p2p/rslsync
+PKG rslsync
+SYSRC rslsync_enable=YES
+SERVICE rslsync start

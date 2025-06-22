@@ -1,0 +1,4 @@
+# Bastillefile for net/serviio
+PKG serviio
+SYSRC serviio_enable=YES
+SERVICE serviio start

@@ -1,0 +1,4 @@
+# Bastillefile for net/teddycloud
+PKG teddycloud
+SYSRC teddycloudd_enable=YES
+SERVICE teddycloudd start

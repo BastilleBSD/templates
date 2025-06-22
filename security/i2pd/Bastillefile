@@ -1,0 +1,4 @@
+# Bastillefile for security/i2pd
+PKG i2pd
+SYSRC i2pd_enable=YES
+SERVICE i2pd start

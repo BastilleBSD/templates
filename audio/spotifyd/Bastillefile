@@ -1,0 +1,4 @@
+# Bastillefile for audio/spotifyd
+PKG spotifyd
+SYSRC spotifyd_enable=YES
+SERVICE spotifyd start

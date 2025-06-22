@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/puppetserver8
+PKG puppetserver8
+SYSRC puppetserver_enable=YES
+SERVICE puppetserver start

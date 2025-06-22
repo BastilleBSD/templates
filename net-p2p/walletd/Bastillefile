@@ -1,0 +1,4 @@
+# Bastillefile for net-p2p/walletd
+PKG walletd
+SYSRC walletd_enable=YES
+SERVICE walletd start

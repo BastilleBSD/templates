@@ -1,0 +1,4 @@
+# Bastillefile for www/hiawatha
+PKG hiawatha
+SYSRC hiawatha_enable=YES
+SERVICE hiawatha start

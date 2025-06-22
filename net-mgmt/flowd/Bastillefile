@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/flowd
+PKG flowd
+SYSRC flowd_enable=YES
+SERVICE flowd start

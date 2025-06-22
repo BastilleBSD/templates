@@ -1,0 +1,4 @@
+# Bastillefile for databases/leofs
+PKG leofs
+SYSRC leofs_enable=YES
+SERVICE leofs start

@@ -1,0 +1,4 @@
+# Bastillefile for irc/py-sopel
+PKG py311-sopel
+SYSRC sopel_enable=YES
+SERVICE sopel start

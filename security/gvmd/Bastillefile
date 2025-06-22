@@ -1,0 +1,4 @@
+# Bastillefile for security/gvmd
+PKG gvmd
+SYSRC gvmd_enable=YES
+SERVICE gvmd start

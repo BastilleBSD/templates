@@ -1,0 +1,4 @@
+# Bastillefile for net/krill
+PKG krill
+SYSRC krill_enable=YES
+SERVICE krill start

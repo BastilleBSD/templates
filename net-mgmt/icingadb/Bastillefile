@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/icingadb
+PKG icingadb
+SYSRC icingadb_enable=YES
+SERVICE icingadb start

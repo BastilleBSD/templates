@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/plocate
+PKG plocate
+SYSRC daily_plocate_enable=YES
+SERVICE daily_plocate start

@@ -1,0 +1,4 @@
+# Bastillefile for audio/murmur
+PKG murmur
+SYSRC murmur_enable=YES
+SERVICE murmur start

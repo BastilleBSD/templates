@@ -1,0 +1,4 @@
+# Bastillefile for net-im/prosody
+PKG prosody
+SYSRC prosody_enable=YES
+SERVICE prosody start

@@ -1,0 +1,4 @@
+# Bastillefile for www/obhttpd
+PKG obhttpd
+SYSRC obhttpd_enable=YES
+SERVICE obhttpd start

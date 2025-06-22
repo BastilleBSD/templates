@@ -1,0 +1,4 @@
+# Bastillefile for databases/go-pgweb
+PKG go-pgweb
+SYSRC pgweb_enable=YES
+SERVICE pgweb start

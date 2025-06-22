@@ -1,0 +1,4 @@
+# Bastillefile for java/avis
+PKG avis
+SYSRC avisd_enable=YES
+SERVICE avisd start

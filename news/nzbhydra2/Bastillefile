@@ -1,0 +1,4 @@
+# Bastillefile for news/nzbhydra2
+PKG nzbhydra2
+SYSRC nzbhydra2_enable=YES
+SERVICE nzbhydra2 start

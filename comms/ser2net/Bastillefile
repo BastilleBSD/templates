@@ -1,0 +1,4 @@
+# Bastillefile for comms/ser2net
+PKG ser2net
+SYSRC ser2net_enable=YES
+SERVICE ser2net start

@@ -1,0 +1,4 @@
+# Bastillefile for net-im/signald
+PKG signald
+SYSRC signald_enable=YES
+SERVICE signald start

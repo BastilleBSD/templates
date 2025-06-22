@@ -1,0 +1,4 @@
+# Bastillefile for security/caldera
+PKG caldera
+SYSRC caldera_enable=YES
+SERVICE caldera start

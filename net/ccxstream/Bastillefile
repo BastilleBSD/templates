@@ -1,0 +1,4 @@
+# Bastillefile for net/ccxstream
+PKG ccxstream
+SYSRC ccxstream_enable=YES
+SERVICE ccxstream start

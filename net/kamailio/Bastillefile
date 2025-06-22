@@ -1,0 +1,4 @@
+# Bastillefile for net/kamailio
+PKG kamailio
+SYSRC kamailio_enable=YES
+SERVICE kamailio start

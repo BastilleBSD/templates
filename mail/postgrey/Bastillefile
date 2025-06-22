@@ -1,0 +1,4 @@
+# Bastillefile for mail/postgrey
+PKG postgrey
+SYSRC postgrey_enable=YES
+SERVICE postgrey start

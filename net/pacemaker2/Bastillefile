@@ -1,0 +1,4 @@
+# Bastillefile for net/pacemaker2
+PKG pacemaker2
+SYSRC pacemaker_enable=YES
+SERVICE pacemaker start

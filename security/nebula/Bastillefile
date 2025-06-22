@@ -1,0 +1,4 @@
+# Bastillefile for security/nebula
+PKG nebula
+SYSRC nebula_enable=YES
+SERVICE nebula start

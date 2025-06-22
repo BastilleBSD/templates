@@ -1,0 +1,4 @@
+# Bastillefile for net/nats-server
+PKG nats-server
+SYSRC nats_enable=YES
+SERVICE nats start

@@ -1,0 +1,4 @@
+# Bastillefile for net/corosync2
+PKG corosync2
+SYSRC corosync_enable=YES
+SERVICE corosync start

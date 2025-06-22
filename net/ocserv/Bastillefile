@@ -1,0 +1,4 @@
+# Bastillefile for net/ocserv
+PKG ocserv
+SYSRC ocserv_enable=YES
+SERVICE ocserv start

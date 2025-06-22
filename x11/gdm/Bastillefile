@@ -1,0 +1,4 @@
+# Bastillefile for x11/gdm
+PKG gdm
+SYSRC gdm_enable=YES
+SERVICE gdm start

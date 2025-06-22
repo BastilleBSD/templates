@@ -1,0 +1,4 @@
+# Bastillefile for net-im/tox
+PKG tox
+SYSRC tox_bootstrapd_enable=YES
+SERVICE tox_bootstrapd start

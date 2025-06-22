@@ -1,0 +1,4 @@
+# Bastillefile for www/osrm-backend
+PKG osrm-backend
+SYSRC osrm_enable=YES
+SERVICE osrm start

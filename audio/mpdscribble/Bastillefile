@@ -1,0 +1,4 @@
+# Bastillefile for audio/mpdscribble
+PKG mpdscribble
+SYSRC mpdscribble_enable=YES
+SERVICE mpdscribble start

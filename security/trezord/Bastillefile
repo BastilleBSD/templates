@@ -1,0 +1,4 @@
+# Bastillefile for security/trezord
+PKG trezord
+SYSRC trezord_enable=YES
+SERVICE trezord start

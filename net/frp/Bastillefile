@@ -1,0 +1,4 @@
+# Bastillefile for net/frp
+PKG frp
+SYSRC frps_enable=YES
+SERVICE frps start

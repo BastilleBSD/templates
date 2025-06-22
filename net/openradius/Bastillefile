@@ -1,0 +1,4 @@
+# Bastillefile for net/openradius
+PKG openradius
+SYSRC openradius_enable=YES
+SERVICE openradius start

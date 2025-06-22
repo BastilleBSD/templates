@@ -1,0 +1,4 @@
+# Bastillefile for www/seahub
+PKG seahub
+SYSRC seahub_enable=YES
+SERVICE seahub start

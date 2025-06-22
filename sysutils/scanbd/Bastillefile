@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/scanbd
+PKG scanbd
+SYSRC scanbd_enable=YES
+SERVICE scanbd start

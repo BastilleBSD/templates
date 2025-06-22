@@ -1,0 +1,10 @@
+# Bastillefile for security/softether
+PKG softether
+SYSRC softether_bridge_enable=YES
+SYSRC softether_server_enable=YES
+SYSRC softether_trafficserver_enable=YES
+SYSRC softether_client_enable=YES
+SERVICE softether_bridge start
+SERVICE softether_client start
+SERVICE softether_server start
+SERVICE softether_trafficserver start

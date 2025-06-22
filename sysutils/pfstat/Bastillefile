@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/pfstat
+PKG pfstat
+SYSRC pfstatd_enable=YES
+SERVICE pfstatd start

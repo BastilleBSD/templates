@@ -1,0 +1,4 @@
+# Bastillefile for textproc/elasticsearch8
+PKG elasticsearch8
+SYSRC elasticsearch_enable=YES
+SERVICE elasticsearch start

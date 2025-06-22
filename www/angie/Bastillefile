@@ -1,0 +1,4 @@
+# Bastillefile for www/angie
+PKG angie
+SYSRC angie_enable=YES
+SERVICE angie start

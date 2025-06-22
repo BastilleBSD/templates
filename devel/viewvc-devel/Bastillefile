@@ -1,0 +1,4 @@
+# Bastillefile for devel/viewvc-devel
+PKG viewvc-devel
+SYSRC viewvc_enable=YES
+SERVICE viewvc start

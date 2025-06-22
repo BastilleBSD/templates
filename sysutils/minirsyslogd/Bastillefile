@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/minirsyslogd
+PKG minirsyslogd
+SYSRC minirsyslogd_enable=YES
+SERVICE minirsyslogd start

@@ -1,0 +1,4 @@
+# Bastillefile for japanese/sj3-server
+PKG sj3-server
+SYSRC sj3_enable=YES
+SERVICE sj3 start

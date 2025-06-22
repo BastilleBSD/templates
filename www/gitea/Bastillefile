@@ -1,11 +1,11 @@
+# Bastillefile for www/gitea
 ARG SECRET_KEY
 ARG JWT_SECRET
 ARG INTERNAL_TOKEN
 
 PKG gitea
 CP usr /
-RENDER /usr/local/etc/gitea/conf/app.ini
-CMD chown -R git:git /usr/local/etc/gitea
+RENDER /usr/local/etc/forgejo/conf/app.ini
+CMD chown -R git:git /usr/local/etc/forgejo
 SYSRC gitea_enable=YES
 SERVICE gitea start
-CMD echo "$?"

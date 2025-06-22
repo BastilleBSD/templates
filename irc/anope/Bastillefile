@@ -1,0 +1,4 @@
+# Bastillefile for irc/anope
+PKG anope
+SYSRC anope_enable=YES
+SERVICE anope start

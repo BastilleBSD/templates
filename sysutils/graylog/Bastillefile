@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/graylog
+PKG graylog
+SYSRC graylog_enable=YES
+SERVICE graylog start

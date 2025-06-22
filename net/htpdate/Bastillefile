@@ -1,0 +1,4 @@
+# Bastillefile for net/htpdate
+PKG htpdate
+SYSRC htpdate_enable=YES
+SERVICE htpdate start

@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/s6
+PKG s6
+SYSRC s6_enable=YES
+SERVICE s6 start

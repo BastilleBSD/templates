@@ -1,0 +1,6 @@
+# Bastillefile for net-p2p/bitcoin
+PKG bitcoin
+SYSRC bitcoind_enable=YES
+SYSRC bitcoindlimits_enable=YES
+SERVICE bitcoind start
+SERVICE bitcoindlimits start

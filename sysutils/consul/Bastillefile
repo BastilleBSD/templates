@@ -1,3 +1,6 @@
+# Bastillefile for sysutils/consul
 PKG consul
 SYSRC consul_enable=YES
+SYSRC consul_syslog_output_enable=YES
 SERVICE consul start
+SERVICE consul_syslog_output start

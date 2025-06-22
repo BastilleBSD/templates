@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/goaccess
+PKG goaccess
+SYSRC goaccess_enable=YES
+SERVICE goaccess start

@@ -1,0 +1,4 @@
+# Bastillefile for dns/rbldnsd
+PKG rbldnsd
+SYSRC rbldnsd_enable=YES
+SERVICE rbldnsd start

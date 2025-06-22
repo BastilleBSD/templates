@@ -1,0 +1,6 @@
+# Bastillefile for net/lavinmq
+PKG lavinmq
+SYSRC lavinmq_syslog_output_enable=YES
+SYSRC lavinmq_enable=YES
+SERVICE lavinmq start
+SERVICE lavinmq_syslog_output start

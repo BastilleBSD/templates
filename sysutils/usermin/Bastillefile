@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/usermin
+PKG usermin
+SYSRC usermin_enable=YES
+SERVICE usermin start

@@ -1,0 +1,4 @@
+# Bastillefile for www/nostromo
+PKG nostromo
+SYSRC nostromo_enable=YES
+SERVICE nostromo start

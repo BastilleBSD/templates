@@ -1,0 +1,4 @@
+# Bastillefile for www/janus
+PKG janus
+SYSRC janus_enable=YES
+SERVICE janus start

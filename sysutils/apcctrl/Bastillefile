@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/apcctrl
+PKG apcctrl
+SYSRC apcctrl_enable=YES
+SERVICE apcctrl start

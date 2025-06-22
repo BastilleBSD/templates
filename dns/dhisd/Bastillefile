@@ -1,0 +1,4 @@
+# Bastillefile for dns/dhisd
+PKG dhisd
+SYSRC dhisd_enable=YES
+SERVICE dhisd start

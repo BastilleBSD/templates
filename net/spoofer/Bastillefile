@@ -1,0 +1,4 @@
+# Bastillefile for net/spoofer
+PKG spoofer
+SYSRC spoofer_enable=YES
+SERVICE spoofer start

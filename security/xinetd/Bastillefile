@@ -1,0 +1,4 @@
+# Bastillefile for security/xinetd
+PKG xinetd
+SYSRC xinetd_enable=YES
+SERVICE xinetd start

@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/webmin
+PKG webmin
+SYSRC webmin_enable=YES
+SERVICE webmin start

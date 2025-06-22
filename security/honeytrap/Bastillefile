@@ -1,0 +1,6 @@
+# Bastillefile for security/honeytrap
+PKG honeytrap
+SYSRC honeytrap_syslog_output_enable=YES
+SYSRC honeytrap_enable=YES
+SERVICE honeytrap start
+SERVICE honeytrap_syslog_output start

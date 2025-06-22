@@ -1,0 +1,4 @@
+# Bastillefile for www/aria2
+PKG aria2
+SYSRC aria2_enable=YES
+SERVICE aria2 start

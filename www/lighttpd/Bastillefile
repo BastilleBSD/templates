@@ -1,0 +1,4 @@
+# Bastillefile for www/lighttpd
+PKG lighttpd
+SYSRC lighttpd_enable=YES
+SERVICE lighttpd start

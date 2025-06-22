@@ -1,0 +1,4 @@
+# Bastillefile for filesystems/zrepl-dsh2dsh
+PKG zrepl-dsh2dsh
+SYSRC zrepl_enable=YES
+SERVICE zrepl start

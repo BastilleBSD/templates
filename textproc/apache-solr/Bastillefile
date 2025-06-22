@@ -1,0 +1,4 @@
+# Bastillefile for textproc/apache-solr
+PKG apache-solr
+SYSRC solr_enable=YES
+SERVICE solr start

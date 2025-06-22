@@ -1,0 +1,4 @@
+# Bastillefile for net-p2p/renterd
+PKG renterd
+SYSRC renterd_enable=YES
+SERVICE renterd start

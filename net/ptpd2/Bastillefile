@@ -1,0 +1,4 @@
+# Bastillefile for net/ptpd2
+PKG ptpd2
+SYSRC ptpd2_enable=YES
+SERVICE ptpd2 start

@@ -1,0 +1,4 @@
+# Bastillefile for mail/notimail
+PKG notimail
+SYSRC notimail_enable=YES
+SERVICE notimail start

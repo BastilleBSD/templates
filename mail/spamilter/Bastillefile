@@ -1,0 +1,4 @@
+# Bastillefile for mail/spamilter
+PKG spamilter
+SYSRC spamilter_enable=YES
+SERVICE spamilter start

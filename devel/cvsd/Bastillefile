@@ -1,0 +1,4 @@
+# Bastillefile for devel/cvsd
+PKG cvsd
+SYSRC cvsd_enable=YES
+SERVICE cvsd start

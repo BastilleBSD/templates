@@ -1,0 +1,4 @@
+# Bastillefile for net/vnstat
+PKG vnstat
+SYSRC vnstat_enable=YES
+SERVICE vnstat start

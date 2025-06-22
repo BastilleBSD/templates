@@ -1,0 +1,4 @@
+# Bastillefile for databases/kyototycoon
+PKG kyototycoon
+SYSRC kyototycoon_enable=YES
+SERVICE kyototycoon start

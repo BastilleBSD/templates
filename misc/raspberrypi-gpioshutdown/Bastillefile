@@ -1,0 +1,4 @@
+# Bastillefile for misc/raspberrypi-gpioshutdown
+PKG raspberrypi-gpioshutdown
+SYSRC gpioshutdown_enable=YES
+SERVICE gpioshutdown start

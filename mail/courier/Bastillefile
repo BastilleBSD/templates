@@ -1,0 +1,4 @@
+# Bastillefile for mail/courier
+PKG courier
+SYSRC courier_enable=YES
+SERVICE courier start

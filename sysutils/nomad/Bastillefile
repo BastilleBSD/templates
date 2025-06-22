@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/nomad
+PKG nomad
+SYSRC nomad_enable=YES
+SERVICE nomad start

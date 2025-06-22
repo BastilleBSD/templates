@@ -1,0 +1,4 @@
+# Bastillefile for net/tcpproxy
+PKG tcpproxy
+SYSRC tcpproxy_enable=YES
+SERVICE tcpproxy start

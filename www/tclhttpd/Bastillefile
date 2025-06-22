@@ -1,0 +1,4 @@
+# Bastillefile for www/tclhttpd
+PKG tclhttpd
+SYSRC tclhttpd_enable=YES
+SERVICE tclhttpd start

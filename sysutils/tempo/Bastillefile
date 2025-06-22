@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/tempo
+PKG tempo
+SYSRC tempo_enable=YES
+SERVICE tempo start

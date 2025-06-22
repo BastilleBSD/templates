@@ -1,0 +1,4 @@
+# Bastillefile for ftp/ftpproxy
+PKG ftpproxy
+SYSRC ftpproxy_enable=YES
+SERVICE ftpproxy start

@@ -1,0 +1,4 @@
+# Bastillefile for net/eturnal
+PKG eturnal
+SYSRC eturnal_enable=YES
+SERVICE eturnal start

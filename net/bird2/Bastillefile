@@ -1,0 +1,4 @@
+# Bastillefile for net/bird2
+PKG bird2
+SYSRC bird_enable=YES
+SERVICE bird start

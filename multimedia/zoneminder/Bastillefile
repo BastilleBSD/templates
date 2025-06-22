@@ -1,0 +1,4 @@
+# Bastillefile for multimedia/zoneminder
+PKG zoneminder
+SYSRC zoneminder_enable=YES
+SERVICE zoneminder start

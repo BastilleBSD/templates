@@ -1,0 +1,4 @@
+# Bastillefile for www/cntlm
+PKG cntlm
+SYSRC cntlm_enable=YES
+SERVICE cntlm start

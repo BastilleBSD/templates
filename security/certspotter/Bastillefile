@@ -1,0 +1,4 @@
+# Bastillefile for security/certspotter
+PKG certspotter
+SYSRC certspotter_enable=YES
+SERVICE certspotter start

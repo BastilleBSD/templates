@@ -1,0 +1,4 @@
+# Bastillefile for comms/tits
+PKG tits
+SYSRC tits_enable=YES
+SERVICE tits start

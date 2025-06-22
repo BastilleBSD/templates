@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/smokeping
+PKG smokeping
+SYSRC smokeping_enable=YES
+SERVICE smokeping start

@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/lldpd
+PKG lldpd
+SYSRC lldpd_enable=YES
+SERVICE lldpd start

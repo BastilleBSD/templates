@@ -1,0 +1,4 @@
+# Bastillefile for x11-drivers/xf86-input-wacom
+PKG xf86-input-wacom
+SYSRC wacom_enable=YES
+SERVICE wacom start

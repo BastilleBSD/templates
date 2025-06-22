@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/nfsen
+PKG nfsen
+SYSRC nfsen_enable=YES
+SERVICE nfsen start

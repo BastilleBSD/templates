@@ -1,0 +1,4 @@
+# Bastillefile for databases/pgpool-II-42
+PKG pgpool-II-42
+SYSRC pgpool_enable=YES
+SERVICE pgpool start

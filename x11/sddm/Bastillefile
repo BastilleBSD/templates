@@ -1,0 +1,4 @@
+# Bastillefile for x11/sddm
+PKG sddm
+SYSRC sddm_enable=YES
+SERVICE sddm start

@@ -1,0 +1,4 @@
+# Bastillefile for net/qadsl
+PKG qadsl
+SYSRC qadsl_enable=YES
+SERVICE qadsl start

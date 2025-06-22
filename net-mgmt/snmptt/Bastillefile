@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/snmptt
+PKG snmptt
+SYSRC snmptt_enable=YES
+SERVICE snmptt start

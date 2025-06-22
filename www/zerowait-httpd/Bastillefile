@@ -1,0 +1,4 @@
+# Bastillefile for www/zerowait-httpd
+PKG zerowait-httpd
+SYSRC zerowait_enable=YES
+SERVICE zerowait start

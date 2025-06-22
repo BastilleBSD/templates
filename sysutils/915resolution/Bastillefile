@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/915resolution
+PKG 915resolution
+SYSRC i915resolution_enable=YES
+SERVICE i915resolution start

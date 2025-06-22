@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/healthd
+PKG healthd
+SYSRC healthd_enable=YES
+SERVICE healthd start

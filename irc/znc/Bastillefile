@@ -1,0 +1,4 @@
+# Bastillefile for irc/znc
+PKG znc
+SYSRC znc_enable=YES
+SERVICE znc start

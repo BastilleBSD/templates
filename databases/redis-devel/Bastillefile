@@ -1,0 +1,4 @@
+# Bastillefile for databases/redis-devel
+PKG redis-devel
+SYSRC redis_enable=YES
+SERVICE redis start

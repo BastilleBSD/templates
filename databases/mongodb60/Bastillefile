@@ -1,0 +1,4 @@
+# Bastillefile for databases/mongodb60
+PKG mongodb60
+SYSRC mongod_enable=YES
+SERVICE mongod start

@@ -1,0 +1,4 @@
+# Bastillefile for net/zerotier
+PKG zerotier
+SYSRC zerotier_enable=YES
+SERVICE zerotier start

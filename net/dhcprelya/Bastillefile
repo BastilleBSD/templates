@@ -1,0 +1,4 @@
+# Bastillefile for net/dhcprelya
+PKG dhcprelya
+SYSRC dhcprelya_enable=YES
+SERVICE dhcprelya start

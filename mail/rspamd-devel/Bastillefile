@@ -1,0 +1,4 @@
+# Bastillefile for mail/rspamd-devel
+PKG rspamd-devel
+SYSRC rspamd_enable=YES
+SERVICE rspamd start

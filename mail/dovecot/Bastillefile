@@ -1,0 +1,4 @@
+# Bastillefile for mail/dovecot
+PKG dovecot
+SYSRC dovecot_enable=YES
+SERVICE dovecot start

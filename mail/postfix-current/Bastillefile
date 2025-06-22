@@ -1,0 +1,4 @@
+# Bastillefile for mail/postfix-current
+PKG postfix-current
+SYSRC postfix_enable=YES
+SERVICE postfix start

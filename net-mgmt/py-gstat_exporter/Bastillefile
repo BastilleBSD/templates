@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/py-gstat_exporter
+PKG py311-gstat_exporter
+SYSRC gstat_exporter_enable=YES
+SERVICE gstat_exporter start

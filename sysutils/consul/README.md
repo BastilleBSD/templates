@@ -1,7 +1,13 @@
-# consul
-Bastille template to bootstrap consul
+# sysutils/consul
+Service discovery and configuration made easy
+https://www.consul.io/
 
-## Usage
+# Bastille Usage
 ```shell
 bastille template TARGET sysutils/consul
+```
+
+# Rocinante Usage
+```shell
+rocinante template sysutils/consul
 ```

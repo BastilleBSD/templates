@@ -1,0 +1,4 @@
+# Bastillefile for mail/tpop3d
+PKG tpop3d
+SYSRC tpop3d_enable=YES
+SERVICE tpop3d start

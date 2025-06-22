@@ -1,0 +1,4 @@
+# Bastillefile for net/dico
+PKG dico
+SYSRC dicod_enable=YES
+SERVICE dicod start

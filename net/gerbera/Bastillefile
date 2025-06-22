@@ -1,0 +1,4 @@
+# Bastillefile for net/gerbera
+PKG gerbera
+SYSRC gerbera_enable=YES
+SERVICE gerbera start

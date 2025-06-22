@@ -1,0 +1,4 @@
+# Bastillefile for audio/teamspeak3-server
+PKG teamspeak3-server
+SYSRC teamspeak_enable=YES
+SERVICE teamspeak start

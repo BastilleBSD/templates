@@ -1,0 +1,4 @@
+# Bastillefile for irc/inspircd
+PKG inspircd
+SYSRC inspircd_enable=YES
+SERVICE inspircd start

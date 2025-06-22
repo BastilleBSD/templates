@@ -1,0 +1,4 @@
+# Bastillefile for net/miniupnpd
+PKG miniupnpd
+SYSRC miniupnpd_enable=YES
+SERVICE miniupnpd start

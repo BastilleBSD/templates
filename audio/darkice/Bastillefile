@@ -1,0 +1,4 @@
+# Bastillefile for audio/darkice
+PKG darkice
+SYSRC darkice_enable=YES
+SERVICE darkice start

@@ -1,0 +1,4 @@
+# Bastillefile for net/haproxy
+PKG haproxy
+SYSRC haproxy_enable=YES
+SERVICE haproxy start

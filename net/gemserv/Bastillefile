@@ -1,0 +1,6 @@
+# Bastillefile for net/gemserv
+PKG gemserv
+SYSRC gemserv_syslog_output_enable=YES
+SYSRC gemserv_enable=YES
+SERVICE gemserv start
+SERVICE gemserv_syslog_output start

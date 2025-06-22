@@ -1,0 +1,4 @@
+# Bastillefile for devel/py-buildbot
+PKG py311-buildbot
+SYSRC buildbot_enable=YES
+SERVICE buildbot start

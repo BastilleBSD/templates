@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/grok_exporter
+PKG grok_exporter
+SYSRC grok_exporter_enable=YES
+SERVICE grok_exporter start

@@ -1,0 +1,4 @@
+# Bastillefile for databases/slony1v2
+PKG slony1v2
+SYSRC slon_enable=YES
+SERVICE slon start

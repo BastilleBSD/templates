@@ -1,0 +1,4 @@
+# Bastillefile for databases/couchdb3
+PKG couchdb3
+SYSRC couchdb3_enable=YES
+SERVICE couchdb3 start

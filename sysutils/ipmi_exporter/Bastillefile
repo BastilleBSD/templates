@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/ipmi_exporter
+PKG ipmi_exporter
+SYSRC ipmi_exporter_enable=YES
+SERVICE ipmi_exporter start

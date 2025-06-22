@@ -1,0 +1,6 @@
+# Bastillefile for dns/ddns
+PKG ddns
+SYSRC ddns_client_enable=YES
+SYSRC ddns_server_enable=YES
+SERVICE ddns_client start
+SERVICE ddns_server start

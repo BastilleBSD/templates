@@ -1,0 +1,4 @@
+# Bastillefile for dns/yadifa
+PKG yadifa
+SYSRC yadifad_enable=YES
+SERVICE yadifad start

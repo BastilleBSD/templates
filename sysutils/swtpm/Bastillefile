@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/swtpm
+PKG swtpm
+SYSRC swtpm_enable=YES
+SERVICE swtpm start

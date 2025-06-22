@@ -1,0 +1,4 @@
+# Bastillefile for comms/aprsd
+PKG aprsd
+SYSRC aprsd_enable=YES
+SERVICE aprsd start

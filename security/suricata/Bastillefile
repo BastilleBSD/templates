@@ -1,0 +1,4 @@
+# Bastillefile for security/suricata
+PKG suricata
+SYSRC suricata_enable=YES
+SERVICE suricata start

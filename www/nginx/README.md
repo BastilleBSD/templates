@@ -1,8 +1,13 @@
-## nginx
-Bastille template to bootstrap nginx
+# www/nginx
+Robust and small WWW server
+https://nginx.com/
 
-## Usage
+# Bastille Usage
 ```shell
 bastille template TARGET www/nginx
+```
 
+# Rocinante Usage
+```shell
+rocinante template www/nginx
 ```

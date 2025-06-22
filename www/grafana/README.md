@@ -1,7 +1,13 @@
-# Grafana
-Bastille template for Grafana
+# www/grafana
+Dashboard and graph editor for multiple data stores
+https://grafana.com/grafana/ https://github.com/grafana/grafana
 
-## Usage
+# Bastille Usage
 ```shell
 bastille template TARGET www/grafana
+```
+
+# Rocinante Usage
+```shell
+rocinante template www/grafana
 ```

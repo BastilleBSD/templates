@@ -1,0 +1,4 @@
+# Bastillefile for www/privoxy
+PKG privoxy
+SYSRC privoxy_enable=YES
+SERVICE privoxy start

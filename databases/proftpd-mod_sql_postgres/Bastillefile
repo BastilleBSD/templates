@@ -1,0 +1,4 @@
+# Bastillefile for databases/proftpd-mod_sql_postgres
+PKG proftpd-mod_sql_postgres
+SYSRC proftpd_enable=YES
+SERVICE proftpd start

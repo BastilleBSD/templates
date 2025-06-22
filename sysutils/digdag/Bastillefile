@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/digdag
+PKG digdag
+SYSRC digdag_enable=YES
+SERVICE digdag start

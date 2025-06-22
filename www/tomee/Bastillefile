@@ -1,0 +1,4 @@
+# Bastillefile for www/tomee
+PKG tomee
+SYSRC tomee_enable=YES
+SERVICE tomee start

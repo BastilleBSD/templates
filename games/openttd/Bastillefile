@@ -1,0 +1,4 @@
+# Bastillefile for games/openttd
+PKG openttd
+SYSRC openttd_enable=YES
+SERVICE openttd start

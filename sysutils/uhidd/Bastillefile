@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/uhidd
+PKG uhidd
+SYSRC uhidd_enable=YES
+SERVICE uhidd start

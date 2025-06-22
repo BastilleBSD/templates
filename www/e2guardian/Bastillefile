@@ -1,0 +1,4 @@
+# Bastillefile for www/e2guardian
+PKG e2guardian
+SYSRC e2guardian_enable=YES
+SERVICE e2guardian start

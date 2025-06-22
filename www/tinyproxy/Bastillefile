@@ -1,0 +1,4 @@
+# Bastillefile for www/tinyproxy
+PKG tinyproxy
+SYSRC tinyproxy_enable=YES
+SERVICE tinyproxy start

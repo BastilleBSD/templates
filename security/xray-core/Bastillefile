@@ -1,0 +1,4 @@
+# Bastillefile for security/xray-core
+PKG xray-core
+SYSRC xray_enable=YES
+SERVICE xray start

@@ -1,0 +1,4 @@
+# Bastillefile for net/motsognir
+PKG motsognir
+SYSRC motsognir_enable=YES
+SERVICE motsognir start

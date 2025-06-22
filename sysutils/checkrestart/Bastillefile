@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/checkrestart
+PKG checkrestart
+SYSRC security_checkrestart_enable=YES
+SERVICE security_checkrestart start

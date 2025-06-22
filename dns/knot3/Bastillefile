@@ -1,0 +1,4 @@
+# Bastillefile for dns/knot3
+PKG knot3
+SYSRC knot_enable=YES
+SERVICE knot start

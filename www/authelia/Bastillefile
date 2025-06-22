@@ -1,0 +1,4 @@
+# Bastillefile for www/authelia
+PKG authelia
+SYSRC authelia_enable=YES
+SERVICE authelia start

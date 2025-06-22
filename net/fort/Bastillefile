@@ -1,0 +1,4 @@
+# Bastillefile for net/fort
+PKG fort
+SYSRC fort_enable=YES
+SERVICE fort start

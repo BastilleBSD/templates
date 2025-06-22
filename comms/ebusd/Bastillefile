@@ -1,0 +1,4 @@
+# Bastillefile for comms/ebusd
+PKG ebusd
+SYSRC ebusd_enable=YES
+SERVICE ebusd start

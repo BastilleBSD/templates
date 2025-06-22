@@ -1,0 +1,4 @@
+# Bastillefile for net/asterisk22
+PKG asterisk22
+SYSRC asterisk_enable=YES
+SERVICE asterisk start

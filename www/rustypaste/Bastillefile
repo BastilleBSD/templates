@@ -1,0 +1,4 @@
+# Bastillefile for www/rustypaste
+PKG rustypaste
+SYSRC rustypaste_enable=YES
+SERVICE rustypaste start

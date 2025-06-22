@@ -1,0 +1,4 @@
+# Bastillefile for net/sslh
+PKG sslh
+SYSRC sslh_enable=YES
+SERVICE sslh start

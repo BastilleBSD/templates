@@ -1,0 +1,4 @@
+# Bastillefile for net/kea
+PKG kea
+SYSRC kea_enable=YES
+SERVICE kea start

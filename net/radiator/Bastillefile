@@ -1,0 +1,4 @@
+# Bastillefile for net/radiator
+PKG radiator
+SYSRC radiator_enable=YES
+SERVICE radiator start

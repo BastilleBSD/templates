@@ -1,0 +1,6 @@
+# Bastillefile for mail/dkimproxy
+PKG dkimproxy
+SYSRC dkimproxy_in_enable=YES
+SYSRC dkimproxy_out_enable=YES
+SERVICE dkimproxy_in start
+SERVICE dkimproxy_out start

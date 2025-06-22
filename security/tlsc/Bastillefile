@@ -1,0 +1,4 @@
+# Bastillefile for security/tlsc
+PKG tlsc
+SYSRC tlsc_enable=YES
+SERVICE tlsc start

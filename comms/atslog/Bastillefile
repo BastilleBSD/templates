@@ -1,0 +1,4 @@
+# Bastillefile for comms/atslog
+PKG atslog
+SYSRC atslogd_enable=YES
+SERVICE atslogd start

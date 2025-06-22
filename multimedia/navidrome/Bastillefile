@@ -1,0 +1,4 @@
+# Bastillefile for multimedia/navidrome
+PKG navidrome
+SYSRC navidrome_enable=YES
+SERVICE navidrome start

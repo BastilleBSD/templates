@@ -1,0 +1,8 @@
+# Bastillefile for www/gatling
+PKG gatling
+SYSRC gatling_ssl_enable=YES
+SYSRC gatling_enable=YES
+SYSRC gatling_ftp_enable=YES
+SERVICE gatling start
+SERVICE gatling_ftp start
+SERVICE gatling_ssl start

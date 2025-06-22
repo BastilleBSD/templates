@@ -1,0 +1,4 @@
+# Bastillefile for net/radsecproxy
+PKG radsecproxy
+SYSRC radsecproxy_enable=YES
+SERVICE radsecproxy start

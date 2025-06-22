@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/alertmanager
+PKG alertmanager
+SYSRC alertmanager_enable=YES
+SERVICE alertmanager start

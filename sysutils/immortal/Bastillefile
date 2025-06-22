@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/immortal
+PKG immortal
+SYSRC immortaldir_enable=YES
+SERVICE immortaldir start

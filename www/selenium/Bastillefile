@@ -1,0 +1,4 @@
+# Bastillefile for www/selenium
+PKG selenium
+SYSRC selenium_enable=YES
+SERVICE selenium start

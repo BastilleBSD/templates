@@ -1,3 +1,6 @@
-PKG grafana8
+# Bastillefile for www/grafana
+PKG grafana
 SYSRC grafana_enable=YES
+SYSRC grafana_syslog_output_enable=YES
 SERVICE grafana start
+SERVICE grafana_syslog_output start

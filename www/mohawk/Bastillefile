@@ -1,0 +1,4 @@
+# Bastillefile for www/mohawk
+PKG mohawk
+SYSRC mohawk_enable=YES
+SERVICE mohawk start

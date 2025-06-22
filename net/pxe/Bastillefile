@@ -1,0 +1,4 @@
+# Bastillefile for net/pxe
+PKG pxe
+SYSRC pxe_enable=YES
+SERVICE pxe start

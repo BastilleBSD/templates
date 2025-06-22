@@ -1,0 +1,4 @@
+# Bastillefile for multimedia/oscam
+PKG oscam
+SYSRC oscam_enable=YES
+SERVICE oscam start

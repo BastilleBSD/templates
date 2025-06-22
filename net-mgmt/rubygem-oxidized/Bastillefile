@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/rubygem-oxidized
+PKG rubygem-oxidized
+SYSRC oxidized_enable=YES
+SERVICE oxidized start

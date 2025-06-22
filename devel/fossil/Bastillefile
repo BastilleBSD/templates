@@ -1,0 +1,4 @@
+# Bastillefile for devel/fossil
+PKG fossil
+SYSRC fossil_enable=YES
+SERVICE fossil start

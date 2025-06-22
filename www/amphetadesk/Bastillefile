@@ -1,0 +1,4 @@
+# Bastillefile for www/amphetadesk
+PKG amphetadesk
+SYSRC amphetadesk_enable=YES
+SERVICE amphetadesk start

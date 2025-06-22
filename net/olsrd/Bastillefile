@@ -1,0 +1,4 @@
+# Bastillefile for net/olsrd
+PKG olsrd
+SYSRC olsrd_enable=YES
+SERVICE olsrd start

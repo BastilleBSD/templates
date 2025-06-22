@@ -1,0 +1,4 @@
+# Bastillefile for net/asterisk20
+PKG asterisk20
+SYSRC asterisk_enable=YES
+SERVICE asterisk start

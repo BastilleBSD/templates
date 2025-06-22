@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/netxms
+PKG netxms
+SYSRC netxmsd_enable=YES
+SERVICE netxmsd start

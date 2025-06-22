@@ -1,0 +1,4 @@
+# Bastillefile for security/snowflake-tor
+PKG snowflake-tor
+SYSRC snowflake_enable=YES
+SERVICE snowflake start

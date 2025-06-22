@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/ipa
+PKG ipa
+SYSRC ipa_enable=YES
+SERVICE ipa start

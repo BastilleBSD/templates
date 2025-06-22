@@ -1,0 +1,6 @@
+# Bastillefile for net/dtcp
+PKG dtcp
+SYSRC dtcpc_enable=YES
+SYSRC dtcps_enable=YES
+SERVICE dtcpc start
+SERVICE dtcps start

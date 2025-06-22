@@ -1,0 +1,8 @@
+# Bastillefile for mail/dbmail
+PKG dbmail
+SYSRC dbmail_timsieved_enable=YES
+SYSRC dbmail_imapd_enable=YES
+SYSRC dbmail_lmtpd_enable=YES
+SERVICE dbmail_imapd start
+SERVICE dbmail_lmtpd start
+SERVICE dbmail_timsieved start

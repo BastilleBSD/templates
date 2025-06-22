@@ -1,0 +1,4 @@
+# Bastillefile for audio/jack
+PKG jack
+SYSRC jackd_enable=YES
+SERVICE jackd start

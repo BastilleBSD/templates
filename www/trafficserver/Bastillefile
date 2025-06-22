@@ -1,0 +1,4 @@
+# Bastillefile for www/trafficserver
+PKG trafficserver
+SYSRC trafficserver_enable=YES
+SERVICE trafficserver start

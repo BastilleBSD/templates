@@ -1,0 +1,4 @@
+# Bastillefile for audio/jamulus
+PKG jamulus
+SYSRC jamulus_server_enable=YES
+SERVICE jamulus_server start

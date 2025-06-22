@@ -1,0 +1,4 @@
+# Bastillefile for mail/sympa
+PKG sympa
+SYSRC sympa_enable=YES
+SERVICE sympa start

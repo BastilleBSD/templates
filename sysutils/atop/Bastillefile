@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/atop
+PKG atop
+SYSRC atop_enable=YES
+SERVICE atop start

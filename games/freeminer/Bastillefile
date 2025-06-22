@@ -1,0 +1,4 @@
+# Bastillefile for games/freeminer
+PKG freeminer
+SYSRC freeminer_enable=YES
+SERVICE freeminer start

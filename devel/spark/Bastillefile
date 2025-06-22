@@ -1,0 +1,6 @@
+# Bastillefile for devel/spark
+PKG spark
+SYSRC spark_worker_enable=YES
+SYSRC spark_master_enable=YES
+SERVICE spark_master start
+SERVICE spark_worker start

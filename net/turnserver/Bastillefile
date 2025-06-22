@@ -1,0 +1,4 @@
+# Bastillefile for net/turnserver
+PKG turnserver
+SYSRC turnserver_enable=YES
+SERVICE turnserver start

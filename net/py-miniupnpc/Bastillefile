@@ -1,0 +1,4 @@
+# Bastillefile for net/py-miniupnpc
+PKG py311-miniupnpc
+SYSRC miniupnpc_enable=YES
+SERVICE miniupnpc start

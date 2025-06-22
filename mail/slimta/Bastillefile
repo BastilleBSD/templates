@@ -1,0 +1,4 @@
+# Bastillefile for mail/slimta
+PKG slimta
+SYSRC slimta_enable=YES
+SERVICE slimta start

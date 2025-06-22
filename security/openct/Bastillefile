@@ -1,0 +1,4 @@
+# Bastillefile for security/openct
+PKG openct
+SYSRC openct_enable=YES
+SERVICE openct start

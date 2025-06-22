@@ -1,0 +1,4 @@
+# Bastillefile for ftp/bbftp-server
+PKG bbftp-server
+SYSRC bbftp_enable=YES
+SERVICE bbftp start

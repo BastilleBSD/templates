@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/ipad_charge
+PKG ipad_charge
+SYSRC ipad_charge_enable=YES
+SERVICE ipad_charge start

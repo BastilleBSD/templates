@@ -1,0 +1,6 @@
+# Bastillefile for security/openbao
+PKG openbao
+SYSRC openbao_syslog_output_enable=YES
+SYSRC openbao_enable=YES
+SERVICE openbao start
+SERVICE openbao_syslog_output start

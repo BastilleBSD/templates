@@ -1,0 +1,4 @@
+# Bastillefile for mail/spamd
+PKG spamd
+SYSRC obspamd_enable=YES
+SERVICE obspamd start

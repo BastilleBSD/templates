@@ -1,0 +1,4 @@
+# Bastillefile for net-p2p/autoscan
+PKG autoscan
+SYSRC autoscan_enable=YES
+SERVICE autoscan start

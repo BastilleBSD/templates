@@ -1,0 +1,4 @@
+# Bastillefile for net/spread
+PKG spread
+SYSRC spread_enable=YES
+SERVICE spread start

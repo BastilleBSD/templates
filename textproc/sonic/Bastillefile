@@ -1,0 +1,4 @@
+# Bastillefile for textproc/sonic
+PKG sonic
+SYSRC sonic_enable=YES
+SERVICE sonic start

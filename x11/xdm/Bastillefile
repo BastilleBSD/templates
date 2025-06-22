@@ -1,0 +1,4 @@
+# Bastillefile for x11/xdm
+PKG xdm
+SYSRC xdm_enable=YES
+SERVICE xdm start

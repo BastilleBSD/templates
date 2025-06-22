@@ -1,0 +1,4 @@
+# Bastillefile for finance/odoo16
+PKG odoo16
+SYSRC odoo_enable=YES
+SERVICE odoo start

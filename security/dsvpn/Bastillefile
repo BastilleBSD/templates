@@ -1,0 +1,4 @@
+# Bastillefile for security/dsvpn
+PKG dsvpn
+SYSRC dsvpn_enable=YES
+SERVICE dsvpn start

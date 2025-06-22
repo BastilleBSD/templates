@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/fvcool
+PKG fvcool
+SYSRC fvcool_enable=YES
+SERVICE fvcool start

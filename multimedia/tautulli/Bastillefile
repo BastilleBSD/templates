@@ -1,0 +1,4 @@
+# Bastillefile for multimedia/tautulli
+PKG tautulli
+SYSRC tautulli_enable=YES
+SERVICE tautulli start

@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/riemann
+PKG riemann
+SYSRC riemann_enable=YES
+SERVICE riemann start

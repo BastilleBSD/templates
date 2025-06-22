@@ -1,0 +1,4 @@
+# Bastillefile for news/inn
+PKG inn
+SYSRC innd_enable=YES
+SERVICE innd start

@@ -1,0 +1,4 @@
+# Bastillefile for databases/postgresql18-client
+PKG postgresql18-client
+SYSRC postgresql_enable=YES
+SERVICE postgresql start

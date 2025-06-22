@@ -1,0 +1,4 @@
+# Bastillefile for audio/pianod2
+PKG pianod2
+SYSRC pianod_enable=YES
+SERVICE pianod start

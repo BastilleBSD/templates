@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/jailrc
+PKG jailrc
+SYSRC jailrc_enable=YES
+SERVICE jailrc start

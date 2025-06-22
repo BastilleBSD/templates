@@ -1,0 +1,6 @@
+# Bastillefile for ftp/vsftpd
+PKG vsftpd
+SYSRC vsftpd6_enable=YES
+SYSRC vsftpd_enable=YES
+SERVICE vsftpd start
+SERVICE vsftpd6 start

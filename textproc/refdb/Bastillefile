@@ -1,0 +1,4 @@
+# Bastillefile for textproc/refdb
+PKG refdb
+SYSRC refdbd_enable=YES
+SERVICE refdbd start

@@ -1,0 +1,4 @@
+# Bastillefile for net/kube-scheduler
+PKG kube-scheduler
+SYSRC scheduler_enable=YES
+SERVICE scheduler start

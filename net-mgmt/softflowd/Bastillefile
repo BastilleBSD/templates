@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/softflowd
+PKG softflowd
+SYSRC softflowd_enable=YES
+SERVICE softflowd start

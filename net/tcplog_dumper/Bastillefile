@@ -1,0 +1,4 @@
+# Bastillefile for net/tcplog_dumper
+PKG tcplog_dumper
+SYSRC tcplog_dumper_enable=YES
+SERVICE tcplog_dumper start

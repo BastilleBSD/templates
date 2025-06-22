@@ -1,0 +1,4 @@
+# Bastillefile for misc/upclient
+PKG upclient
+SYSRC upclient_enable=YES
+SERVICE upclient start

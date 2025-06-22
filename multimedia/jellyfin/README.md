@@ -1,7 +1,13 @@
-## jellyfin
-Bastille template for Jellyfin
+# multimedia/jellyfin
+Jellyfin Server Component with WebUI
+https://jellyfin.org/
 
-## Usage
+# Bastille Usage
 ```shell
 bastille template TARGET multimedia/jellyfin
+```
+
+# Rocinante Usage
+```shell
+rocinante template multimedia/jellyfin
 ```

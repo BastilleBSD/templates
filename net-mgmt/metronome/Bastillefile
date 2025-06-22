@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/metronome
+PKG metronome
+SYSRC metronome_enable=YES
+SERVICE metronome start

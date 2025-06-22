@@ -1,0 +1,12 @@
+# Bastillefile for sysutils/cbsd
+PKG cbsd
+SYSRC cbsd_statsd_hoster_enable=YES
+SYSRC cbsdrsyncd_enable=YES
+SYSRC cbsd_statsd_jail_enable=YES
+SYSRC cbsd_statsd_bhyve_enable=YES
+SYSRC cbsdd_enable=YES
+SERVICE cbsd_statsd_bhyve start
+SERVICE cbsd_statsd_hoster start
+SERVICE cbsd_statsd_jail start
+SERVICE cbsdd start
+SERVICE cbsdrsyncd start

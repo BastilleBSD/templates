@@ -1,0 +1,4 @@
+# Bastillefile for net-im/conduit
+PKG conduit
+SYSRC conduit_enable=YES
+SERVICE conduit start

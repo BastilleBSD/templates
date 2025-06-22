@@ -1,0 +1,4 @@
+# Bastillefile for www/webhook
+PKG webhook
+SYSRC webhook_enable=YES
+SERVICE webhook start

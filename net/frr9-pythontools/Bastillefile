@@ -1,0 +1,4 @@
+# Bastillefile for net/frr9-pythontools
+PKG frr9-pythontools
+SYSRC frr_enable=YES
+SERVICE frr start

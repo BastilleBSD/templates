@@ -1,0 +1,4 @@
+# Bastillefile for net/csync2
+PKG csync2
+SYSRC csync2_enable=YES
+SERVICE csync2 start

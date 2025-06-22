@@ -1,0 +1,4 @@
+# Bastillefile for mail/dcc-dccd
+PKG dcc-dccd
+SYSRC dccd_enable=YES
+SERVICE dccd start

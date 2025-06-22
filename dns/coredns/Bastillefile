@@ -1,0 +1,4 @@
+# Bastillefile for dns/coredns
+PKG coredns
+SYSRC coredns_enable=YES
+SERVICE coredns start

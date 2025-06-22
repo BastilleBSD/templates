@@ -1,0 +1,4 @@
+# Bastillefile for japanese/ebnetd
+PKG ebnetd
+SYSRC ebnetd_enable=YES
+SERVICE ebnetd start

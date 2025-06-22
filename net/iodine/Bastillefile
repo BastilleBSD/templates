@@ -1,0 +1,4 @@
+# Bastillefile for net/iodine
+PKG iodine
+SYSRC iodined_enable=YES
+SERVICE iodined start

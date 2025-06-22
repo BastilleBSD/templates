@@ -1,0 +1,4 @@
+# Bastillefile for mail/sqlgrey
+PKG sqlgrey
+SYSRC sqlgrey_enable=YES
+SERVICE sqlgrey start

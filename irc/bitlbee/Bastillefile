@@ -1,0 +1,4 @@
+# Bastillefile for irc/bitlbee
+PKG bitlbee
+SYSRC bitlbee_enable=YES
+SERVICE bitlbee start

@@ -1,0 +1,4 @@
+# Bastillefile for audio/virtual_oss
+PKG virtual_oss
+SYSRC virtual_oss_enable=YES
+SERVICE virtual_oss start

@@ -1,0 +1,4 @@
+# Bastillefile for www/twms
+PKG twms
+SYSRC twms_enable=YES
+SERVICE twms start

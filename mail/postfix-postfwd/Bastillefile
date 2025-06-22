@@ -1,0 +1,4 @@
+# Bastillefile for mail/postfix-postfwd
+PKG postfix-postfwd
+SYSRC postfwd_enable=YES
+SERVICE postfwd start

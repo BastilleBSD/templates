@@ -1,0 +1,4 @@
+# Bastillefile for net/sflowtool
+PKG sflowtool
+SYSRC sflowtool_enable=YES
+SERVICE sflowtool start

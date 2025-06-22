@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/promscale
+PKG promscale
+SYSRC promscale_enable=YES
+SERVICE promscale start

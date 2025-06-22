@@ -1,0 +1,4 @@
+# Bastillefile for www/sogo
+PKG sogo
+SYSRC sogod_enable=YES
+SERVICE sogod start

@@ -1,0 +1,4 @@
+# Bastillefile for security/denyhosts
+PKG denyhosts
+SYSRC denyhosts_enable=YES
+SERVICE denyhosts start

@@ -1,0 +1,4 @@
+# Bastillefile for net/endlessh
+PKG endlessh
+SYSRC endlessh_enable=YES
+SERVICE endlessh start

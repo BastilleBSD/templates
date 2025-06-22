@@ -1,0 +1,4 @@
+# Bastillefile for mail/mailscanner
+PKG mailscanner
+SYSRC mailscanner_enable=YES
+SERVICE mailscanner start

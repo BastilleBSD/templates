@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/fastnetmon
+PKG fastnetmon
+SYSRC fastnetmon_enable=YES
+SERVICE fastnetmon start

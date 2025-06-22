@@ -1,0 +1,4 @@
+# Bastillefile for irc/unreal
+PKG unreal
+SYSRC unrealircd_enable=YES
+SERVICE unrealircd start

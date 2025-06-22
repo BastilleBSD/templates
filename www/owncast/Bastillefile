@@ -1,0 +1,4 @@
+# Bastillefile for www/owncast
+PKG owncast
+SYSRC owncast_enable=YES
+SERVICE owncast start

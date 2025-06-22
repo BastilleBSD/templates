@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/mptd
+PKG mptd
+SYSRC mptd_enable=YES
+SERVICE mptd start

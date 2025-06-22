@@ -1,0 +1,4 @@
+# Bastillefile for net/hostapd-devel
+PKG hostapd-devel
+SYSRC hostapd_enable=YES
+SERVICE hostapd start

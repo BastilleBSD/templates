@@ -1,0 +1,4 @@
+# Bastillefile for net/openbgpd8
+PKG openbgpd8
+SYSRC openbgpd_enable=YES
+SERVICE openbgpd start

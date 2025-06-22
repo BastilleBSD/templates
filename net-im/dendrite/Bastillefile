@@ -1,0 +1,4 @@
+# Bastillefile for net-im/dendrite
+PKG dendrite
+SYSRC dendrite_enable=YES
+SERVICE dendrite start

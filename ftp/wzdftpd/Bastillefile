@@ -1,0 +1,4 @@
+# Bastillefile for ftp/wzdftpd
+PKG wzdftpd
+SYSRC wzdftpd_enable=YES
+SERVICE wzdftpd start

@@ -1,0 +1,6 @@
+# Bastillefile for net-mgmt/torrus
+PKG torrus
+SYSRC torrus_collector_enable=YES
+SYSRC torrus_monitor_enable=YES
+SERVICE torrus_collector start
+SERVICE torrus_monitor start

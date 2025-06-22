@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/keyd
+PKG keyd
+SYSRC keyd_enable=YES
+SERVICE keyd start

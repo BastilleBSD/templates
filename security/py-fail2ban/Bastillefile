@@ -1,0 +1,4 @@
+# Bastillefile for security/py-fail2ban
+PKG py311-fail2ban
+SYSRC fail2ban_enable=YES
+SERVICE fail2ban start

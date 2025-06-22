@@ -1,0 +1,8 @@
+# Bastillefile for net/nsq
+PKG nsq
+SYSRC nsqlookupd_enable=YES
+SYSRC nsqadmin_enable=YES
+SYSRC nsqd_enable=YES
+SERVICE nsqadmin start
+SERVICE nsqd start
+SERVICE nsqlookupd start

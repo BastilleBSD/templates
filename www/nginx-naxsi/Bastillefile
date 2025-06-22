@@ -1,0 +1,4 @@
+# Bastillefile for www/nginx-naxsi
+PKG nginx-naxsi
+SYSRC nginx_enable=YES
+SERVICE nginx start

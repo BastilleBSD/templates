@@ -1,0 +1,4 @@
+# Bastillefile for security/bastillion
+PKG bastillion
+SYSRC bastillion_enable=YES
+SERVICE bastillion start

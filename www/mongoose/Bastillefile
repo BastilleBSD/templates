@@ -1,0 +1,4 @@
+# Bastillefile for www/mongoose
+PKG mongoose
+SYSRC mongoose_enable=YES
+SERVICE mongoose start

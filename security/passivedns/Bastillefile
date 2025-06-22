@@ -1,0 +1,4 @@
+# Bastillefile for security/passivedns
+PKG passivedns
+SYSRC passivedns_enable=YES
+SERVICE passivedns start

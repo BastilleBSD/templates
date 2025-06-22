@@ -1,0 +1,4 @@
+# Bastillefile for www/elog
+PKG elog
+SYSRC elogd_enable=YES
+SERVICE elogd start

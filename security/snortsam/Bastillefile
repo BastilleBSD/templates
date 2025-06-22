@@ -1,0 +1,4 @@
+# Bastillefile for security/snortsam
+PKG snortsam
+SYSRC snortsam_enable=YES
+SERVICE snortsam start

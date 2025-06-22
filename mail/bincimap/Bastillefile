@@ -1,0 +1,4 @@
+# Bastillefile for mail/bincimap
+PKG bincimap
+SYSRC bincimapd_enable=YES
+SERVICE bincimapd start

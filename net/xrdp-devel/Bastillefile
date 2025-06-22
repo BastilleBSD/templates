@@ -1,0 +1,4 @@
+# Bastillefile for net/xrdp-devel
+PKG xrdp-devel
+SYSRC xrdp_enable=YES
+SERVICE xrdp start

@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/uptimed
+PKG uptimed
+SYSRC uptimed_enable=YES
+SERVICE uptimed start

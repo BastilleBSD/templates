@@ -1,0 +1,4 @@
+# Bastillefile for textproc/opensearch210
+PKG opensearch210
+SYSRC opensearch_enable=YES
+SERVICE opensearch start

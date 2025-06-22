@@ -1,0 +1,4 @@
+# Bastillefile for net/mpd5
+PKG mpd5
+SYSRC mpd_enable=YES
+SERVICE mpd start

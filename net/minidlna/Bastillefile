@@ -1,0 +1,4 @@
+# Bastillefile for net/minidlna
+PKG minidlna
+SYSRC minidlna_enable=YES
+SERVICE minidlna start

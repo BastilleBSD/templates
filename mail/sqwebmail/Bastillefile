@@ -1,0 +1,4 @@
+# Bastillefile for mail/sqwebmail
+PKG sqwebmail
+SYSRC sqwebmaild_enable=YES
+SERVICE sqwebmaild start

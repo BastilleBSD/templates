@@ -1,0 +1,4 @@
+# Bastillefile for net/minissdpd
+PKG minissdpd
+SYSRC minissdpd_enable=YES
+SERVICE minissdpd start

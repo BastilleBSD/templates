@@ -1,0 +1,6 @@
+# Bastillefile for www/fabio
+PKG fabio
+SYSRC fabio_enable=YES
+SYSRC fabio_syslog_output_enable=YES
+SERVICE fabio start
+SERVICE fabio_syslog_output start

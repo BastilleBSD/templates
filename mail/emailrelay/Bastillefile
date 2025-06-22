@@ -1,0 +1,4 @@
+# Bastillefile for mail/emailrelay
+PKG emailrelay
+SYSRC emailrelay_enable=YES
+SERVICE emailrelay start

@@ -1,0 +1,4 @@
+# Bastillefile for net/frr8
+PKG frr8
+SYSRC frr_enable=YES
+SERVICE frr start

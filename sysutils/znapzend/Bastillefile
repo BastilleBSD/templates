@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/znapzend
+PKG znapzend
+SYSRC znapzend_enable=YES
+SERVICE znapzend start

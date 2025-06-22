@@ -1,0 +1,4 @@
+# Bastillefile for www/archiva
+PKG archiva
+SYSRC archiva_enable=YES
+SERVICE archiva start

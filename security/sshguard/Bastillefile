@@ -1,0 +1,4 @@
+# Bastillefile for security/sshguard
+PKG sshguard
+SYSRC sshguard_enable=YES
+SERVICE sshguard start

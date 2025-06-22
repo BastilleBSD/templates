@@ -1,0 +1,4 @@
+# Bastillefile for net/remarkable-devd
+PKG remarkable-devd
+SYSRC remarkable_enable=YES
+SERVICE remarkable start

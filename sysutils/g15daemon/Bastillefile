@@ -1,0 +1,6 @@
+# Bastillefile for sysutils/g15daemon
+PKG g15daemon
+SYSRC g15daemon_enable=YES
+SYSRC daemon_enable=YES
+SERVICE daemon start
+SERVICE g15daemon start

@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/monit
+PKG monit
+SYSRC monit_enable=YES
+SERVICE monit start

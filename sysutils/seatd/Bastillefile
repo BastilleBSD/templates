@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/seatd
+PKG seatd
+SYSRC seatd_enable=YES
+SERVICE seatd start

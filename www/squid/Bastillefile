@@ -1,0 +1,4 @@
+# Bastillefile for www/squid
+PKG squid
+SYSRC squid_enable=YES
+SERVICE squid start

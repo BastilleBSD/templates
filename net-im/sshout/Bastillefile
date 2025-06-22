@@ -1,0 +1,4 @@
+# Bastillefile for net-im/sshout
+PKG sshout
+SYSRC sshout_enable=YES
+SERVICE sshout start

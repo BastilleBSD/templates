@@ -1,0 +1,4 @@
+# Bastillefile for net/rinetd
+PKG rinetd
+SYSRC rinetd_enable=YES
+SERVICE rinetd start

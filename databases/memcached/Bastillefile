@@ -1,4 +1,4 @@
+# Bastillefile for databases/memcached
 PKG memcached
 SYSRC memcached_enable=YES
-SYSRC memcached_flags=""
 SERVICE memcached start

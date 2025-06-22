@@ -1,0 +1,4 @@
+# Bastillefile for benchmarks/thrulay
+PKG thrulay
+SYSRC thrulayd_enable=YES
+SERVICE thrulayd start

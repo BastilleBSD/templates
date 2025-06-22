@@ -1,0 +1,4 @@
+# Bastillefile for security/gsad
+PKG gsad
+SYSRC gsad_enable=YES
+SERVICE gsad start

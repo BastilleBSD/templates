@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/unifi8
+PKG unifi8
+SYSRC unifi_enable=YES
+SERVICE unifi start

@@ -1,0 +1,4 @@
+# Bastillefile for devel/buildkite-agent
+PKG buildkite-agent
+SYSRC buildkite_enable=YES
+SERVICE buildkite start

@@ -1,0 +1,4 @@
+# Bastillefile for mail/smtptrapd
+PKG smtptrapd
+SYSRC smtptrapd_enable=YES
+SERVICE smtptrapd start

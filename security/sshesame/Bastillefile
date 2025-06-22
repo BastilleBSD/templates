@@ -1,0 +1,4 @@
+# Bastillefile for security/sshesame
+PKG sshesame
+SYSRC sshesame_enable=YES
+SERVICE sshesame start

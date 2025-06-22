@@ -1,0 +1,4 @@
+# Bastillefile for security/lego
+PKG lego
+SYSRC weekly_lego_enable=YES
+SERVICE weekly_lego start

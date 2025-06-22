@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/darkstat
+PKG darkstat
+SYSRC darkstat_enable=YES
+SERVICE darkstat start

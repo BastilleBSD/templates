@@ -1,0 +1,8 @@
+# Bastillefile for sysutils/nut
+PKG nut
+SYSRC nut_upslog_enable=YES
+SYSRC nut_enable=YES
+SYSRC nut_upsmon_enable=YES
+SERVICE nut start
+SERVICE nut_upslog start
+SERVICE nut_upsmon start

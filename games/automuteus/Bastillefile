@@ -1,0 +1,4 @@
+# Bastillefile for games/automuteus
+PKG automuteus
+SYSRC automuteus_enable=YES
+SERVICE automuteus start

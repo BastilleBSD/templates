@@ -1,0 +1,4 @@
+# Bastillefile for audio/autocd
+PKG autocd
+SYSRC autocd_enable=YES
+SERVICE autocd start

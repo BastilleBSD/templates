@@ -1,7 +1,13 @@
-## unbound
-Bastille template for an Unbound DNS container
+# dns/unbound
+Validating, recursive, and caching DNS resolver
+https://www.nlnetlabs.nl/projects/unbound
 
-## Usage
+# Bastille Usage
 ```shell
 bastille template TARGET dns/unbound
+```
+
+# Rocinante Usage
+```shell
+rocinante template dns/unbound
 ```

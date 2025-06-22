@@ -1,0 +1,4 @@
+# Bastillefile for security/vulsrepo
+PKG vulsrepo
+SYSRC vulsrepo_enable=YES
+SERVICE vulsrepo start

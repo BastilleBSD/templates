@@ -1,0 +1,4 @@
+# Bastillefile for mail/mailhog
+PKG mailhog
+SYSRC mailhog_enable=YES
+SERVICE mailhog start

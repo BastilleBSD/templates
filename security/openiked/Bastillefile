@@ -1,0 +1,4 @@
+# Bastillefile for security/openiked
+PKG openiked
+SYSRC iked_enable=YES
+SERVICE iked start

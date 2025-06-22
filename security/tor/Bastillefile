@@ -1,0 +1,4 @@
+# Bastillefile for security/tor
+PKG tor
+SYSRC tor_enable=YES
+SERVICE tor start

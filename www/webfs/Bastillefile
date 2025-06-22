@@ -1,0 +1,4 @@
+# Bastillefile for www/webfs
+PKG webfs
+SYSRC webfsd_enable=YES
+SERVICE webfsd start

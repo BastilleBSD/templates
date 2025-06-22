@@ -1,0 +1,4 @@
+# Bastillefile for mail/dspam
+PKG dspam
+SYSRC dspam_enable=YES
+SERVICE dspam start

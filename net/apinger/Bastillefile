@@ -1,0 +1,4 @@
+# Bastillefile for net/apinger
+PKG apinger
+SYSRC apinger_enable=YES
+SERVICE apinger start

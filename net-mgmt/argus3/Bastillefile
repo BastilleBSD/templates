@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/argus3
+PKG argus3
+SYSRC argus_enable=YES
+SERVICE argus start

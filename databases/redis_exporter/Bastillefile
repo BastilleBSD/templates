@@ -1,0 +1,4 @@
+# Bastillefile for databases/redis_exporter
+PKG redis_exporter
+SYSRC redis_exporter_enable=YES
+SERVICE redis_exporter start

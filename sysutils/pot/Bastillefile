@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/pot
+PKG pot
+SYSRC pot_enable=YES
+SERVICE pot start

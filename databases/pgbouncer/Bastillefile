@@ -1,0 +1,4 @@
+# Bastillefile for databases/pgbouncer
+PKG pgbouncer
+SYSRC pgbouncer_enable=YES
+SERVICE pgbouncer start

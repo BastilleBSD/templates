@@ -1,0 +1,4 @@
+# Bastillefile for net/ifstated
+PKG ifstated
+SYSRC ifstated_enable=YES
+SERVICE ifstated start

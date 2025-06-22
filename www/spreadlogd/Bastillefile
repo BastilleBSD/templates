@@ -1,0 +1,4 @@
+# Bastillefile for www/spreadlogd
+PKG spreadlogd
+SYSRC spreadlogd_enable=YES
+SERVICE spreadlogd start

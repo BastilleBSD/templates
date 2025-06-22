@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/tenshi
+PKG tenshi
+SYSRC tenshi_enable=YES
+SERVICE tenshi start

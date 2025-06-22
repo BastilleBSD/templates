@@ -1,0 +1,4 @@
+# Bastillefile for sysutils/powerman
+PKG powerman
+SYSRC powermand_enable=YES
+SERVICE powermand start

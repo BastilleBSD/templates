@@ -1,0 +1,4 @@
+# Bastillefile for security/lfacme
+PKG lfacme
+SYSRC daily_lfacme_enable=YES
+SERVICE daily_lfacme start

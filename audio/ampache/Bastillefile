@@ -1,0 +1,4 @@
+# Bastillefile for audio/ampache
+PKG ampache
+SYSRC daily_ampache_gc_enable=YES
+SERVICE daily_ampache_gc start

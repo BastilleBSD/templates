@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/blackbox_exporter
+PKG blackbox_exporter
+SYSRC blackbox_exporter_enable=YES
+SERVICE blackbox_exporter start

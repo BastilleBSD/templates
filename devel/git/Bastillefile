@@ -1,0 +1,4 @@
+# Bastillefile for devel/git
+PKG git
+SYSRC git_daemon_enable=YES
+SERVICE git_daemon start

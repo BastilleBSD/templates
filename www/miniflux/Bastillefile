@@ -1,0 +1,4 @@
+# Bastillefile for www/miniflux
+PKG miniflux
+SYSRC miniflux_enable=YES
+SERVICE miniflux start

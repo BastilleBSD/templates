@@ -1,0 +1,4 @@
+# Bastillefile for japanese/multiskkserv
+PKG multiskkserv
+SYSRC multiskkserv_enable=YES
+SERVICE multiskkserv start

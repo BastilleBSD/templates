@@ -1,0 +1,4 @@
+# Bastillefile for www/glassfish4
+PKG glassfish4
+SYSRC glassfish_enable=YES
+SERVICE glassfish start

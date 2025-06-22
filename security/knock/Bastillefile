@@ -1,0 +1,4 @@
+# Bastillefile for security/knock
+PKG knock
+SYSRC knockd_enable=YES
+SERVICE knockd start

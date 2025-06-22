@@ -1,0 +1,4 @@
+# Bastillefile for www/thttpd
+PKG thttpd
+SYSRC thttpd_enable=YES
+SERVICE thttpd start

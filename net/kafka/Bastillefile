@@ -1,0 +1,10 @@
+# Bastillefile for net/kafka
+PKG kafka
+SYSRC kafka_syslog_output_enable=YES
+SYSRC kafka_enable=YES
+SYSRC kafka_connect_syslog_output_enable=YES
+SYSRC kafka_connect_enable=YES
+SERVICE kafka start
+SERVICE kafka_connect start
+SERVICE kafka_connect_syslog_output start
+SERVICE kafka_syslog_output start

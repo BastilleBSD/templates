@@ -1,0 +1,4 @@
+# Bastillefile for misc/dnetc
+PKG dnetc
+SYSRC dnetc_enable=YES
+SERVICE dnetc start

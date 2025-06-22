@@ -1,0 +1,4 @@
+# Bastillefile for net-mgmt/prometheus3
+PKG prometheus3
+SYSRC prometheus_enable=YES
+SERVICE prometheus start

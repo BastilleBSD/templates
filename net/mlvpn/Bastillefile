@@ -1,0 +1,6 @@
+# Bastillefile for net/mlvpn
+PKG mlvpn
+SYSRC mlvpn_foo_enable=YES
+SYSRC mlvpn_enable=YES
+SERVICE mlvpn start
+SERVICE mlvpn_foo start

@@ -1,0 +1,4 @@
+# Bastillefile for net-p2p/transmission-components
+PKG transmission-components
+SYSRC transmission_enable=YES
+SERVICE transmission start

@@ -1,0 +1,4 @@
+# Bastillefile for mail/mailman-postfix
+PKG mailman-postfix
+SYSRC mailman_enable=YES
+SERVICE mailman start

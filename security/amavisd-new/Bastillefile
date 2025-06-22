@@ -1,0 +1,4 @@
+# Bastillefile for security/amavisd-new
+PKG amavisd-new
+SYSRC amavisd_enable=YES
+SERVICE amavisd start

@@ -1,0 +1,4 @@
+# Bastillefile for dns/radns
+PKG radns
+SYSRC radns_enable=YES
+SERVICE radns start

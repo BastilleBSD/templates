@@ -1,0 +1,8 @@
+# Bastillefile for net-mgmt/netdisco
+PKG netdisco
+SYSRC netdisco_backend_enable=YES
+SYSRC netdisco_web_enable=YES
+SYSRC netdisco_enable=YES
+SERVICE netdisco start
+SERVICE netdisco_backend start
+SERVICE netdisco_web start

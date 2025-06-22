@@ -1,0 +1,8 @@
+# Bastillefile for net-mgmt/netbox
+PKG netbox
+SYSRC netbox_enable=YES
+SYSRC netbox_rq_enable=YES
+SYSRC daily_netbox_housekeeping_enable=YES
+SERVICE daily_netbox_housekeeping start
+SERVICE netbox start
+SERVICE netbox_rq start

@@ -1,0 +1,4 @@
+# Bastillefile for mail/qpopper
+PKG qpopper
+SYSRC qpopper_enable=YES
+SERVICE qpopper start
