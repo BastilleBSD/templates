@@ -1,5 +1,5 @@
 ## adguardhome
-Bastille Template for Adguard Home
+Bastille template for Adguard Home
 
 ## Usage
 ```shell

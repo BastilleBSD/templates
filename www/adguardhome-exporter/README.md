@@ -1,8 +1,7 @@
-
 ## adguardhome-exporter
-Bastille Template for Adguard Home Prometheus Exporter
+Bastille template for Adguard Home Prometheus Exporter
 
 ## Usage
 ```shell
-bastille template TARGET bastillebsd-templates/adguardhome-exporter
+bastille template TARGET www/adguardhome-exporter
 ```

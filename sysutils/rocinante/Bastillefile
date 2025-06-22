@@ -1,0 +1,2 @@
+PKG rocinante
+CMD rocinante bootstrap https://github.com/bastillebsd/templates

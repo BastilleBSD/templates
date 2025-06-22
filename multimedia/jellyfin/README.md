@@ -1,8 +1,7 @@
-
 ## jellyfin
-Bastille Template for Jellyfin
+Bastille template for Jellyfin
 
 ## Usage
 ```shell
-bastille template TARGET bastillebsd-templates/jellyfin
+bastille template TARGET multimedia/jellyfin
 ```

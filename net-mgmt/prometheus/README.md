@@ -1,5 +1,5 @@
 ## prometheus
-Bastille Template to bootstrap Prometheus.
+Bastille template to bootstrap Prometheus.
 
 ## Usage
 ```shell

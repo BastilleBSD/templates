@@ -1,5 +1,5 @@
 ## zsh-antigen
-Bastille Template to setup zsh-antigen
+Bastille template to setup zsh-antigen
 
 ## Usage
 ```shell

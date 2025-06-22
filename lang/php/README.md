@@ -3,5 +3,5 @@ Bastille template to bootstrap PHP
 
 ## Usage
 ```shell
-bastille template TARGET bastillebsd-templates/php
+bastille template TARGET lang/php
 ```

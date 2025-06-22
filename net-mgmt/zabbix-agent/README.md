@@ -1,10 +1,10 @@
-## Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/zabbix-agent/badges/master/pipeline.svg)](https://gitlab.com/bastillebsd-templates/zabbix-agent/commits/master)
+# zabbix-agent
+Bastille template to bootstrap zabbix-agent
 
 ## Usage
 
 ```shell
-bastille template TARGET bastillebsd-templates/zabbix-agent
+bastille template TARGET net-mgmt/zabbix-agent
 ```
 
 ## Post Install Steps

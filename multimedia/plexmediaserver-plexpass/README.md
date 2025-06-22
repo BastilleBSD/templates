@@ -1,5 +1,5 @@
 ## plexmediaserver-plexpass
-Bastille template for PlexMediaServer PlexPass
+Bastille template for Plex Media Server PlexPass Edition
 
 ## Usage
 

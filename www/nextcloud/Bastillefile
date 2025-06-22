@@ -1,4 +1,4 @@
-INCLUDE bastillebsd-templates/mariadb-server
-INCLUDE bastillebsd-templates/apache
+INCLUDE databases/mariadb-server
+INCLUDE www/apache
 
-PKG nextcloud-php74
+PKG nextcloud-php84

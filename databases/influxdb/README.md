@@ -1,5 +1,5 @@
 ## influxdb
-Bastille Template to bootstrap InfluxDB
+Bastille template to bootstrap InfluxDB
 
 ## Usage
 ```shell

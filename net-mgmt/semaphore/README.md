@@ -1,9 +1,8 @@
-
 ## semaphore
-Bastille Template for Semaphore
+Bastille template for Semaphore
 
 ## Usage
 
 ```shell
-ishmael ~ # bastille template TARGET bastillebsd-templates/semaphore
+bastille template TARGET net-mgmt/semaphore
 ```

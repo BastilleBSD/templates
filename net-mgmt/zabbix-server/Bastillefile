@@ -1,5 +1,5 @@
-INCLUDE bastillebsd-templates/nginx
-INCLUDE bastillebsd-templates/mysql-server
+INCLUDE www/nginx
+INCLUDE databases/mysql-server
 PKG zabbix54-server zabbix54-frontend zabbix54-agent
 
 SYSRC zabbix_server_enable=YES
