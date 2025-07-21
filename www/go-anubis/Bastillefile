@@ -1,0 +1,15 @@
+ARG ED25519_PRIVATE_KEY_HEX
+ARG WEB_SERVER_IP
+ARG DOMAIN_NAME
+
+CMD mkdir -p /usr/local/etc/pkg/repos
+CMD echo 'FreeBSD: { url: "pkg+http://pkg.FreeBSD.org/${ABI}/latest" }' > /usr/local/etc/pkg/repos/FreeBSD.conf
+PKG go-anubis
+SYSRC anubis_enable=YES
+SYSRC anubis_args="-target http://${WEB_SERVER_IP}:4000 -bind ${JAIL_IP}:8923 -cookie-domain ${DOMAIN_NAME} -redirect-domain ${DOMAIN_NAME} -ed25519-private-key-hex ${ED25519_PRIVATE_KEY_HEX}"
+CMD mkdir -p /usr/local/etc/syslog.d/
+CP usr /
+CMD touch /var/log/anubis.log
+CMD chown www:www /var/log/anubis.log
+SERVICE syslogd reload
+SERVICE anubis start
