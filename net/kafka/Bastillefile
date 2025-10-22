@@ -1,0 +1,9 @@
+CMD /bin/sh -c "echo '127.0.0.1 $(hostname)' >> /etc/hosts"
+
+PKG kafka zookeeper
+
+SYSRC zookeeper_enable=YES
+SYSRC kafka_enable=YES
+
+SERVICE zookeeper start
+SERVICE kafka start
