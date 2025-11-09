@@ -1,0 +1,31 @@
+#!/bin/sh
+
+# PROVIDE: minio
+# REQUIRE: NETWORKING
+# KEYWORD: shutdown
+
+. /etc/rc.subr
+
+name="minio"
+rcvar="minio_enable"
+command="/usr/local/bin/minio"
+pidfile="/var/run/${name}.pid"
+minio_user="minio"
+minio_group="minio"
+minio_dir="/usr/local/share/minio"
+minio_console=":9001"
+minio_address=":9000"
+
+start_cmd="${name}_start"
+stop_cmd=":"
+
+minio_start() {
+	echo "Starting MinIO..."
+	/usr/sbin/daemon -u ${minio_user} -p ${pidfile} \
+		${command} server ${minio_dir} \
+		--address ${minio_address} \
+		--console-address ${minio_console}
+}
+
+load_rc_config $name
+run_rc_command "$1"
