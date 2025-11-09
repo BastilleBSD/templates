@@ -1,0 +1,15 @@
+CMD /bin/sh -c "echo '127.0.0.1 $(hostname)' >> /etc/hosts"
+
+# Also creates a `minio` user
+PKG minio
+
+# Creates the upload directory as defined in the `minio.rc` file.
+CMD mkdir /usr/local/share/minio
+CMD chown -R minio:minio /usr/local/share/minio
+
+CP minio.rc /usr/local/etc/rc.d/minio
+CMD chmod 755 /usr/local/etc/rc.d/minio
+
+SYSRC minio_enable=YES
+SERVICE minio start
+
