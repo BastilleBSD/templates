@@ -1,0 +1,6 @@
+PKG keycloak
+
+SYSRC keycloak_enable=YES
+SYSRC keycloak_flags="start-dev --bootstrap-admin-username tmpadmin --bootstrap-admin-password tmpadmin"
+
+SERVICE keycloak start
