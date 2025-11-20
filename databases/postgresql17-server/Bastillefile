@@ -1,0 +1,8 @@
+PKG postgresql17-server
+SYSRC postgresql_enable=YES
+# PostgreSQL requires System V shared memory and semaphores.
+CONFIG set sysvshm=new
+CONFIG set sysvsem=new
+RESTART
+SERVICE postgresql initdb
+SERVICE postgresql start
