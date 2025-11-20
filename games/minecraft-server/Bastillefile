@@ -11,6 +11,7 @@ CP etc /
 CP var /
 CMD make -C /usr/ports/games/minecraft-server install clean
 CP usr /
+CMD chown root:mcserver /usr/local/etc/minecraft-server
 SYSRC minecraft_enable=YES
 SYSRC minecraft_memx=${MINECRAFT_MEMX}
 SYSRC minecraft_mems=${MINECRAFT_MEMS}
