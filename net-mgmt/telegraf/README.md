@@ -1,5 +1,5 @@
 ## telegraf
-Bastille Template to bootstrap Telegraf
+Bastille template to bootstrap Telegraf
 
 ## Usage
 ```shell

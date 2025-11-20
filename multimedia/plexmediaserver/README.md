@@ -1,5 +1,5 @@
 ## plexmediaserver
-Bastille Template for a Plex Server Jail
+Bastille template for a Plex Media Server
 
 ## Usage
 ```shell

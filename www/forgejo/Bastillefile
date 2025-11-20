@@ -1,0 +1,11 @@
+ARG SECRET_KEY
+ARG JWT_SECRET
+ARG INTERNAL_TOKEN
+
+PKG forgejo
+CP usr /
+RENDER /usr/local/etc/forgejo/conf/app.ini
+CMD chown -R git:git /usr/local/etc/forgejo
+SYSRC forgejo_enable=YES
+CMD export FORGEJO_CUSTOM=/usr/local/etc/forgejo
+SERVICE forgejo start

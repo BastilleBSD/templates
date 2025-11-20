@@ -1,0 +1,4 @@
+PKG bastille
+SYSRC bastille_enable=YES
+CMD bastille setup
+CMD bastille bootstrap https://github.com/bastillebsd/templates

@@ -1,5 +1,5 @@
 ## unbound
-Bastille Template for an Unbound DNS container
+Bastille template for an Unbound DNS container
 
 ## Usage
 ```shell

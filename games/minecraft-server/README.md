@@ -1,6 +1,3 @@
-## Status
-[![pipeline status](https://gitlab.com/bastillebsd-templates/minecraft-server/badges/master/pipeline.svg)](https://gitlab.com/bastillebsd-templates/minecraft-server/commits/master)
-
 ## minecraft-server
 Bastille template for a minecraft server.
 
@@ -20,7 +17,7 @@ existing on the host system.
 To install (or update) `/usr/ports` on the host system use `portsnap` as seen here:
 
 ```shell
-ishmael ~ # portsnap fetch auto
+portsnap fetch auto
 ```
 
 Note: the ports tree is mounted read-only within the container.
@@ -28,7 +25,7 @@ Note: the ports tree is mounted read-only within the container.
 ## Apply template
 
 ```shell
-ishmael ~ # bastille template TARGET bastillebsd-templates/minecraft-server
+bastille template TARGET games/minecraft-server
 ```
 
 ## Access server console
@@ -37,7 +34,7 @@ The minecraft server will run in `STANDALONE` mode meaning the service execution
 will happen within a `tmux` session. To access this session use this command: 
 
 ```shell
-ishmael ~ # bastille service TARGET minecraft console
+bastille service TARGET minecraft console
 ```
 
 Tip: `tmux` session management is handled using `ctrl-b` prefix. To exit the

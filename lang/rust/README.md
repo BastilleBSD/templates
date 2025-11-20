@@ -1,5 +1,5 @@
 # rust
-Bastille Template to bootstrap Rust
+Bastille template to bootstrap Rust
 
 ## Usage
 ```shell

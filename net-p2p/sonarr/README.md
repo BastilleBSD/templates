@@ -1,8 +1,7 @@
-
 ## sonarr
-Bastille Template for Sonarr
+Bastille template for Sonarr
 
 ## Usage
 ```shell
-bastille template TARGET bastillebsd-templates/sonarr
+bastille template TARGET net-p2p/sonarr
 ```

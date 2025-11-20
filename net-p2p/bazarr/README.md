@@ -1,15 +1,11 @@
-## Status
-
-[![pipeline status](https://gitlab.com/bastillebsd-templates/bazarr/badges/main/pipeline.svg)](https://gitlab.com/bastillebsd-templates/bazarr/commits/main)
-
 ## Bazarr
-
-Bazarr is a companion application to Sonarr and Radarr that manages and downloads subtitles based on your requirements.
+Bazarr is a companion application to Sonarr and Radarr that manages and
+downloads subtitles based on your requirements.
 
 ## Usage
 
 ```shell
-bastille template TARGET bastillebsd-templates/bazarr
+bastille template TARGET net-p2p/bazarr
 ```
 
-For more options edit `/usr/local/bastille/templates/bastillebsd-templates/bazarr/Bastillefile`
+For more options edit `/usr/local/bastille/templates/net-p2p/bazarr/Bastillefile`
